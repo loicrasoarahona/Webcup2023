@@ -391,7 +391,7 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="form-box d-flex flex-column">
-                            <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
+                            <form class="form w-100" method="post" action="<?php echo base_url('Sign/up'); ?>" data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
                                     <div class="form-group">
@@ -427,7 +427,15 @@
                                             <label>Confirmer mot de passe</label>
                                             <input id="form_name" type="password" name="confirmerMdp" placeholder="" required="required" data-error="Confirmation requis">
                                         </div>
-                                        <div class="help-block with-errors"></div>
+                                        <div class="help-block with-errors">
+                                            <ul class="list-unstyled">
+                                                <li><?php
+                                                    if(isset($message)){
+                                                    echo $message;
+                                                    } 
+                                                ?></li>
+                                            </ul>                            
+                                        </div>
                                     </div>
 
                                     <div class="text-right">
