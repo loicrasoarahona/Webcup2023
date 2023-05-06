@@ -392,7 +392,7 @@
                     <div class="col-lg-8">
                         <div class="form-box d-flex flex-column">
                             <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
-                                Connexioin</h4>
+                                Connexion</h4>
                             <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
