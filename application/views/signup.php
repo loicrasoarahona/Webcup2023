@@ -384,33 +384,52 @@
             <div class="dsn-container contact-inner section-margin">
                 <div class="section-title">
                     <span class="tag-heading background-section color-heading">Onirix</span>
-                    <h2 class="heading-h2">Vous devez vous connecter</h2>
+                    <h2 class="heading-h2">Inscription</h2>
                 </div>
 
 
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="form-box d-flex flex-column">
-                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
-                                Connexioin</h4>
                             <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
                                     <div class="form-group">
                                         <div class="entry-box">
-                                            <label>Votre identifiant</label>
-                                            <input id="form_name" type="text" name="name" placeholder="Tapez votre identifiant" required="required" data-error="Le nom est requis">
+                                            <label>Nom</label>
+                                            <input id="form_name" type="text" name="nom" placeholder="" required="required" data-error="Le nom est requis">
                                         </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="form-group">
                                         <div class="entry-box">
-                                            <label>Votre mot de passe</label>
-                                            <input id="form_email" type="email" name="email" placeholder="Tapez votre mot de passe" required="required" data-error="Le mot de passe est requis">
+                                            <label>Prénom</label>
+                                            <input id="form_name" type="text" name="prenom" placeholder="" required="required" data-error="Le prénom est requis">
                                         </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
-                                    <span><a>Inscrivez-vous</a> si vous n'avez pas encore de compte</span>
+                                    <div class="form-group">
+                                        <div class="entry-box">
+                                            <label>Email</label>
+                                            <input id="form_name" type="email" name="email" placeholder="" required="required" data-error="Entrez votre email">
+                                        </div>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="entry-box">
+                                            <label>Mot de passe</label>
+                                            <input id="form_name" type="password" name="mdp" placeholder="" required="required" data-error="Veuillez choisir un mot de passe">
+                                        </div>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="entry-box">
+                                            <label>Confirmer mot de passe</label>
+                                            <input id="form_name" type="password" name="confirmerMdp" placeholder="" required="required" data-error="Confirmation requis">
+                                        </div>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
                                     <div class="text-right">
                                         <div class="image-zoom w-auto d-inline-block move-circle" data-dsn="parallax">
                                             <input type="submit" value="Se connecter" class="v-light">
