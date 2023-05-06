@@ -63,6 +63,7 @@ insert into souscategorie values (null,'boire','2',null);
 insert into souscategorie values (null,'fumer','2',null);
 insert into souscategorie values (null,'regarder un film','2',null);
 insert into souscategorie values (null,'chill','2',null);
+insert into souscategorie values (null,'rien','2',null);
 
 
 -- endroit
@@ -73,12 +74,14 @@ insert into souscategorie values (null,'dans un restaurant','3',null);
 insert into souscategorie values (null,'dans une foret','3',null);
 insert into souscategorie values (null,'sur un bateau','3',null);
 insert into souscategorie values (null,'à la salle de cinéma','3',null);
+insert into souscategorie values (null,'pas précis','3',null);
 
 
 -- temps
 insert into souscategorie values (null,'dans la journée','4',null);
 insert into souscategorie values (null,'le soir','4',null);
 insert into souscategorie values (null,'la nuit','4',null);
+insert into souscategorie values (null,'pas précis','4',null);
 
 -- emotion
 insert into souscategorie values (null,'content','5',null);
@@ -89,6 +92,7 @@ insert into souscategorie values (null,'surpris','5',null);
 insert into souscategorie values (null,'amoureux','5',null);
 insert into souscategorie values (null,'excite','5',null);
 insert into souscategorie values (null,'decu','5',null);
+insert into souscategorie values (null,'je n\'ai rien ressenti','5',null);
 
 -- reve
 insert into souscategorie values (null,'lucide','6',null);
