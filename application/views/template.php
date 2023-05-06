@@ -9,7 +9,7 @@
     <meta name="keyword" content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
 
     <!--  Title -->
-    <title>Onirix Creative Ajax Portfolio HTML Template</title>
+    <title>Onirix</title>
 
     <!-- Font Google -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -42,6 +42,7 @@
         </h1>
     </div>
     <!-- ========== End Loading Page ========== -->
+
 
     <!-- ========== Menu ========== -->
     <div class="site-header dsn-load-animate dsn-container">
@@ -377,499 +378,36 @@
 
         <!-- ========== side box left ========== -->
         <div class="side-bar-full">
-
-
             <div class="side-box-left z-index-1">
                 <div class="side-menu border-left border-right p-relative h-100 d-flex justify-content-center">
                     <div class="page-active">
-                        <h2 class="text-uppercase">Personal</h2>
+                        <h2 class="text-uppercase">Orinix</h2>
                     </div>
                 </div>
             </div>
             <div class="side-box-right text-stroke border-right text-uppercase z-index-2">
                 <div class="text-inner over-hidden">
                     <div class="text-stroke-box">
-                        <div class="text-stroke-inner">Alan Michaelis</div>
+                        <div class="text-stroke-inner">Nos rêves devenus réalités ? </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- ========== End side box left ========== -->
 
-        <div class="p-fixed has-parallax-header has-parallax-header v-dark-head background-main">
-            <div class="p-absolute z-index-0 before-z-index h-100 w-100 " data-overlay="3" data-dsn-ajax="img">
-                <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/ia-predict.jpeg" alt="" data-dsn-position="50% 32%">
-            </div>
+        <div class="p-fixed before-z-index h-100 left-bar" data-overlay="7" data-dsn-ajax="img">
+            <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/about.jpg" alt="">
         </div>
-
 
         <div id="dsn-scrollbar">
             <div class=" inner-content">
-                <!-- ========== Header ========== -->
-                <header class="p-relative h-v-100 v-dark-head dsn-header-animation border-bottom">
 
-                    <div class="box-content dsn-container align-items-center ">
-                        <div class="hero-content dsn-hero-parallax-title">
-                            <h1 class="title has-box-mod">
-                            IA <br> Onirix
-                                <span class="p-absolute w-100 h-70 bottom-0 bg-mod-exclusion left-0 " data-dsn="parallax"></span>
-                            </h1>
-                            <div class="description border-before mt-30 mb-30">
-                                <h3 class="title-block ah-headline letters scale">
-                                    <span class="fw-400">Je suis capable </span>
-                                    <span class="ah-words-wrapper fw-400">
-                                        <b class="is-visible">de prédir votre avenir </b>
-                                        <b>d'analyser vos rêves</b>
-                                        <b>de comprendre ce qui vous tracace</b>
-                                        <b>de changer votre vie </b>
-                                    </span>
-                                </h3>
-                            </div>
-                            <a href="#" class="link-custom v-light-head background-main image-zoom move-circle" data-dsn="parallax">
-                                Tester
-                            </a>
-                        </div>
+                <div class="shap-linear w-100"></div>
 
-                    </div>
-                </header>
-                <!-- ========== End Header ========== -->
-                <div class="wrapper background-main pt-section">
-
-                    <!-- ========== About Me Section ========== -->
-                    <section class="about-me mb-section pt-section" data-dsn-title="About Me" data-dsn-animate="section">
-                        <div class="dsn-container ">
-                            <div class="d-grid grid-lg-2 background-section padding-block">
-                                <div class="box-img">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/personal.jpg" alt="">
-                                    <div class="box-infos pl-30">
-                                        <div class="info d-flex flex-column align-items-end mt-30">
-                                            <h4 class="sm-title-block mb-10">Ahmed Shawky</h4>
-                                            <h5 class="font-caps body-color">Web Designer</h5>
-                                        </div>
-                                        <div class="mt-30 ">
-                                            <div class="box-skills-inner d-grid-no-space d-grid grid-md-2 grid-row-gap-30">
-                                                <div class="skills-item">
-                                                    <h4 class="font-caps mb-10">Web Design</h4>
-                                                    <div class="bar">
-                                                        <span class="fill box-shadow" data-width="96%">
-                                                            <span class="number">0%</span>
-                                                        </span>
-                                                    </div>
-                                                    <div class="tip"></div>
-                                                </div>
-
-                                                <div class="skills-item">
-                                                    <h4 class="font-caps mb-10">JavaScript</h4>
-                                                    <div class="bar">
-                                                        <span class="fill box-shadow" data-width="94%">
-                                                            <span class="number">0%</span>
-                                                        </span>
-                                                    </div>
-                                                    <div class="tip"></div>
-                                                </div>
-
-                                                <div class="skills-item">
-                                                    <h4 class="font-caps mb-10">PHP</h4>
-                                                    <div class="bar">
-                                                        <span class="fill box-shadow" data-width="87%">
-                                                            <span class="number">0%</span>
-                                                        </span>
-                                                    </div>
-                                                    <div class="tip"></div>
-                                                </div>
-
-                                                <div class="skills-item">
-                                                    <h4 class="font-caps mb-10">PHP</h4>
-                                                    <div class="bar">
-                                                        <span class="fill box-shadow" data-width="87%">
-                                                            <span class="number">0%</span>
-                                                        </span>
-                                                    </div>
-                                                    <div class="tip"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="box-info pl-30 pr-30">
-                                    <div class="section-title">
-                                        <span class="tag-heading p-10 mb-15 background-main heading-color">About
-                                            Me</span>
-                                        <h2 class="title-block">Main Informations About Me <br> And What I Love To Do.
-                                        </h2>
-                                    </div>
-
-                                    <h4 class="sm-title-block mb-20">Creative Web & App Developer</h4>
-
-                                    <p class="mb-10">My name is Bernard Sydney. I am a Web Developer, and I'm very
-                                        passionate and dedicated to my work.</p>
-                                    <p>With 20 years experience as a professional Web developer, I have acquired the
-                                        skills and knowledge necessary to make your project a success. I enjoy every
-                                        step of the design process, from discussion and collaboration.</p>
-
-                                    <a href="#" class="link-custom v-light background-main image-zoom move-circle mt-30" data-dsn="parallax">Download CV</a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- ========== End About Me Section ========== -->
-
-                    <!-- ========== Service Section ========== -->
-                    <section class="services dsn-container p-relative section-margin" data-dsn-title="My Services">
-                        <div class="section-title">
-                            <span class="tag-heading p-10 mb-15 background-section heading-color">Services i
-                                offer</span>
-                            <h2 class="heading-h2">My Services</h2>
-                        </div>
-                        <div class="d-grid grid-md-2 grid-lg-3 dsn-isotope" data-dsn-item=".service-item">
-                            <div class="service-item my-service border">
-                                <div class="service-item-inner style-box">
-                                    <div class="icon">
-                                        <img src="assets/img/services/developing.svg" alt="">
-                                    </div>
-                                    <div class="content-box">
-                                        <h4 class="title-block pr-10 border-section-bottom mt-20">
-                                            Developing strategy</h4>
-                                        <ul class="p-relative mt-20">
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                UI/UX Vision
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Concept development
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Content strategy
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Digital Marketing
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="service-item my-service border">
-                                <div class="service-item-inner style-box">
-                                    <div class="icon">
-                                        <img src="assets/img/services/mobile.svg" alt="">
-                                    </div>
-                                    <div class="content-box">
-                                        <h4 class="title-block pr-10 border-section-bottom mt-20">Mobile
-                                            App</h4>
-                                        <ul class="p-relative mt-20">
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                UI/UX Vision
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Concept development
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Content strategy
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Digital Marketing
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="service-item my-service border">
-                                <div class="service-item-inner style-box">
-                                    <div class="icon">
-                                        <img src="assets/img/services/business.svg" alt="">
-                                    </div>
-                                    <div class="content-box">
-                                        <h4 class="title-block pr-10 border-section-bottom mt-20">
-                                            Business Planning</h4>
-                                        <ul class="p-relative mt-20">
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                UI/UX Vision
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Concept development
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Content strategy
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Digital Marketing
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- ========== End Service Section ========== -->
-
-                    <!-- ========== experience Section ========== -->
-                    <section class="experience dsn-container p-relative section-margin" data-dsn-title="experience">
-                        <div class="section-title">
-                            <span class="tag-heading p-10 mb-15 background-section heading-color">Experience</span>
-                            <h2 class="heading-h2">Check out my Resume</h2>
-                        </div>
-
-                        <div class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
-                            <div class="box">
-                                <h5 class="font-caps body-color background-main p-5 d-inline-block">2015 - 2017</h5>
-                                <img class="d-block mt-15" src="assets/img/cssdesignawards.png" alt="">
-                            </div>
-
-                            <div class="box p-20 background-main">
-                                <h5 class="sm-title-block mb-15 pb-15 border-section-bottom">Rolling Thunder</h5>
-                                <p class="max-w750">Praesent dignissim sollicitudin justo, sed elementum quam lacinia
-                                    quis.</p>
-                            </div>
-                        </div>
-                        <div class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
-                            <div class="box">
-                                <h5 class="font-caps body-color background-main p-5 d-inline-block">2017 - 2019</h5>
-                                <img class="d-block mt-15" src="assets/img/awwwards.png" alt="">
-                            </div>
-
-                            <div class="box p-20 background-main">
-                                <h5 class="sm-title-block mb-15 pb-15 border-section-bottom">Senior UX / UI Designer
-                                </h5>
-                                <p class="max-w750">Praesent dignissim sollicitudin justo, sed elementum quam lacinia
-                                    quis.</p>
-                            </div>
-                        </div>
-                        <div class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
-                            <div class="box">
-                                <h5 class="font-caps body-color background-main p-5 d-inline-block">2019 - 2020</h5>
-                                <img class="d-block mt-15 " src="assets/img/cssdesignawards.png" alt="">
-                            </div>
-
-                            <div class="box p-20 background-main">
-                                <h5 class="sm-title-block mb-15 pb-15 border-section-bottom">Rolling Thunder</h5>
-                                <p class="max-w750">Praesent dignissim sollicitudin justo, sed elementum quam lacinia
-                                    quis.</p>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- ========== End experience Section ========== -->
-
-                    <!-- ========== Work Section ========== -->
-                    <section class="our-work dsn-container dsn-filter p-relative section-margin" data-dsn-title="My Work">
-                        <div class="section-title">
-                            <span class="tag-heading p-10 mb-15 background-section heading-color">Portfolio</span>
-                            <h2 class="heading-h2">Showcasing some of my best work</h2>
-                        </div>
-
-                        <div class="projects-list gallery work-gallery dsn-swiper" data-dsn-option='{"slidesPerView":3,"spaceBetween":30}'>
-                            <div class="swiper-container">
-                                <div class="swiper-wrapper ">
-                                    <div class="swiper-slide background-main">
-                                        <div class="work-item p-relative overflow-hidden">
-                                            <a class="w-100 p-relative effect-ajax" href="project-1.html" data-dsn-ajax="work">
-                                                <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img " data-dsn-position="10% 10%" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project1/1.jpg" alt="">
-                                                </div>
-
-                                                <div class="box-content w-100 mt-20">
-                                                    <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
-                                                        Exclusive <br> hand watches
-                                                    </h4>
-                                                    <div class="metas">
-                                                        <span>Fashion</span>
-                                                        <span>Photography</span>
-                                                    </div>
-
-                                                    <div class="view-project">View Project</div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide background-main">
-                                        <div class="work-item p-relative overflow-hidden">
-                                            <a class="w-100 p-relative effect-ajax" href="project-2.html" data-dsn-ajax="work">
-                                                <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project2/1.jpg" alt="">
-                                                </div>
-
-                                                <div class="box-content w-100  mt-20">
-                                                    <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
-                                                        BMW <br> 1er "ADAM"
-                                                    </h4>
-                                                    <div class="metas">
-                                                        <span>Photography</span>
-                                                    </div>
-
-                                                    <div class="view-project">View Project</div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide background-main">
-                                        <div class="work-item p-relative overflow-hidden">
-                                            <a class="w-100 p-relative effect-ajax" href="project-3.html" data-dsn-ajax="work">
-                                                <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project3/1.jpg" alt="">
-                                                </div>
-
-                                                <div class="box-content w-100 mt-20">
-                                                    <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
-                                                        Wheel <br> house Hotel
-                                                    </h4>
-                                                    <div class="metas">
-                                                        <span>Architecture</span>
-                                                    </div>
-
-                                                    <div class="view-project">View Project</div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide background-main">
-                                        <div class="work-item p-relative overflow-hidden ">
-                                            <a class="w-100 p-relative effect-ajax" href="project-4.html" data-dsn-ajax="work">
-                                                <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project4/1.jpg" alt="">
-                                                </div>
-
-                                                <div class="box-content w-100  mt-20">
-                                                    <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
-                                                        Super Blue <br>Tooth brush
-                                                    </h4>
-                                                    <div class="metas">
-                                                        <span>Product</span>
-                                                    </div>
-
-                                                    <div class="view-project">View Project</div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="dsn-pagination mt-30 dsn-container d-flex justify-content-between">
-                                <div class="swiper-next">
-                                    <div class="next-container">
-                                        <div class="container-inner">
-                                            <div class="triangle"></div>
-                                            <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                                <g class="circle-wrap" fill="none" stroke-width="1" stroke-linejoin="round" stroke-miterlimit="10">
-                                                    <circle cx="12" cy="12" r="10.5"></circle>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-pagination"></div>
-                                <div class="swiper-prev">
-                                    <div class="prev-container">
-                                        <div class="container-inner">
-                                            <div class="triangle"></div>
-                                            <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                                <g class="circle-wrap" fill="none" stroke-width="1" stroke-linejoin="round" stroke-miterlimit="10">
-                                                    <circle cx="12" cy="12" r="10.5"></circle>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- ========== End Work Section ========== -->
-
-                    <!-- ========== Work Section ========== -->
-                    <div class="single-contact dsn-container p-relative section-margin" data-dsn-title="Contact Me">
-                        <div class="section-title">
-                            <span class="tag-heading p-10 mb-15 background-section heading-color">Get in Touch</span>
-                            <h2 class="heading-h2">Let's grab a coffee and jump on conversation<br> chat with me.</h2>
-                        </div>
-
-                        <div class="d-grid grid-lg-2">
-                            <div class="box-info">
-                                <p class="mb-30 max-w570">It is a long established fact that a reader will be of a page
-                                    when
-                                    established fact looking at its layout.</p>
-                                <div class="info-item d-flex align-items-center">
-                                    <div class="icon mr-20">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                    </div>
-                                    <div class="info">
-                                        <a class="text-uppercase" href="#">United Kingdom <br> 33—35 Southernhay
-                                            East</a>
-                                    </div>
-                                </div>
-
-                                <div class="info-item d-flex align-items-center">
-                                    <div class="icon mr-20">
-                                        <i class="fas fa-mobile-alt"></i>
-                                    </div>
-                                    <div class="info">
-                                        <a class="text-uppercase" href="#">(+706) 898-0751</a>
-                                    </div>
-                                </div>
-
-                                <div class="info-item d-flex align-items-center">
-                                    <div class="icon mr-20">
-                                        <i class="fas fa-envelope"></i>
-                                    </div>
-                                    <div class="info">
-                                        <a class="text-uppercase" href="#">info@dsngrid.com</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="form-box d-flex align-items-center">
-
-                                <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
-                                    <div class="messages"></div>
-                                    <div class="input__wrap controls">
-                                        <div class="form-group">
-                                            <div class="entry-box d-flex align-items-center">
-                                                <label class="mr-20"><i class="fas fa-user heading-color"></i></label>
-                                                <input id="form_name" type="text" name="name" placeholder="your name" required="required" data-error="name is required.">
-                                            </div>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <div class="entry-box d-flex align-items-center">
-                                                <label class="mr-20"> <i class="fas fa-at heading-color"></i></label>
-                                                <input id="form_email" type="email" name="email" placeholder="your Email Address" required="required" data-error="Valid email is required.">
-                                            </div>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <div class="entry-box d-flex align-items-center">
-                                                <label class="mr-20"><i class="fas fa-envelope heading-color"></i></label>
-                                                <textarea id="form_message" class="form-control" name="message" placeholder="Tell us about you and the world" required="required" data-error="Please,leave us a message."></textarea>
-                                            </div>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-
-                                        <div class="text-right">
-                                            <div class="image-zoom v-light background-main w-auto d-inline-block move-circle" data-dsn="parallax">
-                                                <input type="submit" value="Send Message" class="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ========== End Work Section ========== -->
-
-                    <!-- ========== Footer ========== -->
+                <div class="wrapper ">
+                    <!-- ========== Template ========== -->
+                    <?php include($view . ".php"); ?>
+                    <!-- ========== End Template ========== -->
                     <footer class="footer border-top background-section">
                         <div class="dsn-container">
                             <div class="d-grid grid-sm-2">
@@ -879,61 +417,43 @@
                                         <img src="assets/img/logo-dark.png" alt="" class="logo-light cover-bg-img">
                                     </a>
                                 </div>
-
                                 <div class="footer-item text-right">
-                                    <h5 class="sm-title-block mb-10">Follow Us</h5>
+                                    <h5 class="sm-title-block mb-10">Suivez-nous</h5>
                                     <ul class="box-social">
-                                        <li data-dsn="parallax">
-                                            <a href="#">FB</a>
-                                        </li>
-                                        <li data-dsn="parallax">
-                                            <a href="#">TW</a>
-                                        </li>
-                                        <li data-dsn="parallax">
-                                            <a href="#">LN</a>
-                                        </li>
-                                        <li data-dsn="parallax">
-                                            <a href="#">LN</a>
-                                        </li>
+                                        <li data-dsn="parallax"><a href="#">Fb</a></li>
+                                        <li data-dsn="parallax"> <a href="#">TW</a></li>
+                                        <li data-dsn="parallax"><a href="#">INST</a></li>
+                                        <li data-dsn="parallax"><a href="#">LI</a></li>
                                     </ul>
                                 </div>
-
                             </div>
-
                             <div class="footer-bottom d-grid grid-md-2 border-top pt-30 mt-30">
                                 <div class="footer-item order-md-2">
                                     <div class="nav-footer text-right">
                                         <ul>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Home</a>
-                                            </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Portfolio</a>
-                                            </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">About</a>
-                                            </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">News</a>
-                                            </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Contact</a>
-                                            </li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Accueil</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Services</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">A Propos</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="footer-item">
                                     <div class="copyright">
-                                        <div class="copright-text over-hidden">© 2021 Digital Agency Designed by <a class="link-hover" data-hover-text="DSN Grid" href="#" target="_blank">DSN
-                                                Grid</a>
+                                        <div class="copright-text over-hidden">© 2023 WebCup by  <a class="link-hover" data-hover-text="Smart IT" href="#" target="_blank">Smart IT</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </footer>
-                    <!-- ========== End Footer ========== -->
-
+                    
                 </div>
             </div>
 
         </div>
+
         <!-- ========== Contact Form Model ========== -->
         <div class="contact-btn">
             <div class="contact-btn-txt">Contact</div>
@@ -941,46 +461,46 @@
         <div class="contact-modal background-section">
             <div class="dsn-container contact-inner section-margin">
                 <div class="section-title">
-                    <span class="tag-heading background-section color-heading">Get in touch</span>
-                    <h2 class="heading-h2">How can we help you?</h2>
+                    <span class="tag-heading background-section color-heading">Onirix</span>
+                    <h2 class="heading-h2">Comment je peux vous aider ? </h2>
                 </div>
 
 
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="form-box d-flex flex-column">
-                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">How
-                                Can I Help You?</h4>
+                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
+                                De l'aide ?</h4>
                             <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
                                     <div class="form-group">
                                         <div class="entry-box">
-                                            <label>Your name *</label>
-                                            <input id="form_name" type="text" name="name" placeholder="Type your name" required="required" data-error="name is required.">
+                                            <label>Votre nom *</label>
+                                            <input id="form_name" type="text" name="name" placeholder="Tapez votre nom" required="required" data-error="Le nom est requis.">
                                         </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group">
                                         <div class="entry-box">
-                                            <label>Your E-Mail *</label>
-                                            <input id="form_email" type="email" name="email" placeholder="Type your Email Address" required="required" data-error="Valid email is required.">
+                                            <label>Votre email*</label>
+                                            <input id="form_email" type="email" name="email" placeholder="Tapez  votre adresse email" required="required" data-error="L'email est requis">
                                         </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group">
                                         <div class="entry-box">
-                                            <label>What's up?</label>
-                                            <textarea id="form_message" class="form-control" name="message" placeholder="Tell us about you and the world" required="required" data-error="Please,leave us a message."></textarea>
+                                            <label>Des recommandations ? </label>
+                                            <textarea id="form_message" class="form-control" name="message" placeholder="Decrivez nous ce que vous voulez nous transmettre" required="required" data-error="Please,leave us a message."></textarea>
                                         </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="text-right">
                                         <div class="image-zoom w-auto d-inline-block move-circle" data-dsn="parallax">
-                                            <input type="submit" value="Send Message" class="v-light">
+                                            <input type="submit" value="Nous contacter" class="v-light">
                                         </div>
                                     </div>
                                 </div>
@@ -995,18 +515,18 @@
 
                             <div class="content-bottom">
                                 <div class="item">
-                                    <h5 class="sm-title-block mb-15">Address</h5>
-                                    <p>88 Whitby Road<br> IP20 6JA<br> London, UK</p>
+                                    <h5 class="sm-title-block mb-15">Adresse</h5>
+                                    <p>88 Bis C <br> Anosizato<br> Tananarive, Madagascar</p>
                                 </div>
 
                                 <div class="item">
                                     <h5 class="sm-title-block mb-15">Email</h5>
-                                    <a href="mailto:info@dsngrid.com">info@dsngrid.com</a>
+                                    <a href="mailto:info@dsngrid.com">orinix-smartit@gmail.com</a>
                                 </div>
 
                                 <div class="item">
-                                    <h5 class="sm-title-block mb-15">Phone</h5>
-                                    <a href="tel:http://+012345678">+44 7356 6487</a>
+                                    <h5 class="sm-title-block mb-15">Téléphone</h5>
+                                    <a href="tel:http://+012345678">+261 34 59 48 55</a>
                                 </div>
                             </div>
                         </div>
@@ -1015,86 +535,6 @@
             </div>
         </div>
         <!-- ========== End Contact Form Model ========== -->
-
-        <!-- ========== Contact Stories ========== -->
-        <div class="stories-btn">
-            <div class="stories-btn-txt">Our Stories</div>
-        </div>
-        <div class="dsn-stories dsn-stories-model">
-            <div class="close-story"></div>
-            <div class="dsn-stories-gallery">
-                <div class="p-relative h-100">
-                    <a href="assets/img/stories/storie-5-1.jpg"></a>
-                    <a href="assets/img/stories/storie-5.jpg"></a>
-                    <a href="assets/img/stories/storie-5-2.jpg"></a>
-                    <a href="assets/img/stories/storie-5-3.jpg"></a>
-                </div>
-
-                <h4 class="title-block">
-                    A elegant and <br> attractive watch
-                </h4>
-            </div>
-            <div class="dsn-stories-gallery">
-                <div class="p-relative h-100">
-                    <a href="assets/img/stories/storie-1-1.jpg"></a>
-                    <a href="assets/img/stories/storie-1.jpg"></a>
-                    <a href="assets/img/stories/storie-1-2.jpg"></a>
-                    <a href="assets/img/stories/storie-1-3.jpg"></a>
-                </div>
-                <h4 class="title-block">
-                    Beyond Nature
-                </h4>
-            </div>
-            <div class="dsn-stories-gallery">
-                <div class="p-relative h-100">
-                    <a href="assets/img/stories/storie-2-1.jpg"></a>
-                    <a href="assets/img/stories/storie-2.jpg"></a>
-                    <a href="assets/img/stories/storie-2-2.jpg"></a>
-                    <a href="assets/img/stories/storie-2-3.jpg"></a>
-                </div>
-
-                <h4 class="title-block">
-                    A modern<br> home
-                </h4>
-            </div>
-            <div class="dsn-stories-gallery">
-                <div class="p-relative h-100">
-                    <a href="assets/img/stories/storie-3-1.jpg"></a>
-                    <a href="assets/img/stories/storie-3.jpg"></a>
-                    <a href="assets/img/stories/storie-3-2.jpg"></a>
-                    <a href="assets/img/stories/storie-3-3.jpg"></a>
-                </div>
-
-                <h4 class="title-block">
-                    Fashion day <br> and elegance
-                </h4>
-            </div>
-            <div class="dsn-stories-gallery">
-                <div class="p-relative h-100">
-                    <a href="assets/img/stories/storie-4-1.jpg"></a>
-                    <a href="assets/img/stories/storie-4.jpg"></a>
-                    <a href="assets/img/stories/storie-4-2.jpg"></a>
-                    <a href="assets/img/stories/storie-4-3.jpg"></a>
-                </div>
-
-                <h4 class="title-block">
-                    Health <br> and nutrition
-                </h4>
-            </div>
-            <div class="dsn-stories-gallery">
-                <div class="p-relative h-100">
-                    <a href="assets/img/stories/storie-6-1.jpg"></a>
-                    <a href="assets/img/stories/storie-6.jpg"></a>
-                    <a href="assets/img/stories/storie-6-2.jpg"></a>
-                    <a href="assets/img/stories/storie-6-3.jpg"></a>
-                </div>
-
-                <h4 class="title-block">
-                    Free <br> Style
-                </h4>
-            </div>
-        </div>
-        <!-- ========== End Contact Stories ========== -->
 
     </main>
 
@@ -1113,7 +553,6 @@
 
     </div>
     <!-- ========== End Cursor Page ========== -->
-
 
     <!-- ========== social network ========== -->
     <div class="social-network">
