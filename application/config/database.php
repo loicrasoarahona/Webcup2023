@@ -75,24 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-	'hostname' => 'run1.hodi.host',
-	'username' => 'smartit_mendrika',
-	'password' => 'Smartit2023!',
-	'database' => 'smartit_webcup2023',
-=======
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
-	'database' => 'smartit_2023',
->>>>>>> origin/prediction
-=======
 	'hostname' => 'localhost',
 	'username' => 'loicrasoarahona',
 	'password' => 'anjomakely',
 	'database' => 'webcup2023',
->>>>>>> Stashed changes
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
