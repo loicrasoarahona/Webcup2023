@@ -21,8 +21,12 @@
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
     <!-- custom styles (optional) -->
-    <link href=<?php echo site_url("assets/css/plugins.css") ?> rel="stylesheet" />
-    <link href=<?php echo site_url("assets/css/styleLogin.css") ?> rel="stylesheet" />
+    <link href=<?php echo site_url(
+                    'assets/css/plugins.css'
+                ); ?> rel="stylesheet" />
+    <link href=<?php echo site_url(
+                    'assets/css/styleLogin.css'
+                ); ?> rel="stylesheet" />
 </head>
 
 <!--classic-menu-->
@@ -380,7 +384,7 @@
         <div class="login-btn">
             <div class="login-btn-txt">Page de connexion</div>
         </div>
-        <div class="contact-modal background-section">
+        <div class="contact-modal background-section col-12 col-lg-9 col-xl-8 col-xxl-6">
             <div class="dsn-container contact-inner section-margin">
                 <div class="section-title">
                     <span class="tag-heading background-section color-heading">Onirix</span>
@@ -389,7 +393,7 @@
 
 
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-7">
                         <div class="form-box d-flex flex-column">
                             <form class="form w-100" method="post" action="<?php echo base_url('Sign/up'); ?>" data-toggle="validator">
                                 <div class="messages"></div>
@@ -408,6 +412,7 @@
                                         </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
+
                                     <div class="form-group">
                                         <div class="entry-box">
                                             <label>Email</label>
@@ -430,11 +435,11 @@
                                         <div class="help-block with-errors">
                                             <ul class="list-unstyled">
                                                 <li><?php
-                                                    if(isset($message)){
-                                                    echo $message;
-                                                    } 
-                                                ?></li>
-                                            </ul>                            
+                                                    if (isset($message)) {
+                                                        echo $message;
+                                                    }
+                                                    ?></li>
+                                            </ul>
                                         </div>
                                     </div>
 
@@ -448,8 +453,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
-                        <div class="contact-content d-flex flex-column p-relative background-main box-padding h-100">
+                    <div class="col-lg-5">
+                        <div class="contact-content d-flex flex-column p-relative background-main h-100">
                             <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
                                 Contact Info</h4>
 
@@ -632,10 +637,12 @@
     <div class="dsn-paginate-right-page"></div>
 
     <!-- Optional JavaScript -->
-    <script src=<?php echo site_url("assets/js/jquery-3.1.1.min.js") ?>></script>
-    <script src=<?php echo site_url("assets/js/plugins.min.js") ?>></script>
-    <script src=<?php echo site_url("assets/js/dsn-grid.min.js") ?>></script>
-    <script src=<?php echo site_url("assets/js/custom.js") ?>></script>
+    <script src=<?php echo site_url(
+                    'assets/js/jquery-3.1.1.min.js'
+                ); ?>></script>
+    <script src=<?php echo site_url('assets/js/plugins.min.js'); ?>></script>
+    <script src=<?php echo site_url('assets/js/dsn-grid.min.js'); ?>></script>
+    <script src=<?php echo site_url('assets/js/custom.js'); ?>></script>
 
 </body>
 

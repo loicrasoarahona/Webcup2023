@@ -380,7 +380,7 @@
         <div class="login-btn">
             <div class="login-btn-txt">Page de connexion</div>
         </div>
-        <div class="contact-modal background-section">
+        <div class="contact-modal background-section col-12 col-lg-9 col-xl-8 col-xxl-6">
             <div class="dsn-container contact-inner section-margin">
                 <div class="section-title">
                     <span class="tag-heading background-section color-heading">Onirix</span>
@@ -389,39 +389,39 @@
 
 
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-7">
                         <div class="form-box d-flex flex-column">
                             <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
-                                Connexioin</h4>
+                                Connexion</h4>
                             <form class="form w-100" method="post" action="<?php echo base_url('Sign/in'); ?>" data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
                                     <div class="form-group">
                                         <div class="entry-box">
                                             <label>Votre identifiant</label>
-                                            <input id="form_name" type="email" name="email" placeholder="Tapez votre identifiant" required="required" data-error="Le email est requis">
+                                            <input id="form_name" type="email" name="email" required="required" data-error="Le email est requis">
                                         </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="form-group">
                                         <div class="entry-box">
                                             <label>Votre mot de passe</label>
-                                            <input id="form_email" type="password" name="mdp" placeholder="Tapez votre mot de passe" required="required" data-error="Le mot de passe est requis">
+                                            <input id="form_email" type="password" name="mdp" required="required" data-error="Le mot de passe est requis">
                                         </div>
                                         <div class="help-block with-errors">
                                             <ul class="list-unstyled">
                                                 <li><?php
-                                                    if(isset($message)){
-                                                    echo $message;
-                                                    } 
-                                                ?></li>
+                                                    if (isset($message)) {
+                                                        echo $message;
+                                                    }
+                                                    ?></li>
                                             </ul>
-                                            
+
                                         </div>
                                     </div>
-                                    <span><a>Inscrivez-vous</a> si vous n'avez pas encore de compte</span>
+                                    <span><a class="couleur" href="<?php echo site_url('/sign/sinscrire') ?>">Inscrivez-vous</a> si vous n'avez pas encore de compte</span>
                                     <div class="text-right">
-                                        <div class="image-zoom w-auto d-inline-block move-circle" data-dsn="parallax">
+                                        <div style="margin-top: 1rem;" class="image-zoom w-auto d-inline-block move-circle" data-dsn="parallax">
                                             <input type="submit" value="Se connecter" class="v-light">
                                         </div>
                                     </div>
@@ -430,7 +430,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
+                    <div class="col-lg-5">
                         <div class="contact-content d-flex flex-column p-relative background-main box-padding h-100">
                             <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
                                 Contact Info</h4>
