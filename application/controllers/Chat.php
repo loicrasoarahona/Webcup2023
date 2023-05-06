@@ -13,11 +13,37 @@ class Chat extends CI_Controller {
 
     }
     public function index() {
-        $isnot_option = $this->input->get('isquestion');
-        //creation question que ça soit simple, soit question cauchemar
-        $question = $this->API->gestion_question($this->input->get('question'));
+        $isnot_option = $this->input->post('isquestion');
+        $qe = null;
+        if($isnot_option != 0 ){
 
-        $question_cauchemar = $this->API->gestion_question_cauchemar($this->input->get('question'));
+            $qe = $this->input->post('question');
+
+        }else{
+
+            $personne=$this->input->post('personne');
+
+            $activite=$this->input->post('activite');
+
+            $endroit=$this->input->post('endroit');
+
+            $temps=$this->input->post('temps');
+
+            $emotion=$this->input->post('emotion');
+
+            $reve=$this->input->post('reve');
+
+            $q_option = $this->Reve->getFullSentence("voisin", "se balader","sur un bateau", "pas précis", "le soir", "peur");
+             
+            $qe = $q_option;
+
+        }
+        //creation question que ça soit simple, soit question cauchemar
+        var_dump($qe);
+
+        $question = $this->API->gestion_question($qe);
+
+        $question_cauchemar = $this->API->gestion_question_cauchemar($qe);
         
         $iduser = $this->session->userdata("iduser");
 
@@ -27,27 +53,31 @@ class Chat extends CI_Controller {
 
         $response_cauchemar = $this->API->traitement_response($question_cauchemar);
 
-        var_dump($iduser);
+        // var_dump($iduser);
 
         if(strpos(strtoupper($response_cauchemar), "NON") !== false){
 
             $this->save_history($iduser, $response, $question, 0, $isnot_option);
 
         }else{
-            var_dump("indroo");
             $this->save_history($iduser, $response, $question, 1, $isnot_option);
             $response = $this->generate_response_specifique($iduser);
         }
-          
+
         $data['response'] = $response;
-       
+
+        $data['view'] = 'service_reponse';
+
+        $this->load->view('template', $data);
+
         // var_dump($response);
-        $this->load->view('home.php', $data);
+
+        //$this->load->view('home.php', $data);
     }
 
     function save_history($iduser, $response, $question ,$is_specifique, $isnot_option){
 
-        if($isnot_option != null ){
+        if($isnot_option != 0 ){
 
             $this->Historique->saveHistoryQuestion($iduser, $response, $question, $is_specifique); 
 
@@ -75,4 +105,21 @@ class Chat extends CI_Controller {
         return $response;
     }
 
+    public function makeSentenceByOption()
+	{
+		// $data['sentence']= $this->Reve->getFullSentence("voisin", "se balader","sur un bateau", "pas précis", "le soir", "peur");
+        $personne=$this->input->post('personne');
+
+        $activite=$this->input->post('activite');
+
+        $endroit=$this->input->post('endroit');
+
+        $temps=$this->input->post('temps');
+
+        $emotion=$this->input->post('emotion');
+
+        $reve=$this->input->post('reve');
+
+        return $this->Reve->getFullSentence($personne, $activite, $endroit, $temps, $emotion, $reve);
+    }
 }

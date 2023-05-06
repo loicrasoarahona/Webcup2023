@@ -12,8 +12,7 @@ class reveController extends CI_Controller {
 
 	public function loadOption()
 	{
-        $question=
-        [
+        $question=[
             "S'il y avait une personne dans votre rêve, veuillez nous indiquer en choisissant parmi la liste 
             suivante qui était-ce pour vous:",
             "Quelle activité avez vous fait ? ",
@@ -46,4 +45,16 @@ class reveController extends CI_Controller {
 		$data['view'] = 'service_options';
 		$this->load->view('service_options',$data);
 	}
+
+    public function makeSentenceByOption()
+	{
+		// $data['sentence']= $this->Reve->getFullSentence("voisin", "se balader","sur un bateau", "pas précis", "le soir", "peur");
+        $personne=$this->input->post('personne');
+        $activite=$this->input->post('activite');
+        $endroit=$this->input->post('endroit');
+        $temps=$this->input->post('temps');
+        $emotion=$this->input->post('emotion');
+        $reve=$this->input->post('reve');
+        return $this->Reve->getFullSentence($personne, $activite, $endroit, $temps, $emotion, $reve);
+    }
 }

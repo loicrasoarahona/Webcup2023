@@ -47,7 +47,7 @@ class Api extends CI_Model
     }
 
     function gestion_question($question){
-        $arr = array('j\'ai revé que :', $question ,'que signifie ce reve pour mon avenir brievement');
+        $arr = array('j\'ai revé que :', $question ,'que signifie ce reve pour mon avenir en trois phrase');
         return join(" ", $arr);
     }
 
