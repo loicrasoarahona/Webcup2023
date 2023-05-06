@@ -6,7 +6,7 @@
 class User extends CI_Model{
     public function inscription($nom, $prenom,  $mail, $mdp, $role)
     {
-        $sql = "insert into user values (null,'" . $nom . "','" . $prenom . "','" . $mail . "','" . $mdp . "'," .$role. ")";
+        $sql = "insert into user values (null,'" . $nom . "','" . $prenom . "','" . $mail . "','" . $mdp . "','" .$role. "')";
         $this->db->query($sql);
     }
     

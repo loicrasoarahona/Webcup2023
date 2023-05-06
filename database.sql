@@ -97,3 +97,7 @@ insert into souscategorie values (null,'supernaturel','6',null);
 insert into souscategorie values (null,'créatif','6',null);
 insert into souscategorie values (null,'récurrent','6',null);
 insert into souscategorie values (null,'normal','6',null);
+
+
+ALTER TABLE webcup2023.historique MODIFY COLUMN `options` varchar(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL NULL;
+
