@@ -13,7 +13,7 @@ class Chat extends CI_Controller {
 
     }
     public function index() {
-        $isquestion = $this->input->get('isquestion');
+        $isnot_option = $this->input->get('isquestion');
         //creation question que ça soit simple, soit question cauchemar
         $question = $this->API->gestion_question($this->input->get('question'));
 
@@ -27,27 +27,51 @@ class Chat extends CI_Controller {
 
         $response_cauchemar = $this->API->traitement_response($question_cauchemar);
 
-        var_dump(strtoupper($response_cauchemar));
+        var_dump($iduser);
 
         if(strpos(strtoupper($response_cauchemar), "NON") !== false){
 
-            if($isquestion != null ){
+            $this->save_history($iduser, $response, $question, 0, $isnot_option);
 
-                $this->Historique->saveHistoryQuestion($iduser, $response, $question); 
-    
-            }else{
-    
-                $this->Historique->saveHistoryOption($iduser, $response, $question);
-    
-            }
+        }else{
+            var_dump("indroo");
+            $this->save_history($iduser, $response, $question, 1, $isnot_option);
+            $response = $this->generate_response_specifique($iduser);
+        }
+          
+        $data['response'] = $response;
+        // var_dump($response);
+        $this->load->view('home.php', $data);
+    }
+
+    function save_history($iduser, $response, $question ,$is_specifique, $isnot_option){
+
+        if($isnot_option != null ){
+
+            $this->Historique->saveHistoryQuestion($iduser, $response, $question, $is_specifique); 
+
+        }else{
+
+            $this->Historique->saveHistoryOption($iduser, $response, $question, $is_specifique);
+
+        }
+    }
+
+    function generate_response_specifique($iduser){
+        $verify = $this->Historique->verify_historique_specifique($iduser);
+
+        // var_dump("count :: ", $verify, count($verify));
+
+        if(count($verify) >=2 ) {
+
+            $response = "PUBLICITE";
+
         }else{
             
-        }
-        
-       
-        $data['response'] = $response;
+            $response = "Nous avons identifié que vous avez fait un cauchemar, cela peut être un signe de trouble psychologique. Nous saurons comment vous aider si cela se produit de facon recurrent. Merci de votre confiance à Onirix";
 
-        $this->load->view('home.php', $data);
+        }
+        return $response;
     }
 
 }
