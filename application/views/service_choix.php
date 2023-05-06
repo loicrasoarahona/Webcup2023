@@ -79,7 +79,7 @@
                 </div>
                 <div class="content-box">
                     <h4 class="title-block mt-20">Par Options</h4>
-                    <p class="description mt-20">Un large de choix de questions pour vous pour que nous puissions en savoir plus
+                    <p class="description mt-20">Un large choix de questions pour vous pour que nous puissions en savoir plus sur vot
                     </p>
                 </div>
             </div>

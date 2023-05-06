@@ -13,5 +13,10 @@ class Transcription extends CI_Controller
         $data['view'] = 'service_choix';
         $this->load->view('template', $data);
     }
+    public function reponse()
+    {
+        $data['view'] = 'service_reponse';
+        $this->load->view('template', $data);
+    }
 }   
 ?>
