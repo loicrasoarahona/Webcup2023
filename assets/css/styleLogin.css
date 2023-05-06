@@ -3192,7 +3192,7 @@ label {
 /**
   Contact Button
  */
-.contact-btn {
+.login-btn {
   position: fixed;
   right: 20px;
   top: 35px;
@@ -3202,10 +3202,10 @@ label {
   mix-blend-mode: exclusion;
   color: #fff;
 }
-.contact-btn:before, .contact-btn .contact-btn-txt {
+.login-btn:before, .login-btn .login-btn-txt {
   position: absolute;
 }
-.contact-btn:before {
+.login-btn:before {
   content: "";
   right: 2px;
   top: 2px;
@@ -3215,7 +3215,7 @@ label {
   border: 2px solid #fff;
   transition: opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.65s, transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 1.65s;
 }
-.contact-btn .contact-btn-txt {
+.login-btn .login-btn-txt {
   right: 0;
   top: -1px;
   height: 13px;
@@ -3250,12 +3250,12 @@ label {
 }
 
 @media only screen and (max-width: 991px) {
-  .contact-btn, .contact-modal, .line-border-style, .dsn-paginate-right-page, .box-options {
+  .login-btn, .contact-modal, .line-border-style, .dsn-paginate-right-page, .box-options {
     display: none;
   }
 }
 
-body.dsn-show-contact .contact-btn .contact-btn-txt {
+body.dsn-show-contact .login-btn .login-btn-txt {
   transform: rotate(0deg);
   transition-delay: 0.1s;
 }

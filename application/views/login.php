@@ -377,13 +377,13 @@
 
         <!-- ========== side box left ========== -->
         <!-- ========== Contact Form Model ========== -->
-        <div class="contact-btn">
-            <div class="contact-btn-txt">Page de connexion</div>
+        <div class="login-btn">
+            <div class="login-btn-txt">Page de connexion</div>
         </div>
         <div class="contact-modal background-section">
             <div class="dsn-container contact-inner section-margin">
                 <div class="section-title">
-                    <span class="tag-heading background-section color-heading">Orinix</span>
+                    <span class="tag-heading background-section color-heading">Onirix</span>
                     <h2 class="heading-h2">Vous devez vous connecter</h2>
                 </div>
 
@@ -391,9 +391,32 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="form-box d-flex flex-column">
-                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">How
-                                Connexion</h4>
-                            <?php include "signin.php" ?>
+                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
+                                Connexioin</h4>
+                            <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
+                                <div class="messages"></div>
+                                <div class="input__wrap controls">
+                                    <div class="form-group">
+                                        <div class="entry-box">
+                                            <label>Votre identifiant</label>
+                                            <input id="form_name" type="text" name="name" placeholder="Tapez votre identifiant" required="required" data-error="Le nom est requis">
+                                        </div>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="entry-box">
+                                            <label>Votre mot de passe</label>
+                                            <input id="form_email" type="email" name="email" placeholder="Tapez votre mot de passe" required="required" data-error="Le mot de passe est requis">
+                                        </div>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="text-right">
+                                        <div class="image-zoom w-auto d-inline-block move-circle" data-dsn="parallax">
+                                            <input type="submit" value="Se connecter" class="v-light">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
 
@@ -572,7 +595,7 @@
     <div class="scroll-to-top">
         <img src="assets/img/scroll_top.svg" alt="">
         <div class="box-number v-middle">
-            <span>0%</span>
+            <span>IA</span>
         </div>
     </div>
     <!-- ========== End Scroll Right Page To Top Page ========== -->
