@@ -2,7 +2,7 @@
 <ul>
     <?php $reve=$listeReve[1];
         for($i=0;$i<count($reve);$i++) { ?>
-    <li><?php echo $reve[$i]['nom']; ?></li>
+    <?php echo $reve[$i]['nom']; ?></li>
     <?php } ?>
 </ul>
 
