@@ -9,7 +9,7 @@
     <meta name="keyword" content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
 
     <!--  Title -->
-    <title>Onirix Creative Ajax Portfolio HTML Template</title>
+    <title>Onirix - IA </title>
 
     <!-- Font Google -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -422,7 +422,7 @@
                                     </span>
                                 </h3>
                             </div>
-                            <a href="#" class="link-custom v-light-head background-main image-zoom move-circle" data-dsn="parallax">
+                            <a href="<?php echo base_url("Transcription/choix");?>" class="link-custom v-light-head background-main image-zoom move-circle" data-dsn="parallax">
                                 Tester
                             </a>
                         </div>

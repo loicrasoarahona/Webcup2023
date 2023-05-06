@@ -101,3 +101,11 @@ insert into souscategorie values (null,'supernaturel','6',null);
 insert into souscategorie values (null,'créatif','6',null);
 insert into souscategorie values (null,'récurrent','6',null);
 insert into souscategorie values (null,'normal','6',null);
+
+
+ALTER TABLE historique MODIFY COLUMN question TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL NULL;
+ALTER TABLE historique MODIFY COLUMN reponse TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL NULL;
+ALTER TABLE historique MODIFY COLUMN `options` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL NULL;
+
+ALTER TABLE historique ADD is_specifique INT NULL;
+

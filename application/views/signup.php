@@ -21,8 +21,12 @@
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
     <!-- custom styles (optional) -->
-    <link href=<?php echo site_url("assets/css/plugins.css") ?> rel="stylesheet" />
-    <link href=<?php echo site_url("assets/css/styleLogin.css") ?> rel="stylesheet" />
+    <link href=<?php echo site_url(
+                    'assets/css/plugins.css'
+                ); ?> rel="stylesheet" />
+    <link href=<?php echo site_url(
+                    'assets/css/styleLogin.css'
+                ); ?> rel="stylesheet" />
 </head>
 
 <!--classic-menu-->
@@ -384,29 +388,49 @@
             <div class="dsn-container contact-inner section-margin">
                 <div class="section-title">
                     <span class="tag-heading background-section color-heading">Onirix</span>
-                    <h2 class="heading-h2">Vous devez vous connecter</h2>
+                    <h2 class="heading-h2">Inscription</h2>
                 </div>
 
 
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="form-box d-flex flex-column">
-                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
-                                Connexion</h4>
-                            <form class="form w-100" method="post" action="<?php echo base_url('Sign/in'); ?>" data-toggle="validator">
+                            <form class="form w-100" method="post" action="<?php echo base_url('Sign/up'); ?>" data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
                                     <div class="form-group">
                                         <div class="entry-box">
-                                            <label>Votre identifiant</label>
-                                            <input id="form_name" type="email" name="email" required="required" data-error="Le email est requis">
+                                            <label>Nom</label>
+                                            <input id="form_name" type="text" name="nom" placeholder="" required="required" data-error="Le nom est requis">
                                         </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="form-group">
                                         <div class="entry-box">
-                                            <label>Votre mot de passe</label>
-                                            <input id="form_email" type="password" name="mdp" required="required" data-error="Le mot de passe est requis">
+                                            <label>Prénom</label>
+                                            <input id="form_name" type="text" name="prenom" placeholder="" required="required" data-error="Le prénom est requis">
+                                        </div>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="entry-box">
+                                            <label>Email</label>
+                                            <input id="form_name" type="email" name="email" placeholder="" required="required" data-error="Entrez votre email">
+                                        </div>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="entry-box">
+                                            <label>Mot de passe</label>
+                                            <input id="form_name" type="password" name="mdp" placeholder="" required="required" data-error="Veuillez choisir un mot de passe">
+                                        </div>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="entry-box">
+                                            <label>Confirmer mot de passe</label>
+                                            <input id="form_name" type="password" name="confirmerMdp" placeholder="" required="required" data-error="Confirmation requis">
                                         </div>
                                         <div class="help-block with-errors">
                                             <ul class="list-unstyled">
@@ -416,12 +440,11 @@
                                                     }
                                                     ?></li>
                                             </ul>
-
                                         </div>
                                     </div>
-                                    <span><a class="couleur" href="<?php echo site_url('/sign/sinscrire') ?>">Inscrivez-vous</a> si vous n'avez pas encore de compte</span>
+
                                     <div class="text-right">
-                                        <div style="margin-top: 1rem;" class="image-zoom w-auto d-inline-block move-circle" data-dsn="parallax">
+                                        <div class="image-zoom w-auto d-inline-block move-circle" data-dsn="parallax">
                                             <input type="submit" value="Se connecter" class="v-light">
                                         </div>
                                     </div>
@@ -431,7 +454,7 @@
                     </div>
 
                     <div class="col-lg-5">
-                        <div class="contact-content d-flex flex-column p-relative background-main box-padding h-100">
+                        <div class="contact-content d-flex flex-column p-relative background-main h-100">
                             <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
                                 Contact Info</h4>
 
@@ -614,10 +637,12 @@
     <div class="dsn-paginate-right-page"></div>
 
     <!-- Optional JavaScript -->
-    <script src=<?php echo site_url("assets/js/jquery-3.1.1.min.js") ?>></script>
-    <script src=<?php echo site_url("assets/js/plugins.min.js") ?>></script>
-    <script src=<?php echo site_url("assets/js/dsn-grid.min.js") ?>></script>
-    <script src=<?php echo site_url("assets/js/custom.js") ?>></script>
+    <script src=<?php echo site_url(
+                    'assets/js/jquery-3.1.1.min.js'
+                ); ?>></script>
+    <script src=<?php echo site_url('assets/js/plugins.min.js'); ?>></script>
+    <script src=<?php echo site_url('assets/js/dsn-grid.min.js'); ?>></script>
+    <script src=<?php echo site_url('assets/js/custom.js'); ?>></script>
 
 </body>
 
