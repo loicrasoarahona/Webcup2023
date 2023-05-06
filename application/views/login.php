@@ -377,13 +377,13 @@
 
         <!-- ========== side box left ========== -->
         <!-- ========== Contact Form Model ========== -->
-        <div class="contact-btn">
-            <div class="contact-btn-txt">Page de connexion</div>
+        <div class="login-btn">
+            <div class="login-btn-txt">Page de connexion</div>
         </div>
         <div class="contact-modal background-section">
             <div class="dsn-container contact-inner section-margin">
                 <div class="section-title">
-                    <span class="tag-heading background-section color-heading">Orinix</span>
+                    <span class="tag-heading background-section color-heading">Onirix</span>
                     <h2 class="heading-h2">Vous devez vous connecter</h2>
                 </div>
 
@@ -391,7 +391,7 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="form-box d-flex flex-column">
-                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">How
+                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
                                 Connexioin</h4>
                             <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
                                 <div class="messages"></div>
@@ -595,7 +595,7 @@
     <div class="scroll-to-top">
         <img src="assets/img/scroll_top.svg" alt="">
         <div class="box-number v-middle">
-            <span>0%</span>
+            <span>IA</span>
         </div>
     </div>
     <!-- ========== End Scroll Right Page To Top Page ========== -->
