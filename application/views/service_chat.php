@@ -30,7 +30,7 @@
                         <div class="form-group">
                             <div class="entry-box">
                                 <label>Description</label>
-                                <textarea id="form_message" class="form-control" name="question" placeholder="Description précise de votre rêve ..." required="required" data-error="Please,leave us a message."></textarea>
+                                <textarea id="form_message" class="form-control" name="question" placeholder="Description précise de votre rêve ..." required="required" data-error="S'il vous plaît, laissez-nous un message."></textarea>
                             </div>
                             <div class="help-block with-errors"></div>
                         </div>
