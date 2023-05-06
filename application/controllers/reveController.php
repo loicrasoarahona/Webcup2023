@@ -44,8 +44,20 @@ class reveController extends CI_Controller
         $tab[11] = $this->Reve->getOptionsByIdCat(6);
 
         $data['listeReve'] = $tab;
-
         $data['view'] = 'service_options';
+
         $this->load->view('template', $data);
+    }
+
+    public function makeSentenceByOption()
+    {
+        // $data['sentence']= $this->Reve->getFullSentence("voisin", "se balader","sur un bateau", "pas précis", "le soir", "peur");
+        $personne = $this->input->post('personne');
+        $activite = $this->input->post('activite');
+        $endroit = $this->input->post('endroit');
+        $temps = $this->input->post('temps');
+        $emotion = $this->input->post('emotion');
+        $reve = $this->input->post('reve');
+        return $this->Reve->getFullSentence($personne, $activite, $endroit, $temps, $emotion, $reve);
     }
 }

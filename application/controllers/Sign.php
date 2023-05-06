@@ -22,7 +22,7 @@ class Sign extends CI_Controller
             
             $this->session->set_userdata('iduser', $val['id']);
 
-            $this->load->view('acceuil', $data);
+            redirect(base_url());
         }
     }
 
@@ -47,6 +47,7 @@ class Sign extends CI_Controller
                     throw new Exception('email déja existé');
                 } else {
                     $this->session->set_userdata('iduser', $val['id']);
+                    redirect(base_url());
                 }
             }
         }catch (Exception $e) {

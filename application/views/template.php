@@ -17,8 +17,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     </noscript>
 
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href=<?php echo site_url("assets/img/favicon.ico") ?> type="image/x-icon" />
+    <link rel="icon" href=<?php echo site_url("assets/img/favicon.ico") ?> type="image/x-icon" />
 
     <!-- custom styles (optional) -->
     <link href=<?php echo site_url("assets/css/plugins.css") ?> rel="stylesheet" />
@@ -50,8 +50,8 @@
             <div class="inner-header p-relative">
                 <div class="main-logo">
                     <a href="index.html" data-dsn="parallax">
-                        <img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/logo.png" alt="" />
-                        <img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/logo-dark.png" alt="" />
+                        <img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/logo.png") ?> alt="" />
+                        <img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/logo-dark.png") ?> alt="" />
                     </a>
                 </div>
             </div>
@@ -82,7 +82,7 @@
 
                         <ul>
                             <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
                                 <span class="dsn-title-menu">Demos</span>
                             </li>
                             <li>
@@ -128,7 +128,7 @@
 
                         <ul>
                             <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
                                 <span class="dsn-title-menu">Sliders</span>
                             </li>
 
@@ -188,7 +188,7 @@
 
                         <ul>
                             <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
                                 <span class="dsn-title-menu">Sliders</span>
                             </li>
 
@@ -258,7 +258,7 @@
 
                         <ul>
                             <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
                                 <span class="dsn-title-menu">Portfolio</span>
                             </li>
 
@@ -396,7 +396,7 @@
         <!-- ========== End side box left ========== -->
 
         <div class="p-fixed before-z-index h-100 left-bar" data-overlay="7" data-dsn-ajax="img">
-            <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/about.jpg" alt="">
+            <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/about.jpg") ?> alt="">
         </div>
 
         <div id="dsn-scrollbar">
@@ -413,8 +413,8 @@
                             <div class="d-grid grid-sm-2">
                                 <div class="footer-item">
                                     <a href="" class="logo-footer m-auto">
-                                        <img src="assets/img/logo.png" alt="" class="logo-dark cover-bg-img">
-                                        <img src="assets/img/logo-dark.png" alt="" class="logo-light cover-bg-img">
+                                        <img src=<?php echo site_url("assets/img/logo.png") ?> alt="" class="logo-dark cover-bg-img">
+                                        <img src=<?php echo site_url("assets/img/logo-dark.png") ?> alt="" class="logo-light cover-bg-img">
                                     </a>
                                 </div>
                                 <div class="footer-item text-right">
@@ -613,7 +613,7 @@
 
     <!-- ========== Scroll Right Page To Top Page ========== -->
     <div class="scroll-to-top">
-        <img src="assets/img/scroll_top.svg" alt="">
+        <img src=<?php echo site_url("assets/img/scroll_top.svg") ?> alt="">
         <div class="box-number v-middle">
             <span>0%</span>
         </div>

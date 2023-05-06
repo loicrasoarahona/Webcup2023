@@ -63,6 +63,7 @@ insert into souscategorie values (null,'boire','2',null);
 insert into souscategorie values (null,'fumer','2',null);
 insert into souscategorie values (null,'regarder un film','2',null);
 insert into souscategorie values (null,'chill','2',null);
+insert into souscategorie values (null,'rien','2',null);
 
 
 -- endroit
@@ -73,12 +74,14 @@ insert into souscategorie values (null,'dans un restaurant','3',null);
 insert into souscategorie values (null,'dans une foret','3',null);
 insert into souscategorie values (null,'sur un bateau','3',null);
 insert into souscategorie values (null,'à la salle de cinéma','3',null);
+insert into souscategorie values (null,'pas précis','3',null);
 
 
 -- temps
 insert into souscategorie values (null,'dans la journée','4',null);
 insert into souscategorie values (null,'le soir','4',null);
 insert into souscategorie values (null,'la nuit','4',null);
+insert into souscategorie values (null,'pas précis','4',null);
 
 -- emotion
 insert into souscategorie values (null,'content','5',null);
@@ -89,6 +92,7 @@ insert into souscategorie values (null,'surpris','5',null);
 insert into souscategorie values (null,'amoureux','5',null);
 insert into souscategorie values (null,'excite','5',null);
 insert into souscategorie values (null,'decu','5',null);
+insert into souscategorie values (null,'pas précis','5',null);
 
 -- reve
 insert into souscategorie values (null,'lucide','6',null);
@@ -99,6 +103,9 @@ insert into souscategorie values (null,'récurrent','6',null);
 insert into souscategorie values (null,'normal','6',null);
 
 
-ALTER TABLE historique MODIFY COLUMN `options` varchar(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL NULL;
+ALTER TABLE historique MODIFY COLUMN question TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL NULL;
+ALTER TABLE historique MODIFY COLUMN reponse TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL NULL;
+ALTER TABLE historique MODIFY COLUMN `options` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL NULL;
+
 ALTER TABLE historique ADD is_specifique INT NULL;
 

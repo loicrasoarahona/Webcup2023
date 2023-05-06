@@ -13,17 +13,18 @@ class Chat extends CI_Controller {
 
     }
     public function index() {
-        $isnot_option = $this->input->get('isquestion');
+        $isnot_option = $this->input->post('isquestion');
+       
         //creation question que ça soit simple, soit question cauchemar
-        $question = $this->API->gestion_question($this->input->get('question'));
-
+       
+        $question = $this->API->gestion_question($this->input->post('question'));
         $question_cauchemar = $this->API->gestion_question_cauchemar($this->input->get('question'));
         
         $iduser = $this->session->userdata("iduser");
 
         $response = $this->API->traitement_response($question);
         
-        //var_dump($response);
+        var_dump($response);
 
         $response_cauchemar = $this->API->traitement_response($question_cauchemar);
 
@@ -34,19 +35,21 @@ class Chat extends CI_Controller {
             $this->save_history($iduser, $response, $question, 0, $isnot_option);
 
         }else{
-            var_dump("indroo");
             $this->save_history($iduser, $response, $question, 1, $isnot_option);
             $response = $this->generate_response_specifique($iduser);
         }
           
         $data['response'] = $response;
+       
         // var_dump($response);
-        $this->load->view('home.php', $data);
+        //$this->load->view('home.php', $data);
+        $data['view'] = 'service_reponse';
+        $this->load->view('template', $data);
     }
 
     function save_history($iduser, $response, $question ,$is_specifique, $isnot_option){
 
-        if($isnot_option != null ){
+        if($isnot_option != 0 ){
 
             $this->Historique->saveHistoryQuestion($iduser, $response, $question, $is_specifique); 
 
