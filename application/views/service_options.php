@@ -127,6 +127,7 @@
 
     $('.logo-box').on('click', function() {
         reponses.push(sousCategories[indice - 1][$(this).attr('irep')]);
+        console.log(reponses);
     });
 
 
@@ -137,7 +138,10 @@
                 if (indice < questionnaires.length - 1)
                     $(questionnaires[indice++]).fadeToggle();
                 else
-
+                    redirectWithPost("<?php echo site_url('Chat/') ?>", {
+                        isquestion: 0,
+                        reponses: JSON.stringify(reponses)
+                    });
             });
 
         }, 600);
