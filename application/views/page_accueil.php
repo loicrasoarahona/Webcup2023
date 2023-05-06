@@ -77,8 +77,6 @@
                             <span class="dsn-meta-menu">01</span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
-
-
                         <ul>
                             <li class="dsn-back-menu">
                                 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
@@ -402,7 +400,6 @@
             </div>
         </div>
 
-
         <div id="dsn-scrollbar">
             <div class=" inner-content">
                 <!-- ========== Header ========== -->
@@ -411,7 +408,7 @@
                     <div class="box-content dsn-container align-items-center ">
                         <div class="hero-content dsn-hero-parallax-title">
                             <h1 class="title has-box-mod">
-                            IA <br> Onirix
+                                IA <br> Onirix
                                 <span class="p-absolute w-100 h-70 bottom-0 bg-mod-exclusion left-0 " data-dsn="parallax"></span>
                             </h1>
                             <div class="description border-before mt-30 mb-30">
@@ -435,7 +432,7 @@
                 <!-- ========== End Header ========== -->
                 <div class="wrapper background-main pt-section">
 
-                    <!-- ========== About Me Section ========== -->
+                    <!-- ========== Template ========== -->
                     <section class="about-me mb-section pt-section" data-dsn-title="About Me" data-dsn-animate="section">
                         <div class="dsn-container ">
                             <div class="d-grid grid-lg-2 background-section padding-block">
@@ -513,9 +510,6 @@
                             </div>
                         </div>
                     </section>
-                    <!-- ========== End About Me Section ========== -->
-
-                    <!-- ========== Service Section ========== -->
                     <section class="services dsn-container p-relative section-margin" data-dsn-title="My Services">
                         <div class="section-title">
                             <span class="tag-heading p-10 mb-15 background-section heading-color">Services i
@@ -614,9 +608,6 @@
                             </div>
                         </div>
                     </section>
-                    <!-- ========== End Service Section ========== -->
-
-                    <!-- ========== experience Section ========== -->
                     <section class="experience dsn-container p-relative section-margin" data-dsn-title="experience">
                         <div class="section-title">
                             <span class="tag-heading p-10 mb-15 background-section heading-color">Experience</span>
@@ -661,9 +652,6 @@
                             </div>
                         </div>
                     </section>
-                    <!-- ========== End experience Section ========== -->
-
-                    <!-- ========== Work Section ========== -->
                     <section class="our-work dsn-container dsn-filter p-relative section-margin" data-dsn-title="My Work">
                         <div class="section-title">
                             <span class="tag-heading p-10 mb-15 background-section heading-color">Portfolio</span>
@@ -785,9 +773,9 @@
                             </div>
                         </div>
                     </section>
-                    <!-- ========== End Work Section ========== -->
 
-                    <!-- ========== Work Section ========== -->
+                    <!-- ========== End Template ========== -->
+
                     <div class="single-contact dsn-container p-relative section-margin" data-dsn-title="Contact Me">
                         <div class="section-title">
                             <span class="tag-heading p-10 mb-15 background-section heading-color">Get in Touch</span>
@@ -867,9 +855,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- ========== End Work Section ========== -->
-
-                    <!-- ========== Footer ========== -->
                     <footer class="footer border-top background-section">
                         <div class="dsn-container">
                             <div class="d-grid grid-sm-2">
@@ -879,57 +864,37 @@
                                         <img src="assets/img/logo-dark.png" alt="" class="logo-light cover-bg-img">
                                     </a>
                                 </div>
-
                                 <div class="footer-item text-right">
-                                    <h5 class="sm-title-block mb-10">Follow Us</h5>
+                                    <h5 class="sm-title-block mb-10">Suivez-nous</h5>
                                     <ul class="box-social">
-                                        <li data-dsn="parallax">
-                                            <a href="#">FB</a>
-                                        </li>
-                                        <li data-dsn="parallax">
-                                            <a href="#">TW</a>
-                                        </li>
-                                        <li data-dsn="parallax">
-                                            <a href="#">LN</a>
-                                        </li>
-                                        <li data-dsn="parallax">
-                                            <a href="#">LN</a>
-                                        </li>
+                                        <li data-dsn="parallax"><a href="#">Fb</a></li>
+                                        <li data-dsn="parallax"> <a href="#">TW</a></li>
+                                        <li data-dsn="parallax"><a href="#">INST</a></li>
+                                        <li data-dsn="parallax"><a href="#">LI</a></li>
                                     </ul>
                                 </div>
-
                             </div>
-
                             <div class="footer-bottom d-grid grid-md-2 border-top pt-30 mt-30">
                                 <div class="footer-item order-md-2">
                                     <div class="nav-footer text-right">
                                         <ul>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Home</a>
-                                            </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Portfolio</a>
-                                            </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">About</a>
-                                            </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">News</a>
-                                            </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Contact</a>
-                                            </li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Accueil</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Services</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">A Propos</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="footer-item">
                                     <div class="copyright">
-                                        <div class="copright-text over-hidden">© 2021 Digital Agency Designed by <a class="link-hover" data-hover-text="DSN Grid" href="#" target="_blank">DSN
-                                                Grid</a>
+                                        <div class="copright-text over-hidden">© 2023 WebCup by  <a class="link-hover" data-hover-text="Smart IT" href="#" target="_blank">Smart IT</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </footer>
-                    <!-- ========== End Footer ========== -->
-
                 </div>
             </div>
 
@@ -941,46 +906,46 @@
         <div class="contact-modal background-section">
             <div class="dsn-container contact-inner section-margin">
                 <div class="section-title">
-                    <span class="tag-heading background-section color-heading">Get in touch</span>
-                    <h2 class="heading-h2">How can we help you?</h2>
+                    <span class="tag-heading background-section color-heading">Onirix</span>
+                    <h2 class="heading-h2">Comment je peux vous aider ? </h2>
                 </div>
 
 
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="form-box d-flex flex-column">
-                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">How
-                                Can I Help You?</h4>
+                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
+                                De l'aide ?</h4>
                             <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
                                     <div class="form-group">
                                         <div class="entry-box">
-                                            <label>Your name *</label>
-                                            <input id="form_name" type="text" name="name" placeholder="Type your name" required="required" data-error="name is required.">
+                                            <label>Votre nom *</label>
+                                            <input id="form_name" type="text" name="name" placeholder="Tapez votre nom" required="required" data-error="Le nom est requis.">
                                         </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group">
                                         <div class="entry-box">
-                                            <label>Your E-Mail *</label>
-                                            <input id="form_email" type="email" name="email" placeholder="Type your Email Address" required="required" data-error="Valid email is required.">
+                                            <label>Votre email*</label>
+                                            <input id="form_email" type="email" name="email" placeholder="Tapez  votre adresse email" required="required" data-error="L'email est requis">
                                         </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group">
                                         <div class="entry-box">
-                                            <label>What's up?</label>
-                                            <textarea id="form_message" class="form-control" name="message" placeholder="Tell us about you and the world" required="required" data-error="Please,leave us a message."></textarea>
+                                            <label>Des recommandations ? </label>
+                                            <textarea id="form_message" class="form-control" name="message" placeholder="Decrivez nous ce que vous voulez nous transmettre" required="required" data-error="Please,leave us a message."></textarea>
                                         </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="text-right">
                                         <div class="image-zoom w-auto d-inline-block move-circle" data-dsn="parallax">
-                                            <input type="submit" value="Send Message" class="v-light">
+                                            <input type="submit" value="Nous contacter" class="v-light">
                                         </div>
                                     </div>
                                 </div>
@@ -995,18 +960,18 @@
 
                             <div class="content-bottom">
                                 <div class="item">
-                                    <h5 class="sm-title-block mb-15">Address</h5>
-                                    <p>88 Whitby Road<br> IP20 6JA<br> London, UK</p>
+                                    <h5 class="sm-title-block mb-15">Adresse</h5>
+                                    <p>88 Bis C <br> Anosizato<br> Tananarive, Madagascar</p>
                                 </div>
 
                                 <div class="item">
                                     <h5 class="sm-title-block mb-15">Email</h5>
-                                    <a href="mailto:info@dsngrid.com">info@dsngrid.com</a>
+                                    <a href="mailto:info@dsngrid.com">orinix-smartit@gmail.com</a>
                                 </div>
 
                                 <div class="item">
-                                    <h5 class="sm-title-block mb-15">Phone</h5>
-                                    <a href="tel:http://+012345678">+44 7356 6487</a>
+                                    <h5 class="sm-title-block mb-15">Téléphone</h5>
+                                    <a href="tel:http://+012345678">+261 34 59 48 55</a>
                                 </div>
                             </div>
                         </div>
@@ -1018,7 +983,7 @@
 
         <!-- ========== Contact Stories ========== -->
         <div class="stories-btn">
-            <div class="stories-btn-txt">Our Stories</div>
+            <div class="stories-btn-txt">Nous</div>
         </div>
         <div class="dsn-stories dsn-stories-model">
             <div class="close-story"></div>
@@ -1103,10 +1068,10 @@
 
         <div class="cursor-helper">
             <span class="cursor-drag">Drag</span>
-            <span class="cursor-view">View</span>
+            <span class="cursor-view">Voir</span>
             <span class="cursor-open"><i class="fas fa-plus"></i></span>
-            <span class="cursor-close">Close</span>
-            <span class="cursor-play">play</span>
+            <span class="cursor-close">Fermer</span>
+            <span class="cursor-play">Play</span>
             <span class="cursor-next"><i class="fas fa-chevron-right"></i></span>
             <span class="cursor-prev"><i class="fas fa-chevron-left"></i></span>
         </div>
