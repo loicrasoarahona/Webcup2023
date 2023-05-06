@@ -1,14 +1,13 @@
 <header class="header-pages mb-section header-padding-top dsn-container background-main">
     <div class="box-title ">
         <h1 class="title">
-            <span class="letter-stroke">Branded </span> <br>
-            <span class="line-bg-left pl-80">Digital Experiences</span>
+            <span class="letter-stroke">Différentes </span> <br>
+            <span class="line-bg-left pl-80">Choix d'orinisme</span>
         </h1>
         <div class="mt-30 d-flex w-100 justify-content-end">
             <p class="border-left pl-20 max-w570">
-                Inhabiting discretion the her dispatched decisively boisterous joy. So
-                form were wish open is able of mile of. Waiting express if prevent it we
-                an musical. Especially reasonable travelling she son.</p>
+                Vous avez plusieurs choix pour nous decrire votre rêve , que vous nous le racontez directement ,
+                 choissisez des questions à choix , ou bien les illustrer par des images , nous sommes là pour vous prédire votre avenir.</p>
         </div>
     </div>
 </header>
@@ -19,7 +18,7 @@
             <div class="swiper-slide">
                 <div class="box-item-inner p-relative h-v-70 d-flex justify-content-center align-items-center pl-20 pr-20" data-swiper-parallax-scale="0.85">
                     <div class="w-100 h-100 p-absolute top-0" data-overlay="5">
-                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/about/3.jpg" alt="">
+                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/services/par-texte.jpeg" alt="">
                     </div>
                     <h3 class="heading-h2 letter-stroke" data-swiper-parallax-opacity="0">Transcription</h3>
                 </div>
@@ -27,7 +26,7 @@
             <div class="swiper-slide">
                 <div class="box-item-inner p-relative h-v-70 d-flex justify-content-center align-items-center pl-20 pr-20" data-swiper-parallax-scale="0.85">
                     <div class="w-100 h-100 p-absolute top-0" data-overlay="5">
-                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/about/1.jpg" alt="">
+                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/services/par-qcm.jpeg" alt="">
                     </div>
                     <h3 class="heading-h2 letter-stroke" data-swiper-parallax-opacity="0">Choix d'options</h3>
                 </div>
@@ -35,17 +34,9 @@
             <div class="swiper-slide">
                 <div class="box-item-inner p-relative h-v-70 d-flex justify-content-center align-items-center pl-20 pr-20" data-swiper-parallax-scale="0.85">
                     <div class="w-100 h-100 p-absolute top-0" data-overlay="5">
-                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/about/2.jpg" alt="">
+                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/services/par-image.jpeg" alt="">
                     </div>
                     <h3 class="heading-h2 letter-stroke" data-swiper-parallax-opacity="0">Image</h3>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="box-item-inner p-relative h-v-70 d-flex justify-content-center align-items-center pl-20 pr-20" data-swiper-parallax-scale="0.85">
-                    <div class="w-100 h-100 p-absolute top-0" data-overlay="5">
-                        <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/about/4.jpg" alt="">
-                    </div>
-                    <h3 class="heading-h2 letter-stroke" data-swiper-parallax-opacity="0">Improve</h3>
                 </div>
             </div>
         </div>
@@ -69,8 +60,8 @@
                 </div>
                 <div class="content-box">
                     <h4 class="title-block mt-20">Transcription de vos rêves</h4>
-                    <p class="description mt-20">We develop the relationships that underpin the next
-                        phase in your organisation’s growth. We do this by discerning the people.
+                    <p class="description mt-20">Racontez nous vos rêves les plus en détails possible afin que nous puissions mieux les comprendre 
+                        pour pouvoir prédire votre avenir
                     </p>
                 </div>
             </div>
@@ -82,8 +73,7 @@
                 </div>
                 <div class="content-box">
                     <h4 class="title-block mt-20">Par Options</h4>
-                    <p class="description mt-20">We develop the relationships that underpin the next
-                        phase in your organisation’s growth. We do this by discerning the people.
+                    <p class="description mt-20">Un large de choix de questions pour vous pour que nous puissions en savoir plus
                     </p>
                 </div>
             </div>
@@ -95,8 +85,7 @@
                 </div>
                 <div class="content-box">
                     <h4 class="title-block mt-20">Par images</h4>
-                    <p class="description mt-20">We develop the relationships that underpin the next
-                        phase in your organisation’s growth. We do this by discerning the people.
+                    <p class="description mt-20">Une Interpretation différentes pour illuster le fonds de vos rêves .
                     </p>
                 </div>
             </div>
