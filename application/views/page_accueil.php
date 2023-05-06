@@ -380,14 +380,14 @@
             <div class="side-box-left z-index-1">
                 <div class="side-menu border-left border-right p-relative h-100 d-flex justify-content-center">
                     <div class="page-active">
-                        <h2 class="text-uppercase">Personal</h2>
+                        <h2 class="text-uppercase">Home</h2>
                     </div>
                 </div>
             </div>
             <div class="side-box-right text-stroke border-right text-uppercase z-index-2">
                 <div class="text-inner over-hidden">
                     <div class="text-stroke-box">
-                        <div class="text-stroke-inner">Alan Michaelis</div>
+                        <div class="text-stroke-inner">Racontez-nous votre rêve </div>
                     </div>
                 </div>
             </div>
@@ -433,20 +433,70 @@
                 <div class="wrapper background-main pt-section">
 
                     <!-- ========== Template ========== -->
+                    <section class="about p-relative dsn-container section-margin" data-dsn-title="About Us">
+                        <div class="section-title">
+                            <span class="tag-heading p-10 mb-15 background-section heading-color">A Propos de l'institut</span>
+                            <h2 class="heading-h2">Nous combinons recherche, <br> psychologie et numérique</h2>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="p-relative text">
+                                    <h2 class="title-block ">Nous sommes une organisation de recherhce <br> dans l'expertise de l'étude des rêves</h2>
+
+                                    <p class="mt-30">L'Institut International des Rêves est une organisation de recherche spécialisée dans l'étude des rêves.
+                                    les chercheurs de cet institut ont développé une intelligence artificielle avancée appelée Orinix, qui est capable d'analyser et de décoder les rêves des utilisateurs pour prédire leur avenir. Cette technologie révolutionnaire permettrait de prédire des situations telles qu'une rencontre amoureuse,
+                                     des problèmes avec des collègues de travail,ou même des difficultés scolaires.
+                                    </p>
+
+                                    <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod
+                                        tempor
+                                        incididunt ut labore et dolore magna ut enim ad minim veniam nostrud
+                                        exercitation ullamco</p>
+
+                                    <ul class="mt-30 lest-icon">
+                                        <li>Spécialisé dans l'étude des rêves</li>
+                                        <li>Psychologue et chercheurs</li>
+                                        <li>Développement du futur</li>
+                                        <li>Changement majeur de la perception des rêves</li>
+                                    </ul>
+
+                                    <a href="#" class="link-custom v-light image-zoom mt-30" data-dsn="parallax">
+                                        A Propos de nous
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5  ">
+                                <div class="box-experience  d-flex justify-content-center flex-column h-100">
+                                    <div class="numb-ex fw-bold cover-bg" data-dsn-bg="assets/img/about.gif">
+                                        25
+                                    </div>
+                                    <h3 class="mt-30">
+                                        <span class="letter-stroke">ans d'</span>
+                                        <br>
+                                        <span class="v-light heading-color p-5">
+                                            EXPERIENCES DIGITAL
+                                        </span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     <section class="about-me mb-section pt-section" data-dsn-title="About Me" data-dsn-animate="section">
                         <div class="dsn-container ">
                             <div class="d-grid grid-lg-2 background-section padding-block">
                                 <div class="box-img">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/personal.jpg" alt="">
+                                    <img height="200px !important" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/orinix-2.jpeg" alt="">
                                     <div class="box-infos pl-30">
                                         <div class="info d-flex flex-column align-items-end mt-30">
-                                            <h4 class="sm-title-block mb-10">Ahmed Shawky</h4>
-                                            <h5 class="font-caps body-color">Web Designer</h5>
+                                            <h4 class="sm-title-block mb-10">Orinix</h4>
+                                            <h5 class="font-caps body-color">IA de l'orinisme</h5>
                                         </div>
                                         <div class="mt-30 ">
                                             <div class="box-skills-inner d-grid-no-space d-grid grid-md-2 grid-row-gap-30">
                                                 <div class="skills-item">
-                                                    <h4 class="font-caps mb-10">Web Design</h4>
+                                                    <h4 class="font-caps mb-10">Précision</h4>
                                                     <div class="bar">
                                                         <span class="fill box-shadow" data-width="96%">
                                                             <span class="number">0%</span>
@@ -456,7 +506,7 @@
                                                 </div>
 
                                                 <div class="skills-item">
-                                                    <h4 class="font-caps mb-10">JavaScript</h4>
+                                                    <h4 class="font-caps mb-10">Clarification</h4>
                                                     <div class="bar">
                                                         <span class="fill box-shadow" data-width="94%">
                                                             <span class="number">0%</span>
@@ -466,9 +516,9 @@
                                                 </div>
 
                                                 <div class="skills-item">
-                                                    <h4 class="font-caps mb-10">PHP</h4>
+                                                    <h4 class="font-caps mb-10">Compréhenstion</h4>
                                                     <div class="bar">
-                                                        <span class="fill box-shadow" data-width="87%">
+                                                        <span class="fill box-shadow" data-width="96%">
                                                             <span class="number">0%</span>
                                                         </span>
                                                     </div>
@@ -476,7 +526,7 @@
                                                 </div>
 
                                                 <div class="skills-item">
-                                                    <h4 class="font-caps mb-10">PHP</h4>
+                                                    <h4 class="font-caps mb-10">Prédiction</h4>
                                                     <div class="bar">
                                                         <span class="fill box-shadow" data-width="87%">
                                                             <span class="number">0%</span>
@@ -491,56 +541,56 @@
                                 </div>
                                 <div class="box-info pl-30 pr-30">
                                     <div class="section-title">
-                                        <span class="tag-heading p-10 mb-15 background-main heading-color">About
-                                            Me</span>
-                                        <h2 class="title-block">Main Informations About Me <br> And What I Love To Do.
+                                        <span class="tag-heading p-10 mb-15 background-main heading-color">A Propos
+                                            de Orinix</span>
+                                        <h2 class="title-block">Avec Orinix ,  <br> les rêves deviendront-ils la clé de notre destinée ? 
                                         </h2>
                                     </div>
 
-                                    <h4 class="sm-title-block mb-20">Creative Web & App Developer</h4>
+                                    <h4 class="sm-title-block mb-20">Une intelligence articielle révolutionnaire</h4>
 
-                                    <p class="mb-10">My name is Bernard Sydney. I am a Web Developer, and I'm very
-                                        passionate and dedicated to my work.</p>
-                                    <p>With 20 years experience as a professional Web developer, I have acquired the
-                                        skills and knowledge necessary to make your project a success. I enjoy every
-                                        step of the design process, from discussion and collaboration.</p>
+                                    <p class="mb-10">Orinix est une intelligence artificielle avancée développée par les chercheurs de l'Institut International des Rêves. Elle utilise une technologie de pointe 
+                                        pour analyser et décoder les rêves des utilisateurs et leur donner des indications sur leur avenir.</p>
 
-                                    <a href="#" class="link-custom v-light background-main image-zoom move-circle mt-30" data-dsn="parallax">Download CV</a>
+                                    <p>En analysant les images, les symboles et les thèmes récurrents présents dans les rêves,
+                                         Orinix peut prédire des situations futures telles qu'une rencontre amoureuse ou des difficultés scolaires.
+                                          Elle peut également détecter des signaux plus graves tels que des maladies potentielles ou des problèmes
+                                           avec des collègues de travail. La technologie Orinix est considérée comme révolutionnaire
+                                            dans le domaine de l'analyse des rêves et est une avancée majeure pour aider les gens à mieux
+                                             comprendre leur vie future.</p>
+
+                                    <a href="#" class="link-custom v-light background-main image-zoom move-circle mt-30" data-dsn="parallax">En savoir plus</a>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section class="services dsn-container p-relative section-margin" data-dsn-title="My Services">
                         <div class="section-title">
-                            <span class="tag-heading p-10 mb-15 background-section heading-color">Services i
-                                offer</span>
-                            <h2 class="heading-h2">My Services</h2>
+                            <span class="tag-heading p-10 mb-15 background-section heading-color">Services |
+                                offres</span>
+                            <h2 class="heading-h2">Nos Services</h2>
                         </div>
                         <div class="d-grid grid-md-2 grid-lg-3 dsn-isotope" data-dsn-item=".service-item">
                             <div class="service-item my-service border">
                                 <div class="service-item-inner style-box">
                                     <div class="icon">
-                                        <img src="assets/img/services/developing.svg" alt="">
+                                    <img src="assets/img/services/mobile.svg" alt="">
                                     </div>
                                     <div class="content-box">
                                         <h4 class="title-block pr-10 border-section-bottom mt-20">
-                                            Developing strategy</h4>
+                                            Transcription de vos rêves</h4>
                                         <ul class="p-relative mt-20">
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                UI/UX Vision
+                                                Vision détaillé
                                             </li>
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                Concept development
+                                                Explication précise
                                             </li>
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                Content strategy
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Digital Marketing
+                                                Prédiction claire
                                             </li>
                                         </ul>
                                     </div>
@@ -550,27 +600,23 @@
                             <div class="service-item my-service border">
                                 <div class="service-item-inner style-box">
                                     <div class="icon">
-                                        <img src="assets/img/services/mobile.svg" alt="">
+                                    <img src="assets/img/services/development.svg" alt="">
                                     </div>
                                     <div class="content-box">
-                                        <h4 class="title-block pr-10 border-section-bottom mt-20">Mobile
-                                            App</h4>
+                                        <h4 class="title-block pr-10 border-section-bottom mt-20">
+                                            Interpretation de vos rêves</h4>
                                         <ul class="p-relative mt-20">
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                UI/UX Vision
+                                                Laissez-nous en savoir un peu plus sur votre rêve
                                             </li>
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                Concept development
+                                                Questions à choix multiples
                                             </li>
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                Content strategy
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Digital Marketing
+                                                Réponse rapide
                                             </li>
                                         </ul>
                                     </div>
@@ -580,164 +626,117 @@
                             <div class="service-item my-service border">
                                 <div class="service-item-inner style-box">
                                     <div class="icon">
-                                        <img src="assets/img/services/business.svg" alt="">
+                                    <img src="assets/img/services/creative.svg" alt="">
                                     </div>
                                     <div class="content-box">
                                         <h4 class="title-block pr-10 border-section-bottom mt-20">
-                                            Business Planning</h4>
+                                        Questionnaire visuel</h4>
                                         <ul class="p-relative mt-20">
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                UI/UX Vision
+                                                Vision différentes par images 
                                             </li>
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                Concept development
+                                                Visuel pour mieux illustrer
                                             </li>
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                Content strategy
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                                <i class="fas fa-long-arrow-alt-right"></i>
-                                                Digital Marketing
+                                                Autres Interpretation
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="experience dsn-container p-relative section-margin" data-dsn-title="experience">
-                        <div class="section-title">
-                            <span class="tag-heading p-10 mb-15 background-section heading-color">Experience</span>
-                            <h2 class="heading-h2">Check out my Resume</h2>
-                        </div>
-
-                        <div class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
-                            <div class="box">
-                                <h5 class="font-caps body-color background-main p-5 d-inline-block">2015 - 2017</h5>
-                                <img class="d-block mt-15" src="assets/img/cssdesignawards.png" alt="">
-                            </div>
-
-                            <div class="box p-20 background-main">
-                                <h5 class="sm-title-block mb-15 pb-15 border-section-bottom">Rolling Thunder</h5>
-                                <p class="max-w750">Praesent dignissim sollicitudin justo, sed elementum quam lacinia
-                                    quis.</p>
-                            </div>
-                        </div>
-                        <div class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
-                            <div class="box">
-                                <h5 class="font-caps body-color background-main p-5 d-inline-block">2017 - 2019</h5>
-                                <img class="d-block mt-15" src="assets/img/awwwards.png" alt="">
-                            </div>
-
-                            <div class="box p-20 background-main">
-                                <h5 class="sm-title-block mb-15 pb-15 border-section-bottom">Senior UX / UI Designer
-                                </h5>
-                                <p class="max-w750">Praesent dignissim sollicitudin justo, sed elementum quam lacinia
-                                    quis.</p>
-                            </div>
-                        </div>
-                        <div class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
-                            <div class="box">
-                                <h5 class="font-caps body-color background-main p-5 d-inline-block">2019 - 2020</h5>
-                                <img class="d-block mt-15 " src="assets/img/cssdesignawards.png" alt="">
-                            </div>
-
-                            <div class="box p-20 background-main">
-                                <h5 class="sm-title-block mb-15 pb-15 border-section-bottom">Rolling Thunder</h5>
-                                <p class="max-w750">Praesent dignissim sollicitudin justo, sed elementum quam lacinia
-                                    quis.</p>
                             </div>
                         </div>
                     </section>
                     <section class="our-work dsn-container dsn-filter p-relative section-margin" data-dsn-title="My Work">
                         <div class="section-title">
                             <span class="tag-heading p-10 mb-15 background-section heading-color">Portfolio</span>
-                            <h2 class="heading-h2">Showcasing some of my best work</h2>
+                            <h2 class="heading-h2">Equipe</h2>
                         </div>
-
                         <div class="projects-list gallery work-gallery dsn-swiper" data-dsn-option='{"slidesPerView":3,"spaceBetween":30}'>
                             <div class="swiper-container">
                                 <div class="swiper-wrapper ">
                                     <div class="swiper-slide background-main">
                                         <div class="work-item p-relative overflow-hidden">
-                                            <a class="w-100 p-relative effect-ajax" href="project-1.html" data-dsn-ajax="work">
+                                            <a class="w-100 p-relative effect-ajax" href="#" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img " data-dsn-position="10% 10%" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project1/1.jpg" alt="">
+                                                    <img class="cover-bg-img " data-dsn-position="10% 10%" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/person/Loic.jpg" alt="">
                                                 </div>
 
                                                 <div class="box-content w-100 mt-20">
                                                     <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
-                                                        Exclusive <br> hand watches
+                                                        RASOARAHONA <br> Loic
                                                     </h4>
                                                     <div class="metas">
-                                                        <span>Fashion</span>
-                                                        <span>Photography</span>
+                                                        <span>FrontEnd Developper</span>
+                                                        <span>FullStack Developer</span>
                                                     </div>
 
-                                                    <div class="view-project">View Project</div>
+                                                    <div class="view-project">Integrator</div>
                                                 </div>
                                             </a>
                                         </div>
                                     </div>
                                     <div class="swiper-slide background-main">
                                         <div class="work-item p-relative overflow-hidden">
-                                            <a class="w-100 p-relative effect-ajax" href="project-2.html" data-dsn-ajax="work">
+                                            <a class="w-100 p-relative effect-ajax" href="#" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project2/1.jpg" alt="">
+                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/person/Princia.jpg" alt="">
                                                 </div>
 
                                                 <div class="box-content w-100  mt-20">
                                                     <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
-                                                        BMW <br> 1er "ADAM"
+                                                        RAMAROSON <br> Sandy Princia
                                                     </h4>
                                                     <div class="metas">
-                                                        <span>Photography</span>
+                                                        <span>Backend-Developper</span>
+                                                        <span>FullStack Developer</span>
                                                     </div>
 
-                                                    <div class="view-project">View Project</div>
+                                                    <div class="view-project">FrontEnd Developper</div>
                                                 </div>
                                             </a>
                                         </div>
                                     </div>
                                     <div class="swiper-slide background-main">
                                         <div class="work-item p-relative overflow-hidden">
-                                            <a class="w-100 p-relative effect-ajax" href="project-3.html" data-dsn-ajax="work">
+                                            <a class="w-100 p-relative effect-ajax" href="#" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project3/1.jpg" alt="">
+                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/person/Mendrika.jpg" alt="">
                                                 </div>
 
                                                 <div class="box-content w-100 mt-20">
                                                     <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
-                                                        Wheel <br> house Hotel
+                                                        RANDRIAMAHALEO <br> Mendrika
                                                     </h4>
                                                     <div class="metas">
-                                                        <span>Architecture</span>
+                                                        <span>Backend-Developper</span>
                                                     </div>
 
-                                                    <div class="view-project">View Project</div>
+                                                    <div class="view-project">FullStack Developper</div>
                                                 </div>
                                             </a>
                                         </div>
                                     </div>
                                     <div class="swiper-slide background-main">
                                         <div class="work-item p-relative overflow-hidden ">
-                                            <a class="w-100 p-relative effect-ajax" href="project-4.html" data-dsn-ajax="work">
+                                            <a class="w-100 p-relative effect-ajax" href="#" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project4/1.jpg" alt="">
+                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/person/Sitraka.jpg" alt="">
                                                 </div>
 
                                                 <div class="box-content w-100  mt-20">
                                                     <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
-                                                        Super Blue <br>Tooth brush
+                                                        RANAIVOSAONA <br>Sitraka Rovaniaina
                                                     </h4>
                                                     <div class="metas">
-                                                        <span>Product</span>
+                                                        <span>Web Designer</span>
+                                                        <span>UX/UI Designer</span>
                                                     </div>
 
-                                                    <div class="view-project">View Project</div>
+                                                    <div class="view-project">Front-Developper</div>
                                                 </div>
                                             </a>
                                         </div>
@@ -773,87 +772,16 @@
                             </div>
                         </div>
                     </section>
-
-                    <!-- ========== End Template ========== -->
-
-                    <div class="single-contact dsn-container p-relative section-margin" data-dsn-title="Contact Me">
-                        <div class="section-title">
-                            <span class="tag-heading p-10 mb-15 background-section heading-color">Get in Touch</span>
-                            <h2 class="heading-h2">Let's grab a coffee and jump on conversation<br> chat with me.</h2>
-                        </div>
-
-                        <div class="d-grid grid-lg-2">
-                            <div class="box-info">
-                                <p class="mb-30 max-w570">It is a long established fact that a reader will be of a page
-                                    when
-                                    established fact looking at its layout.</p>
-                                <div class="info-item d-flex align-items-center">
-                                    <div class="icon mr-20">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                    </div>
-                                    <div class="info">
-                                        <a class="text-uppercase" href="#">United Kingdom <br> 33—35 Southernhay
-                                            East</a>
-                                    </div>
-                                </div>
-
-                                <div class="info-item d-flex align-items-center">
-                                    <div class="icon mr-20">
-                                        <i class="fas fa-mobile-alt"></i>
-                                    </div>
-                                    <div class="info">
-                                        <a class="text-uppercase" href="#">(+706) 898-0751</a>
-                                    </div>
-                                </div>
-
-                                <div class="info-item d-flex align-items-center">
-                                    <div class="icon mr-20">
-                                        <i class="fas fa-envelope"></i>
-                                    </div>
-                                    <div class="info">
-                                        <a class="text-uppercase" href="#">info@dsngrid.com</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="form-box d-flex align-items-center">
-
-                                <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
-                                    <div class="messages"></div>
-                                    <div class="input__wrap controls">
-                                        <div class="form-group">
-                                            <div class="entry-box d-flex align-items-center">
-                                                <label class="mr-20"><i class="fas fa-user heading-color"></i></label>
-                                                <input id="form_name" type="text" name="name" placeholder="your name" required="required" data-error="name is required.">
-                                            </div>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <div class="entry-box d-flex align-items-center">
-                                                <label class="mr-20"> <i class="fas fa-at heading-color"></i></label>
-                                                <input id="form_email" type="email" name="email" placeholder="your Email Address" required="required" data-error="Valid email is required.">
-                                            </div>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <div class="entry-box d-flex align-items-center">
-                                                <label class="mr-20"><i class="fas fa-envelope heading-color"></i></label>
-                                                <textarea id="form_message" class="form-control" name="message" placeholder="Tell us about you and the world" required="required" data-error="Please,leave us a message."></textarea>
-                                            </div>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-
-                                        <div class="text-right">
-                                            <div class="image-zoom v-light background-main w-auto d-inline-block move-circle" data-dsn="parallax">
-                                                <input type="submit" value="Send Message" class="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                    <div class="next-page dsn-container section-padding p-relative" data-dsn-title="Contact Us">
+                        <div class="full-bg background-section p-absolute h-100 before-z-index"></div>
+                        <span class="tag-heading background-main heading-color p-10">LET’S TALK</span>
+                        <h2 class="title max-w570">
+                            <span class="letter-stroke">ALLONS </span>
+                            <br> CONNAITRE VOTRE FUTUR 
+                        </h2>
+                        <a href="#" class="link-custom p-relative mt-30 v-light">
+                            Prédire mon avenir
+                        </a>
                     </div>
                     <footer class="footer border-top background-section">
                         <div class="dsn-container">
@@ -888,7 +816,7 @@
 
                                 <div class="footer-item">
                                     <div class="copyright">
-                                        <div class="copright-text over-hidden">© 2023 WebCup by  <a class="link-hover" data-hover-text="Smart IT" href="#" target="_blank">Smart IT</a>
+                                        <div class="copright-text over-hidden">© 2023 WebCup by <a class="link-hover" data-hover-text="Smart IT" href="#" target="_blank">Smart IT</a>
                                         </div>
                                     </div>
                                 </div>
@@ -945,7 +873,7 @@
 
                                     <div class="text-right">
                                         <div class="image-zoom w-auto d-inline-block move-circle" data-dsn="parallax">
-                                            <input type="submit" value="Nous contacter" class="v-light">
+                                            <input type="submit" value="Envoyer" class="v-light">
                                         </div>
                                     </div>
                                 </div>

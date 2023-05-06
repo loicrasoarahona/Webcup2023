@@ -24,6 +24,6 @@ class Welcome extends CI_Controller {
 
 		$data = array();
         $data['view'] = 'service_choix';
-        $this->load->view('template', $data);
+        $this->load->view('page_accueil', $data);
 	}
 }
