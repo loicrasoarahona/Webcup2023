@@ -6,20 +6,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="discrption" content="parallax one page" />
-    <meta name="keyword"
-        content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
+    <meta name="keyword" content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
 
     <!--  Title -->
     <title>Onirix Creative Ajax Portfolio HTML Template</title>
 
     <!-- Font Google -->
-    <link rel="preload"
-        href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap"
-            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     </noscript>
 
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
@@ -54,12 +49,8 @@
             <div class="inner-header p-relative">
                 <div class="main-logo">
                     <a href="index.html" data-dsn="parallax">
-                        <img class="light-logo"
-                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            data-dsn-src="assets/img/logo.png" alt="" />
-                        <img class="dark-logo"
-                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            data-dsn-src="assets/img/logo-dark.png" alt="" />
+                        <img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/logo.png" alt="" />
+                        <img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/logo-dark.png" alt="" />
                     </a>
                 </div>
             </div>
@@ -90,8 +81,7 @@
 
                         <ul>
                             <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-dsn-src="assets/img/left-chevron.svg" alt="">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
                                 <span class="dsn-title-menu">Demos</span>
                             </li>
                             <li>
@@ -137,8 +127,7 @@
 
                         <ul>
                             <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-dsn-src="assets/img/left-chevron.svg" alt="">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
                                 <span class="dsn-title-menu">Sliders</span>
                             </li>
 
@@ -198,8 +187,7 @@
 
                         <ul>
                             <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-dsn-src="assets/img/left-chevron.svg" alt="">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
                                 <span class="dsn-title-menu">Sliders</span>
                             </li>
 
@@ -269,8 +257,7 @@
 
                         <ul>
                             <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-dsn-src="assets/img/left-chevron.svg" alt="">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
                                 <span class="dsn-title-menu">Portfolio</span>
                             </li>
 
@@ -411,9 +398,7 @@
 
         <div class="p-fixed has-parallax-header has-parallax-header v-dark-head background-main">
             <div class="p-absolute z-index-0 before-z-index h-100 w-100 " data-overlay="3" data-dsn-ajax="img">
-                <img class="cover-bg-img"
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-dsn-src="assets/img/ia-predict.jpeg" alt="" data-dsn-position="50% 32%">
+                <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/ia-predict.jpeg" alt="" data-dsn-position="50% 32%">
             </div>
         </div>
 
@@ -426,23 +411,21 @@
                     <div class="box-content dsn-container align-items-center ">
                         <div class="hero-content dsn-hero-parallax-title">
                             <h1 class="title has-box-mod">
-                                Alan <br> Michaelis
-                                <span class="p-absolute w-100 h-70 bottom-0 bg-mod-exclusion left-0 "
-                                    data-dsn="parallax"></span>
+                            IA <br> Onirix
+                                <span class="p-absolute w-100 h-70 bottom-0 bg-mod-exclusion left-0 " data-dsn="parallax"></span>
                             </h1>
                             <div class="description border-before mt-30 mb-30">
                                 <h3 class="title-block ah-headline letters scale">
-                                    <span class="fw-400">I’m a </span>
+                                    <span class="fw-400">Je suis capable </span>
                                     <span class="ah-words-wrapper fw-400">
-                                        <b class="is-visible">photographer </b>
-                                        <b>Freelancer</b>
-                                        <b>Designer</b>
-                                        <b>Developer</b>
+                                        <b class="is-visible">de prédir votre avenir </b>
+                                        <b>d'analyser vos rêves</b>
+                                        <b>de comprendre ce qui vous tracace</b>
+                                        <b>de changer votre vie </b>
                                     </span>
                                 </h3>
                             </div>
-                            <a href="#" class="link-custom v-light-head background-main image-zoom move-circle"
-                                data-dsn="parallax">
+                            <a href="#" class="link-custom v-light-head background-main image-zoom move-circle" data-dsn="parallax">
                                 Tester
                             </a>
                         </div>
@@ -453,21 +436,18 @@
                 <div class="wrapper background-main pt-section">
 
                     <!-- ========== About Me Section ========== -->
-                    <section class="about-me mb-section pt-section" data-dsn-title="About Me"
-                        data-dsn-animate="section">
+                    <section class="about-me mb-section pt-section" data-dsn-title="About Me" data-dsn-animate="section">
                         <div class="dsn-container ">
                             <div class="d-grid grid-lg-2 background-section padding-block">
                                 <div class="box-img">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-dsn-src="assets/img/personal.jpg" alt="">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/personal.jpg" alt="">
                                     <div class="box-infos pl-30">
                                         <div class="info d-flex flex-column align-items-end mt-30">
                                             <h4 class="sm-title-block mb-10">Ahmed Shawky</h4>
                                             <h5 class="font-caps body-color">Web Designer</h5>
                                         </div>
                                         <div class="mt-30 ">
-                                            <div
-                                                class="box-skills-inner d-grid-no-space d-grid grid-md-2 grid-row-gap-30">
+                                            <div class="box-skills-inner d-grid-no-space d-grid grid-md-2 grid-row-gap-30">
                                                 <div class="skills-item">
                                                     <h4 class="font-caps mb-10">Web Design</h4>
                                                     <div class="bar">
@@ -528,8 +508,7 @@
                                         skills and knowledge necessary to make your project a success. I enjoy every
                                         step of the design process, from discussion and collaboration.</p>
 
-                                    <a href="#" class="link-custom v-light background-main image-zoom move-circle mt-30"
-                                        data-dsn="parallax">Download CV</a>
+                                    <a href="#" class="link-custom v-light background-main image-zoom move-circle mt-30" data-dsn="parallax">Download CV</a>
                                 </div>
                             </div>
                         </div>
@@ -644,8 +623,7 @@
                             <h2 class="heading-h2">Check out my Resume</h2>
                         </div>
 
-                        <div
-                            class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
+                        <div class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
                             <div class="box">
                                 <h5 class="font-caps body-color background-main p-5 d-inline-block">2015 - 2017</h5>
                                 <img class="d-block mt-15" src="assets/img/cssdesignawards.png" alt="">
@@ -657,8 +635,7 @@
                                     quis.</p>
                             </div>
                         </div>
-                        <div
-                            class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
+                        <div class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
                             <div class="box">
                                 <h5 class="font-caps body-color background-main p-5 d-inline-block">2017 - 2019</h5>
                                 <img class="d-block mt-15" src="assets/img/awwwards.png" alt="">
@@ -671,8 +648,7 @@
                                     quis.</p>
                             </div>
                         </div>
-                        <div
-                            class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
+                        <div class="experience-item p-relative p-30 background-section d-grid grid-lg-2 align-items-center">
                             <div class="box">
                                 <h5 class="font-caps body-color background-main p-5 d-inline-block">2019 - 2020</h5>
                                 <img class="d-block mt-15 " src="assets/img/cssdesignawards.png" alt="">
@@ -688,30 +664,24 @@
                     <!-- ========== End experience Section ========== -->
 
                     <!-- ========== Work Section ========== -->
-                    <section class="our-work dsn-container dsn-filter p-relative section-margin"
-                        data-dsn-title="My Work">
+                    <section class="our-work dsn-container dsn-filter p-relative section-margin" data-dsn-title="My Work">
                         <div class="section-title">
                             <span class="tag-heading p-10 mb-15 background-section heading-color">Portfolio</span>
                             <h2 class="heading-h2">Showcasing some of my best work</h2>
                         </div>
 
-                        <div class="projects-list gallery work-gallery dsn-swiper"
-                            data-dsn-option='{"slidesPerView":3,"spaceBetween":30}'>
+                        <div class="projects-list gallery work-gallery dsn-swiper" data-dsn-option='{"slidesPerView":3,"spaceBetween":30}'>
                             <div class="swiper-container">
                                 <div class="swiper-wrapper ">
                                     <div class="swiper-slide background-main">
                                         <div class="work-item p-relative overflow-hidden">
-                                            <a class="w-100 p-relative effect-ajax" href="project-1.html"
-                                                data-dsn-ajax="work">
+                                            <a class="w-100 p-relative effect-ajax" href="project-1.html" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img " data-dsn-position="10% 10%"
-                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-dsn-src="assets/img/project/project1/1.jpg" alt="">
+                                                    <img class="cover-bg-img " data-dsn-position="10% 10%" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project1/1.jpg" alt="">
                                                 </div>
 
                                                 <div class="box-content w-100 mt-20">
-                                                    <h4 class="title-block sec-title has-box-mod move-circle"
-                                                        data-dsn="parallax">
+                                                    <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
                                                         Exclusive <br> hand watches
                                                     </h4>
                                                     <div class="metas">
@@ -726,17 +696,13 @@
                                     </div>
                                     <div class="swiper-slide background-main">
                                         <div class="work-item p-relative overflow-hidden">
-                                            <a class="w-100 p-relative effect-ajax" href="project-2.html"
-                                                data-dsn-ajax="work">
+                                            <a class="w-100 p-relative effect-ajax" href="project-2.html" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img"
-                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-dsn-src="assets/img/project/project2/1.jpg" alt="">
+                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project2/1.jpg" alt="">
                                                 </div>
 
                                                 <div class="box-content w-100  mt-20">
-                                                    <h4 class="title-block sec-title has-box-mod move-circle"
-                                                        data-dsn="parallax">
+                                                    <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
                                                         BMW <br> 1er "ADAM"
                                                     </h4>
                                                     <div class="metas">
@@ -750,17 +716,13 @@
                                     </div>
                                     <div class="swiper-slide background-main">
                                         <div class="work-item p-relative overflow-hidden">
-                                            <a class="w-100 p-relative effect-ajax" href="project-3.html"
-                                                data-dsn-ajax="work">
+                                            <a class="w-100 p-relative effect-ajax" href="project-3.html" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img"
-                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-dsn-src="assets/img/project/project3/1.jpg" alt="">
+                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project3/1.jpg" alt="">
                                                 </div>
 
                                                 <div class="box-content w-100 mt-20">
-                                                    <h4 class="title-block sec-title has-box-mod move-circle"
-                                                        data-dsn="parallax">
+                                                    <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
                                                         Wheel <br> house Hotel
                                                     </h4>
                                                     <div class="metas">
@@ -774,17 +736,13 @@
                                     </div>
                                     <div class="swiper-slide background-main">
                                         <div class="work-item p-relative overflow-hidden ">
-                                            <a class="w-100 p-relative effect-ajax" href="project-4.html"
-                                                data-dsn-ajax="work">
+                                            <a class="w-100 p-relative effect-ajax" href="project-4.html" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img"
-                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-dsn-src="assets/img/project/project4/1.jpg" alt="">
+                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project4/1.jpg" alt="">
                                                 </div>
 
                                                 <div class="box-content w-100  mt-20">
-                                                    <h4 class="title-block sec-title has-box-mod move-circle"
-                                                        data-dsn="parallax">
+                                                    <h4 class="title-block sec-title has-box-mod move-circle" data-dsn="parallax">
                                                         Super Blue <br>Tooth brush
                                                     </h4>
                                                     <div class="metas">
@@ -803,10 +761,8 @@
                                     <div class="next-container">
                                         <div class="container-inner">
                                             <div class="triangle"></div>
-                                            <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24"
-                                                height="24" viewBox="0 0 24 24">
-                                                <g class="circle-wrap" fill="none" stroke-width="1"
-                                                    stroke-linejoin="round" stroke-miterlimit="10">
+                                            <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                <g class="circle-wrap" fill="none" stroke-width="1" stroke-linejoin="round" stroke-miterlimit="10">
                                                     <circle cx="12" cy="12" r="10.5"></circle>
                                                 </g>
                                             </svg>
@@ -819,8 +775,7 @@
                                         <div class="container-inner">
                                             <div class="triangle"></div>
                                             <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                                <g class="circle-wrap" fill="none" stroke-width="1"
-                                                    stroke-linejoin="round" stroke-miterlimit="10">
+                                                <g class="circle-wrap" fill="none" stroke-width="1" stroke-linejoin="round" stroke-miterlimit="10">
                                                     <circle cx="12" cy="12" r="10.5"></circle>
                                                 </g>
                                             </svg>
@@ -875,15 +830,13 @@
 
                             <div class="form-box d-flex align-items-center">
 
-                                <form id="contact-form" class="form w-100" method="post" action="contact.php"
-                                    data-toggle="validator">
+                                <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
                                     <div class="messages"></div>
                                     <div class="input__wrap controls">
                                         <div class="form-group">
                                             <div class="entry-box d-flex align-items-center">
                                                 <label class="mr-20"><i class="fas fa-user heading-color"></i></label>
-                                                <input id="form_name" type="text" name="name" placeholder="your name"
-                                                    required="required" data-error="name is required.">
+                                                <input id="form_name" type="text" name="name" placeholder="your name" required="required" data-error="name is required.">
                                             </div>
                                             <div class="help-block with-errors"></div>
                                         </div>
@@ -891,27 +844,21 @@
                                         <div class="form-group">
                                             <div class="entry-box d-flex align-items-center">
                                                 <label class="mr-20"> <i class="fas fa-at heading-color"></i></label>
-                                                <input id="form_email" type="email" name="email"
-                                                    placeholder="your Email Address" required="required"
-                                                    data-error="Valid email is required.">
+                                                <input id="form_email" type="email" name="email" placeholder="your Email Address" required="required" data-error="Valid email is required.">
                                             </div>
                                             <div class="help-block with-errors"></div>
                                         </div>
 
                                         <div class="form-group">
                                             <div class="entry-box d-flex align-items-center">
-                                                <label class="mr-20"><i
-                                                        class="fas fa-envelope heading-color"></i></label>
-                                                <textarea id="form_message" class="form-control" name="message"
-                                                    placeholder="Tell us about you and the world" required="required"
-                                                    data-error="Please,leave us a message."></textarea>
+                                                <label class="mr-20"><i class="fas fa-envelope heading-color"></i></label>
+                                                <textarea id="form_message" class="form-control" name="message" placeholder="Tell us about you and the world" required="required" data-error="Please,leave us a message."></textarea>
                                             </div>
                                             <div class="help-block with-errors"></div>
                                         </div>
 
                                         <div class="text-right">
-                                            <div class="image-zoom v-light background-main w-auto d-inline-block move-circle"
-                                                data-dsn="parallax">
+                                            <div class="image-zoom v-light background-main w-auto d-inline-block move-circle" data-dsn="parallax">
                                                 <input type="submit" value="Send Message" class="">
                                             </div>
                                         </div>
@@ -957,20 +904,15 @@
                                 <div class="footer-item order-md-2">
                                     <div class="nav-footer text-right">
                                         <ul>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover"
-                                                    data-dsn="parallax" href="#">Home</a>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Home</a>
                                             </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover"
-                                                    data-dsn="parallax" href="#">Portfolio</a>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Portfolio</a>
                                             </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover"
-                                                    data-dsn="parallax" href="#">About</a>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">About</a>
                                             </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover"
-                                                    data-dsn="parallax" href="#">News</a>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">News</a>
                                             </li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover"
-                                                    data-dsn="parallax" href="#">Contact</a>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Contact</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -978,9 +920,7 @@
 
                                 <div class="footer-item">
                                     <div class="copyright">
-                                        <div class="copright-text over-hidden">© 2021 Digital Agency Designed by <a
-                                                class="link-hover" data-hover-text="DSN Grid" href="#"
-                                                target="_blank">DSN
+                                        <div class="copright-text over-hidden">© 2021 Digital Agency Designed by <a class="link-hover" data-hover-text="DSN Grid" href="#" target="_blank">DSN
                                                 Grid</a>
                                         </div>
                                     </div>
@@ -994,6 +934,87 @@
             </div>
 
         </div>
+        <!-- ========== Contact Form Model ========== -->
+        <div class="contact-btn">
+            <div class="contact-btn-txt">Contact</div>
+        </div>
+        <div class="contact-modal background-section">
+            <div class="dsn-container contact-inner section-margin">
+                <div class="section-title">
+                    <span class="tag-heading background-section color-heading">Get in touch</span>
+                    <h2 class="heading-h2">How can we help you?</h2>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="form-box d-flex flex-column">
+                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">How
+                                Can I Help You?</h4>
+                            <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
+                                <div class="messages"></div>
+                                <div class="input__wrap controls">
+                                    <div class="form-group">
+                                        <div class="entry-box">
+                                            <label>Your name *</label>
+                                            <input id="form_name" type="text" name="name" placeholder="Type your name" required="required" data-error="name is required.">
+                                        </div>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="entry-box">
+                                            <label>Your E-Mail *</label>
+                                            <input id="form_email" type="email" name="email" placeholder="Type your Email Address" required="required" data-error="Valid email is required.">
+                                        </div>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="entry-box">
+                                            <label>What's up?</label>
+                                            <textarea id="form_message" class="form-control" name="message" placeholder="Tell us about you and the world" required="required" data-error="Please,leave us a message."></textarea>
+                                        </div>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="text-right">
+                                        <div class="image-zoom w-auto d-inline-block move-circle" data-dsn="parallax">
+                                            <input type="submit" value="Send Message" class="v-light">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="contact-content d-flex flex-column p-relative background-main box-padding h-100">
+                            <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
+                                Contact Info</h4>
+
+                            <div class="content-bottom">
+                                <div class="item">
+                                    <h5 class="sm-title-block mb-15">Address</h5>
+                                    <p>88 Whitby Road<br> IP20 6JA<br> London, UK</p>
+                                </div>
+
+                                <div class="item">
+                                    <h5 class="sm-title-block mb-15">Email</h5>
+                                    <a href="mailto:info@dsngrid.com">info@dsngrid.com</a>
+                                </div>
+
+                                <div class="item">
+                                    <h5 class="sm-title-block mb-15">Phone</h5>
+                                    <a href="tel:http://+012345678">+44 7356 6487</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========== End Contact Form Model ========== -->
 
         <!-- ========== Contact Stories ========== -->
         <div class="stories-btn">
@@ -1130,26 +1151,20 @@
         <div class="night active" data-dsn-theme="dark">
             <svg width="48" height="48" viewBox="0 0 48 48">
                 <rect x="12.3" y="23.5" width="2.6" height="1"></rect>
-                <rect x="16.1" y="15.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -6.8871 16.5732)" width="1"
-                    height="2.6"></rect>
+                <rect x="16.1" y="15.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -6.8871 16.5732)" width="1" height="2.6"></rect>
                 <rect x="23.5" y="12.3" width="1" height="2.6"></rect>
-                <rect x="30.1" y="16.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.5145 27.0538)" width="2.6"
-                    height="1"></rect>
+                <rect x="30.1" y="16.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.5145 27.0538)" width="2.6" height="1"></rect>
                 <rect x="33.1" y="23.5" width="2.6" height="1"></rect>
-                <rect x="30.9" y="30.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -12.9952 31.4264)" width="1"
-                    height="2.6"></rect>
+                <rect x="30.9" y="30.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -12.9952 31.4264)" width="1" height="2.6"></rect>
                 <rect x="23.5" y="33.1" width="1" height="2.6"></rect>
-                <rect x="15.3" y="30.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -17.3677 20.9457)" width="2.6"
-                    height="1"></rect>
-                <path
-                    d="M24,18.7c-2.9,0-5.3,2.4-5.3,5.3s2.4,5.3,5.3,5.3s5.3-2.4,5.3-5.3S26.9,18.7,24,18.7z M24,28.3c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3s4.3,1.9,4.3,4.3S26.4,28.3,24,28.3z">
+                <rect x="15.3" y="30.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -17.3677 20.9457)" width="2.6" height="1"></rect>
+                <path d="M24,18.7c-2.9,0-5.3,2.4-5.3,5.3s2.4,5.3,5.3,5.3s5.3-2.4,5.3-5.3S26.9,18.7,24,18.7z M24,28.3c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3s4.3,1.9,4.3,4.3S26.4,28.3,24,28.3z">
                 </path>
             </svg>
         </div>
         <div class="moon" data-dsn-theme="night">
             <svg width="48" height="48" viewBox="0 0 48 48">
-                <path
-                    d="M24,33.9c-5.4,0-9.9-4.4-9.9-9.9c0-4.3,2.7-8,6.8-9.4l0.8-0.3l-0.1,0.9c-0.2,0.6-0.2,1.3-0.2,1.9c0,5.2,4.3,9.5,9.5,9.5c0.6,0,1.3-0.1,1.9-0.2l0.8-0.2L33.3,27C32,31.1,28.3,33.9,24,33.9z M20.4,15.9c-3.2,1.4-5.3,4.5-5.3,8.1c0,4.9,4,8.9,8.9,8.9c3.6,0,6.7-2.1,8.1-5.3c-0.4,0-0.8,0.1-1.3,0.1c-5.8,0-10.5-4.7-10.5-10.5C20.4,16.7,20.4,16.3,20.4,15.9z">
+                <path d="M24,33.9c-5.4,0-9.9-4.4-9.9-9.9c0-4.3,2.7-8,6.8-9.4l0.8-0.3l-0.1,0.9c-0.2,0.6-0.2,1.3-0.2,1.9c0,5.2,4.3,9.5,9.5,9.5c0.6,0,1.3-0.1,1.9-0.2l0.8-0.2L33.3,27C32,31.1,28.3,33.9,24,33.9z M20.4,15.9c-3.2,1.4-5.3,4.5-5.3,8.1c0,4.9,4,8.9,8.9,8.9c3.6,0,6.7-2.1,8.1-5.3c-0.4,0-0.8,0.1-1.3,0.1c-5.8,0-10.5-4.7-10.5-10.5C20.4,16.7,20.4,16.3,20.4,15.9z">
                 </path>
             </svg>
         </div>

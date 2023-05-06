@@ -958,6 +958,16 @@
         }
 
 
+        function LoginModel($off) {
+            const btn = $('.login-btn');
+            if ($off)
+                btn.off('click');
+
+            btn.on('click', () => {
+                $body.toggleClass('dsn-show-contact');
+            })
+        }
+
         function ContactModel($off) {
             const btn = $('.contact-btn');
             if ($off)
@@ -967,7 +977,8 @@
                 $body.toggleClass('dsn-show-contact');
             })
         }
-
+        
+        
         function StoriesModel($off) {
             const btn = $('.stories-btn ');
             if ($off)
