@@ -26,7 +26,7 @@ create table categorie(
 
 create table souscategorie(
     id int auto_increment primary key,
-    souscategorie varchar(300),
+    nom varchar(300),
     idcategorie int,
     description varchar(300),
     foreign key(idcategorie) references categorie (id)
