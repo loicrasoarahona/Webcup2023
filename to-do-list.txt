@@ -1,0 +1,94 @@
+donnees des reves en texte
+s'il y avait une personne dans votre rêve, 
+veuillez décrire la personne en choisissant parmi la liste suivante quelle etait votre liaison:
+
+pesonne
+-inconnu
+-ex
+-partenaire
+-membre de la famille 
+-ami
+-ennemi
+-voisin
+-connaissance
+-rencontré sur les réseaux
+-mentor ou enseignant
+-collegue 
+-aucun, j'étais seul
+
+
+vos activités 
+-balade 
+-marcher
+-courir
+-manger 
+-voir un film 
+-chill
+
+Où vous etiez?
+
+endroit
+-dans une maison
+-dans une voiture
+-dehors
+-dans un restaurant
+-dans une forêt
+-à la salle de cinema
+
+
+A quel moment de la journée
+
+temps
+-dans la journée
+-soir
+-la nuit 
+
+vos emotions lors du rêve:
+
+emotion
+-content
+-triste 
+-en colère
+-peur 
+-surpris 
+-amoureux 
+-excite
+-decu 
+
+D'après vous quel était le type du reve?
+
+reve
+-lucide
+-cauchemar
+-supernaturel
+-créatif
+-recurrent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+donnees des reves en image 
