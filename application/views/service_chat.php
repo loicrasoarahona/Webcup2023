@@ -23,13 +23,14 @@
         <div class="col-lg-8 col-md-6">
             <div class="form-box d-flex flex-column">
                 <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">Racontez moi en détails</h4>
-                <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
+                <form class="form w-100" method="post" action="<?php echo base_url("Chat");?>" data-toggle="validator" target="_blank">
+                    <input type="hidden" name="isquestion" value="1">
                     <div class="messages"></div>
                     <div class="input__wrap controls">
                         <div class="form-group">
                             <div class="entry-box">
                                 <label>Description</label>
-                                <textarea id="form_message" class="form-control" name="message" placeholder="Description précise de votre rêve ..." required="required" data-error="Please,leave us a message."></textarea>
+                                <textarea id="form_message" class="form-control" name="question" placeholder="Description précise de votre rêve ..." required="required" data-error="Please,leave us a message."></textarea>
                             </div>
                             <div class="help-block with-errors"></div>
                         </div>
@@ -45,27 +46,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6">
-            <div class="contact-content xs-mt-block d-flex flex-column p-relative background-section style-box h-100">
-                <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
-                    Contact Info</h4>
-
-                <div class="content-bottom">
-                    <div class="item">
-                        <h5 class="sm-title-block mb-15">Address</h5>
-                        <p>88 Whitby Road<br> IP20 6JA<br> London, UK</p>
-                    </div>
-
-                    <div class="item">
-                        <h5 class="sm-title-block mb-15">Email</h5>
-                        <a href="mailto:info@dsngrid.com">info@dsngrid.com</a>
-                    </div>
-
-                    <div class="item">
-                        <h5 class="sm-title-block mb-15">Phone</h5>
-                        <a href="tel:http://+012345678">+44 7356 6487</a>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </div>

@@ -15,21 +15,9 @@
                     </div>
                     <div class="description max-w570">  
                         <p class="mb-10">
-                            A system that young people around the world with a club culture and
-                            techno
-                            enthusiasts
-                            feel identified.
-                            We generated a simple logo that is the basis for generating a geometric
-                            and
-                            liquid
-                            system.
-                        </p>
-
-                        <p>Founded in 2000, Dsn Grid has become one of the best Digital Agency
-                            in ThemeForest. Blue money going forward, but deploy to production.</p>
-                    </div>
-
-
+                            <?php echo $response; ?> 
+                            </p>
+                        </div>
                     <div class="box-video mt-40 d-flex align-items-center">
                         <a href="<?php echo base_url("Transcription/choix");?>" >
                             <div class="play-btn image-zoom background-main heading-color move-circle d-flex align-items-center justify-content-center" data-dsn="parallax"><i class="fas fa-play"></i>

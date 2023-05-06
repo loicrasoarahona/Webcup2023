@@ -20,7 +20,7 @@
                     <div class="w-100 h-100 p-absolute top-0" data-overlay="5">
                         <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/services/par-qcm.jpeg") ?> alt="">
                     </div>
-                    <a href="<?php echo base_url("Transcription/choix");?>" class="effect-ajax">
+                    <a href="<?php echo base_url("Transcription/choixoption");?>" class="effect-ajax">
                         <h3 class="line-bg-left pl-80" data-swiper-parallax-opacity="0">Choix d'options</h3>
                     </a>
                 </div>
@@ -30,7 +30,7 @@
                     <div class="w-100 h-100 p-absolute top-0" data-overlay="5">
                         <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/services/par-texte.jpeg") ?> alt="">
                     </div>
-                    <a href="<?php echo base_url("Transcription");?>" class="effect-ajax">
+                    <a href="<?php echo base_url("Transcription/question");?>" class="effect-ajax">
                         <h3 class="letter-stroke line-bg-left pl-80" data-swiper-parallax-opacity="0">Transcription</h3>
                     </a>
                 </div>
@@ -65,7 +65,7 @@
                     <img src=<?php echo site_url("assets/img/services/mobile.svg") ?> alt="">
                 </div>
                 <div class="content-box">
-                    <h4 class="title-block mt-20">Transcription de vos rêves</h4>
+                    <h4 class="title-block mt-20">Transcription de vos rêves</a></h4>
                     <p class="description mt-20">Racontez nous vos rêves les plus en détails possible afin que nous puissions mieux les comprendre
                         pour pouvoir prédire votre avenir
                     </p>
