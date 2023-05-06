@@ -20,10 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		// $this->load->view('template');
-
-		$data = array();
-        $data['view'] = 'service_chat';
-        $this->load->view('template', $data);
+		$this->load->view('page_accueil');
 	}
 }

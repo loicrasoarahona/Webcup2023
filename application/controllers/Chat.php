@@ -40,6 +40,7 @@ class Chat extends CI_Controller {
         }
           
         $data['response'] = $response;
+       
         // var_dump($response);
         $this->load->view('home.php', $data);
     }
