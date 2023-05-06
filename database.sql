@@ -92,7 +92,7 @@ insert into souscategorie values (null,'surpris','5',null);
 insert into souscategorie values (null,'amoureux','5',null);
 insert into souscategorie values (null,'excite','5',null);
 insert into souscategorie values (null,'decu','5',null);
-insert into souscategorie values (null,'je n\'ai rien ressenti','5',null);
+insert into souscategorie values (null,'pas précis','5',null);
 
 -- reve
 insert into souscategorie values (null,'lucide','6',null);
