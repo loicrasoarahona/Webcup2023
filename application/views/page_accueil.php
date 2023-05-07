@@ -225,10 +225,10 @@
                                 <h3 class="title-block ah-headline letters scale">
                                     <span class="fw-400">Je suis capable </span>
                                     <span class="ah-words-wrapper fw-400">
-                                        <b class="is-visible">de prédir votre avenir </b>
-                                        <b>d'analyser vos rêves</b>
-                                        <b>de comprendre ce qui vous tracace</b>
-                                        <b>de changer votre vie </b>
+                                        <b class="is-visible">de.prédir.votre.avenir </b>
+                                        <b>d'analyser.vos.rêves</b>
+                                        <b>de.comprendre.ce.qui.vous.tracace</b>
+                                        <b>de.changer.votre.vie.? </b>
                                     </span>
                                 </h3>
                             </div>
