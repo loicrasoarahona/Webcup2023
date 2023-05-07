@@ -17,7 +17,7 @@ class Reve extends CI_Model
         $retour = array();
 
         foreach ($req->result_array() as $row) {
-            $sql = "select * from souscategorie where idcategorie=" . $row['idcategorie'];
+            $sql = "select souscategorie.*, categorie.nom as categorie from souscategorie join categorie on categorie.id=idcategorie where idcategorie=" . $row['idcategorie'];
             $requete = $this->db->query($sql);
             $tableau = array();
             foreach ($requete->result_array() as $ligne) {

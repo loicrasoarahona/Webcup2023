@@ -21,7 +21,7 @@ class Transcription extends CI_Controller
     public function choixoption()
     {
         $data['view'] = 'service_choix';
-        redirect(base_url("reveController/loadOption"));
+        redirect(base_url("ReveController/loadOption"));
     }
 
     public function choixImages()
@@ -37,9 +37,53 @@ class Transcription extends CI_Controller
 
         $this->load->view('template', $data);
     }
-    public function response_images()
+
+    public function validationReponseImage()
     {
-        $data['view'] = 'service_reponse_image';
+        $reponses = json_decode($this->input->post('reponses'));
+
+        $string = "";
+
+        foreach ($reponses as $choix) {
+            $string .= explode('|', $choix->description)[0] . ',';
+        }
+
+
+        // Convertir la chaîne en un tableau en utilisant la virgule comme séparateur
+        $array = explode(",", $string);
+
+        // Initialiser un tableau associatif pour stocker les occurrences
+        $occurrences = array();
+
+        // Parcourir le tableau et compter les occurrences de chaque élément
+        foreach ($array as $element) {
+            if (isset($occurrences[$element])) {
+                $occurrences[$element]++;
+            } else {
+                $occurrences[$element] = 1;
+            }
+        }
+
+        // Trouver l'élément avec le nombre d'occurrences le plus élevé
+        $maxOccurrences = 0;
+        $mostFrequentElement = "";
+
+        foreach ($occurrences as $element => $count) {
+            if ($count > $maxOccurrences) {
+                $maxOccurrences = $count;
+                $mostFrequentElement = $element;
+            }
+        }
+
+        var_dump($maxOccurrences);
+        var_dump($mostFrequentElement);
+
+        $data = array(
+            "mostFrequentElement" => $mostFrequentElement,
+            "reponses" => "$reponses",
+            "view" => "service_response_images"
+        );
+
         $this->load->view('template', $data);
     }
 }
