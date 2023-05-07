@@ -21,8 +21,8 @@ class Transcription extends CI_Controller
     public function choixoption()
     {
         $data['view'] = 'service_choix';
-        $this->load->view('template', $data);
+        redirect(base_url("reveController/loadOption"));
     }
-        
+       
 }   
 ?>
