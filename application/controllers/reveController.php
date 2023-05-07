@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class reveController extends CI_Controller
+class ReveController extends CI_Controller
 {
 
     public function loadCategorie()

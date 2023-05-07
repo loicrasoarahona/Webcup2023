@@ -21,7 +21,7 @@ class Transcription extends CI_Controller
     public function choixoption()
     {
         $data['view'] = 'service_choix';
-        redirect(base_url("reveController/loadOption"));
+        redirect(base_url("ReveController/loadOption"));
     }
 
     public function choixImages()
@@ -36,5 +36,12 @@ class Transcription extends CI_Controller
         $data['view'] = "service_images";
 
         $this->load->view('template', $data);
+    }
+
+    public function validationReponseImage()
+    {
+        $reponses = $this->input->post('reponses');
+
+        var_dump($reponses);
     }
 }
