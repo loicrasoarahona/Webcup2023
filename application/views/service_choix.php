@@ -107,7 +107,7 @@
     <a href="#" class="effect-ajax">
         <h2 class="title">
             <span class="letter-stroke">Vous rêvez ,  </span> <br>
-            <span class="line-bg-left pl-80">Nous présidons</span>
+            <span class="line-bg-left pl-80">Nous prédisons</span>
         </h2>
     </a>
 </section>

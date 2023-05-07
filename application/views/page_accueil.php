@@ -211,7 +211,7 @@
                     <div class="box-content dsn-container align-items-center ">
                         <div class="hero-content dsn-hero-parallax-title">
                             <h1 class="title has-box-mod">
-                                Onirix <br> IA qui va révolutioner les rêves
+                                Onirix <br>L'IA qui va révolutioner les rêves
                                 <span class="p-absolute w-100 h-70 bottom-0 bg-mod-exclusion left-0 " data-dsn="parallax"></span>
                             </h1>
                             <div class="description border-before mt-30 mb-30">
