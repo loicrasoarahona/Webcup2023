@@ -24,9 +24,15 @@ class Transcription extends CI_Controller
         redirect(base_url("reveController/loadOption"));
     }
 
-    public function choixImage()
+    public function choixImages()
     {
-        $data['view'] = 'service_images';
-        $this->load->view('template', $data);
+        $this->load->model("Reve");
+
+        $listeChoix = $this->Reve->getChoixImage();
+
+        $data = array();
+
+        $data['listeChoix'] = $listeChoix;
+        $data['view'] = "service_images";
     }
 }
