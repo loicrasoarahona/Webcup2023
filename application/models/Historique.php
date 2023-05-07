@@ -31,5 +31,21 @@ class Historique extends CI_Model
         if($val == null)return null;
         return $val;
     }
+    public function get_historiqueimage_bycle($cle){
+        $sql = "select * from historiqueimage  where cle = '". $cle ."'";
+        // var_dump($sql);
+        $query = $this->db->query($sql);
+        $val = array();
+        $i = 0;
+        foreach ($query->result_array() as $row) {
+            foreach ($row as $key => $value) {
+                $val[$i][$key] = $value;
+            }
+            $i++;
+        }
+        if($val == null)return null;
+        $ran = rand(0, count($val)-1);
+        return $val[$ran];
+    }
 }
 ?>
