@@ -15,18 +15,22 @@
                     </div>
                     <div class="description max-w570">  
                         <p class="mb-10">
-                            <?php if ($response == "ads") {
-                                echo $response; ?>
+                            <?php if ($response == "On vous redirige vers une site de psycothérapie à fin de vous fournir des conseils car nous avons remarqué que vous avez fait souvent de cauchemar") {
+                                 ?>
                                     <script>
-                                        var tab =['https://www.webcup.fr/le-blog','https://www.telma.mg/mobile/offres/telma-net'];
+                                        var tab =['https://www.blakepsychology.com/fr/approches/therapie-du-reve/','https://ghislain-bousseau-psy.com/les-reves-analyses-et-interpretations-en-psychotherapie/'];
                                         function randomIntFromInterval(min, max) { // min and max included 
                                         return Math.floor(Math.random() * (max - min + 1) + min)
                                         }
-                                        const rndInt = randomIntFromInterval(0, tab.length)
+                                       // const rndInt = randomIntFromInterval(0, tab.length)
                                         console.log(rndInt)
-                                        window.open(tab[rndInt-1], '_blank');
+                                        function lien(tab){
+                                            const rndInt = randomIntFromInterval(0, tab.length)
+                                            window.open(tab[rndInt-1], '_blank');
+                                        }
+                                        lien(tab);
                                     </script>
-                                    
+                                    <?php echo $response; ?> <a style="color:blueviolet;" href="" onclick="lien(tab)">voir site web</a>
                             <?php }else{
                                 echo $response;
                             }
