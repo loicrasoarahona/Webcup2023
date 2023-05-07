@@ -10,12 +10,12 @@
             <h2>Your successful, <br> Nakaiza oo</h2>
         </div>
         <div class="container">
-            <div class="wrapper-client p-relative w-100 d-flex flex-wrap dsn-animate-bg2 hide-animate-bg d-flex justify-content-around">
-                <div class="animate-bg background-main p-absolute dsn-z-index-2"></div>
+            <div class="wrapper-client p-relative w-100 d-flex flex-wrap dsn-animate-bg2 hide-animate-bg2 d-flex justify-content-around">
+                <div class="animate-bg2 background-main p-absolute dsn-z-index-2"></div>
 
                 <?php foreach ($groupeChoix as $choix) { ?>
-                    <div class="logo-box p-relative background-section d-flex text-center align-items-center over-hidden item-animate-bg col-5">
-                        <img src="<?php echo site_url('assets/img/mariage_bg1.jpeg') ?>" alt="">
+                    <div class="logo-box p-relative background-section d-flex text-center align-items-center over-hidden item-animate-bg2 col-5 col-lg-3">
+                        <img style="width: 10rem; height: 10rem" src="<?php echo site_url('assets/img/data_images/' . $choix['photo']) ?>" alt="">
 
                         <div class="info p-absolute w-100 h-100 dsn-z-index-2">
                             <div class="content">
@@ -29,48 +29,6 @@
                         </div>
                     </div>
                 <?php } ?>
-                <div class="logo-box p-relative background-section d-flex text-center align-items-center over-hidden item-animate-bg col-5">
-                    <img src="<?php echo site_url('assets/img/mariage_bg1.jpeg') ?>" alt="">
-
-                    <div class="info p-absolute w-100 h-100 dsn-z-index-2">
-                        <div class="content">
-                            <div class="entry">
-                                <div>
-                                    <h5>Google</h5>
-                                    <a href="#">www.google.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="logo-box p-relative background-section d-flex text-center align-items-center over-hidden item-animate-bg col-5">
-                    <img src="<?php echo site_url('assets/img/mariage_bg1.jpeg') ?>" alt="">
-
-                    <div class="info p-absolute w-100 h-100 dsn-z-index-2">
-                        <div class="content">
-                            <div class="entry">
-                                <div>
-                                    <h5>Google</h5>
-                                    <a href="#">www.google.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="logo-box p-relative background-section d-flex text-center align-items-center over-hidden item-animate-bg col-5">
-                    <img src="<?php echo site_url('assets/img/mariage_bg1.jpeg') ?>" alt="">
-
-                    <div class="info p-absolute w-100 h-100 dsn-z-index-2">
-                        <div class="content">
-                            <div class="entry">
-                                <div>
-                                    <h5>Google</h5>
-                                    <a href="#">www.google.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
             </div>
         </div>

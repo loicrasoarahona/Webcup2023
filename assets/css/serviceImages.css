@@ -2,9 +2,9 @@
   position: relative;
 }
 
-.sectionChoixImage .wrapper-client .animate-bg {
+.sectionChoixImage .wrapper-client .animate-bg2 {
   margin: 15px;
-  background-color: var(--theme-color);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .sectionChoixImage .wrapper-client .logo-box {
