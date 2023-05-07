@@ -9,7 +9,7 @@
     <meta name="keyword" content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
 
     <!--  Title -->
-    <title>Onirix</title>
+    <title>Onirix - IA</title>
 
     <!-- Font Google -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -17,8 +17,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     </noscript>
 
-    <link rel="shortcut icon" href=<?php echo site_url("assets/img/favicon.ico") ?> type="image/x-icon" />
-    <link rel="icon" href=<?php echo site_url("assets/img/favicon.ico") ?> type="image/x-icon" />
+    <link rel="shortcut icon" href=<?php echo site_url("assets/img/onirix-blanc.png") ?> type="image/x-icon" />
+    <link rel="icon" href=<?php echo site_url("assets/img/onirix-blanc.png") ?> type="image/x-icon" />
 
     <!-- custom styles (optional) -->
     <link href=<?php echo site_url("assets/css/plugins.css") ?> rel="stylesheet" />
@@ -49,9 +49,9 @@
         <div class="extend-container d-flex w-100 align-items-baseline justify-content-between align-items-end">
             <div class="inner-header p-relative">
                 <div class="main-logo">
-                    <a href="index.html" data-dsn="parallax">
-                        <img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/logo.png") ?> alt="" />
-                        <img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/logo-dark.png") ?> alt="" />
+                    <a href="<?php echo base_url("/");?>" data-dsn="parallax">
+                        <img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" />
+                        <img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/onirix-noir.png") ?> alt="" />
                     </a>
                 </div>
             </div>
@@ -95,12 +95,12 @@
                                 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
                                 <span class="dsn-title-menu">Onirix</span>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription");?>">
+                            <li><a href="<?php echo base_url("Transcription/question");?>">
                                     <span class="dsn-title-menu">Prediction par des textes</span>
                                     <span class="dsn-meta-menu">01</span>
                                 </a>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription/choix");?>">
+                            <li><a href="<?php echo base_url("Transcription/choixoption");?>">
                                     <span class="dsn-title-menu">Questions à choix multiples</span>
                                     <span class="dsn-meta-menu">02</span>
                                 </a>
@@ -189,7 +189,7 @@
             <div class="side-box-left z-index-1">
                 <div class="side-menu border-left border-right p-relative h-100 d-flex justify-content-center">
                     <div class="page-active">
-                        <h2 class="text-uppercase">Orinix</h2>
+                        <h2 class="text-uppercase">Onirix</h2>
                     </div>
                 </div>
             </div>
@@ -204,7 +204,7 @@
         <!-- ========== End side box left ========== -->
 
         <div class="p-fixed before-z-index h-100 left-bar" data-overlay="7" data-dsn-ajax="img">
-            <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/about.jpg") ?> alt="">
+            <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/ia-background-3.jpeg") ?> alt="">
         </div>
 
         <div id="dsn-scrollbar">
@@ -220,9 +220,9 @@
                         <div class="dsn-container">
                             <div class="d-grid grid-sm-2">
                                 <div class="footer-item">
-                                    <a href="" class="logo-footer m-auto">
-                                        <img src=<?php echo site_url("assets/img/logo.png") ?> alt="" class="logo-dark cover-bg-img">
-                                        <img src=<?php echo site_url("assets/img/logo-dark.png") ?> alt="" class="logo-light cover-bg-img">
+                                    <a href="<?php echo base_url("/");?>" class="logo-footer m-auto">
+                                        <img src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" class="logo-dark cover-bg-img">
+                                        <img src=<?php echo site_url("assets/img/onirix-noir.png") ?> alt="" class="logo-light cover-bg-img">
                                     </a>
                                 </div>
                                 <div class="footer-item text-right">
@@ -239,10 +239,9 @@
                                 <div class="footer-item order-md-2">
                                     <div class="nav-footer text-right">
                                         <ul>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Accueil</a></li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Services</a></li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">A Propos</a></li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Contact</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="<?php echo base_url("/");?>">Accueil</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="<?php echo base_url("Transcription/choix");?>">Services</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="<?php echo base_url("About");?>">A Propos</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -329,7 +328,7 @@
 
                                 <div class="item">
                                     <h5 class="sm-title-block mb-15">Email</h5>
-                                    <a href="mailto:info@dsngrid.com">orinix-smartit@gmail.com</a>
+                                    <a href="mailto:info@dsngrid.com">onirix-smartit@gmail.com</a>
                                 </div>
 
                                 <div class="item">

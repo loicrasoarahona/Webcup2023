@@ -17,8 +17,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     </noscript>
 
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href=<?php echo site_url("assets/img/onirix-blanc.png") ?> type="image/x-icon" />
+    <link rel="icon" href=<?php echo site_url("assets/img/onirix-blanc.png") ?> type="image/x-icon" />
 
     <!-- custom styles (optional) -->
     <link href=<?php echo site_url("assets/css/plugins.css") ?> rel="stylesheet" />
@@ -48,9 +48,9 @@
         <div class="extend-container d-flex w-100 align-items-baseline justify-content-between align-items-end">
             <div class="inner-header p-relative">
                 <div class="main-logo">
-                    <a href="index.html" data-dsn="parallax">
-                        <img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/logo.png") ?> alt="" />
-                        <img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/logo-dark.png") ?> alt="" />
+                    <a href="<?php echo base_url("/");?>" data-dsn="parallax">
+                        <img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" />
+                        <img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" />
                     </a>
                 </div>
             </div>
@@ -94,12 +94,12 @@
                                 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
                                 <span class="dsn-title-menu">Onirix</span>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription");?>">
+                            <li><a href="<?php echo base_url("Transcription/question");?>">
                                     <span class="dsn-title-menu">Prediction par des textes</span>
                                     <span class="dsn-meta-menu">01</span>
                                 </a>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription/choix");?>">
+                            <li><a href="<?php echo base_url("Transcription/choixoption");?>">
                                     <span class="dsn-title-menu">Questions à choix multiples</span>
                                     <span class="dsn-meta-menu">02</span>
                                 </a>
@@ -597,9 +597,9 @@
                         <div class="dsn-container">
                             <div class="d-grid grid-sm-2">
                                 <div class="footer-item">
-                                    <a href="" class="logo-footer m-auto">
-                                        <img src=<?php echo site_url("assets/img/logo.png") ?> alt="" class="logo-dark cover-bg-img">
-                                        <img src=<?php echo site_url("assets/img/logo-dark.png") ?> alt="" class="logo-light cover-bg-img">
+                                    <a href="<?php echo base_url("/");?>" class="logo-footer m-auto">
+                                        <img src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" class="logo-dark cover-bg-img">
+                                        <img src=<?php echo site_url("assets/img/onirix-noir.png") ?> alt="" class="logo-light cover-bg-img">
                                     </a>
                                 </div>
                                 <div class="footer-item text-right">
