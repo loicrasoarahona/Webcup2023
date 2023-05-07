@@ -654,7 +654,7 @@
                         <div class="form-box d-flex flex-column">
                             <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
                                 De l'aide ?</h4>
-                            <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
+                                <form class="form w-100" method="post" action="<?php echo base_url();?>" data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
                                     <div class="form-group">
@@ -726,12 +726,12 @@
         <div class="dsn-stories dsn-stories-model">
             <div class="close-story"></div>
             <div class="dsn-stories-gallery">
-                <div class="p-relative h-100">
+                <!-- <div class="p-relative h-100">
                     <a href="assets/img/stories/storie-5-1.jpg"></a>
                     <a href="assets/img/stories/storie-5.jpg"></a>
                     <a href="assets/img/stories/storie-5-2.jpg"></a>
                     <a href="assets/img/stories/storie-5-3.jpg"></a>
-                </div>
+                </div> -->
 
                 <h4 class="title-block">
                     A elegant and <br> attractive watch
@@ -739,10 +739,10 @@
             </div>
             <div class="dsn-stories-gallery">
                 <div class="p-relative h-100">
-                    <a href="assets/img/stories/storie-1-1.jpg"></a>
+                    <!-- <a href="assets/img/stories/storie-1-1.jpg"></a>
                     <a href="assets/img/stories/storie-1.jpg"></a>
                     <a href="assets/img/stories/storie-1-2.jpg"></a>
-                    <a href="assets/img/stories/storie-1-3.jpg"></a>
+                    <a href="assets/img/stories/storie-1-3.jpg"></a> -->
                 </div>
                 <h4 class="title-block">
                     Beyond Nature
@@ -750,10 +750,10 @@
             </div>
             <div class="dsn-stories-gallery">
                 <div class="p-relative h-100">
-                    <a href="assets/img/stories/storie-2-1.jpg"></a>
+                    <!-- <a href="assets/img/stories/storie-2-1.jpg"></a>
                     <a href="assets/img/stories/storie-2.jpg"></a>
                     <a href="assets/img/stories/storie-2-2.jpg"></a>
-                    <a href="assets/img/stories/storie-2-3.jpg"></a>
+                    <a href="assets/img/stories/storie-2-3.jpg"></a> -->
                 </div>
 
                 <h4 class="title-block">
@@ -762,10 +762,10 @@
             </div>
             <div class="dsn-stories-gallery">
                 <div class="p-relative h-100">
-                    <a href="assets/img/stories/storie-3-1.jpg"></a>
+                    <!-- <a href="assets/img/stories/storie-3-1.jpg"></a>
                     <a href="assets/img/stories/storie-3.jpg"></a>
                     <a href="assets/img/stories/storie-3-2.jpg"></a>
-                    <a href="assets/img/stories/storie-3-3.jpg"></a>
+                    <a href="assets/img/stories/storie-3-3.jpg"></a> -->
                 </div>
 
                 <h4 class="title-block">
@@ -774,10 +774,10 @@
             </div>
             <div class="dsn-stories-gallery">
                 <div class="p-relative h-100">
-                    <a href="assets/img/stories/storie-4-1.jpg"></a>
+                    <!-- <a href="assets/img/stories/storie-4-1.jpg"></a>
                     <a href="assets/img/stories/storie-4.jpg"></a>
                     <a href="assets/img/stories/storie-4-2.jpg"></a>
-                    <a href="assets/img/stories/storie-4-3.jpg"></a>
+                    <a href="assets/img/stories/storie-4-3.jpg"></a> -->
                 </div>
 
                 <h4 class="title-block">
@@ -786,10 +786,10 @@
             </div>
             <div class="dsn-stories-gallery">
                 <div class="p-relative h-100">
-                    <a href="assets/img/stories/storie-6-1.jpg"></a>
+                    <!-- <a href="assets/img/stories/storie-6-1.jpg"></a>
                     <a href="assets/img/stories/storie-6.jpg"></a>
                     <a href="assets/img/stories/storie-6-2.jpg"></a>
-                    <a href="assets/img/stories/storie-6-3.jpg"></a>
+                    <a href="assets/img/stories/storie-6-3.jpg"></a> -->
                 </div>
 
                 <h4 class="title-block">
