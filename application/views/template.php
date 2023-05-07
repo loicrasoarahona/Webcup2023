@@ -629,6 +629,7 @@
     <script src=<?php echo site_url("assets/js/dsn-grid.min.js") ?>></script>
     <script src=<?php echo site_url("assets/js/custom.js") ?>></script>
     <script src="<?php echo site_url("/assets/js/questionOptions.js") ?>"></script>
+    <script src="<?php echo site_url("/assets/js/serviceImages.js") ?>"></script>
 
 </body>
 

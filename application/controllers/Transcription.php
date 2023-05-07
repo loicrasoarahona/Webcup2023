@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 class Transcription extends CI_Controller
 {
@@ -23,6 +23,10 @@ class Transcription extends CI_Controller
         $data['view'] = 'service_choix';
         $this->load->view('template', $data);
     }
-        
-}   
-?>
+
+    public function choixImage()
+    {
+        $data['view'] = 'service_images';
+        $this->load->view('template', $data);
+    }
+}
