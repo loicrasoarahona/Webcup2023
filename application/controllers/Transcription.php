@@ -37,4 +37,9 @@ class Transcription extends CI_Controller
 
         $this->load->view('template', $data);
     }
+    public function response_images()
+    {
+        $data['view'] = 'service_reponse_image';
+        $this->load->view('template', $data);
+    }
 }
