@@ -40,8 +40,50 @@ class Transcription extends CI_Controller
 
     public function validationReponseImage()
     {
-        $reponses = $this->input->post('reponses');
+        $reponses = json_decode($this->input->post('reponses'));
 
-        var_dump($reponses);
+        $string = "";
+
+        foreach ($reponses as $choix) {
+            $string .= explode('|', $choix->description)[0] . ',';
+        }
+
+
+        // Convertir la chaîne en un tableau en utilisant la virgule comme séparateur
+        $array = explode(",", $string);
+
+        // Initialiser un tableau associatif pour stocker les occurrences
+        $occurrences = array();
+
+        // Parcourir le tableau et compter les occurrences de chaque élément
+        foreach ($array as $element) {
+            if (isset($occurrences[$element])) {
+                $occurrences[$element]++;
+            } else {
+                $occurrences[$element] = 1;
+            }
+        }
+
+        // Trouver l'élément avec le nombre d'occurrences le plus élevé
+        $maxOccurrences = 0;
+        $mostFrequentElement = "";
+
+        foreach ($occurrences as $element => $count) {
+            if ($count > $maxOccurrences) {
+                $maxOccurrences = $count;
+                $mostFrequentElement = $element;
+            }
+        }
+
+        var_dump($maxOccurrences);
+        var_dump($mostFrequentElement);
+
+        $data = array(
+            "mostFrequentElement" => $mostFrequentElement,
+            "reponses" => "$reponses",
+            "view" => "response-images"
+        );
+
+        $this->load->view('template', $data);
     }
 }
