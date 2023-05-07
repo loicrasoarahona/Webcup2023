@@ -34,5 +34,7 @@ class Transcription extends CI_Controller
 
         $data['listeChoix'] = $listeChoix;
         $data['view'] = "service_images";
+
+        $this->load->view('template', $data);
     }
 }
