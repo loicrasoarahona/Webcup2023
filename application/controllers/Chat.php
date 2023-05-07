@@ -8,7 +8,7 @@ class Chat extends CI_Controller
     {
         parent::__construct();
 
-        $this->load->model('API');
+        $this->load->model('Api');
 
         $this->load->model('Historique');
     }
@@ -23,32 +23,43 @@ class Chat extends CI_Controller
     {
         $this->checkSession();
         $isnot_option = $this->input->post('isquestion');
+        $is_cauchmar = 0;
         $qe = null;
         if ($isnot_option != 0) {
 
             $qe = $this->input->post('question');
+
         } else {
 
             $rep = json_decode($this->input->post('reponses'));
             // var_dump($rep);
             $qe = $this->Reve->getFullSentence($rep[0]->nom, $rep[1]->nom, $rep[2]->nom, $rep[3]->nom, $rep[4]->nom, $rep[5]->nom);
+
+            if (strpos(strtoupper($qe), "CAUCHEMAR") !== false) {
+
+                $is_cauchmar = 1;
+
+            }
         }
         //creation question que ça soit simple, soit question cauchemar
         // var_dump($qe);
 
-        $question = $this->API->gestion_question($qe);
+        $question = $this->Api->gestion_question($qe);
 
-        $question_cauchemar = $this->API->gestion_question_cauchemar($qe);
+        $question_cauchemar = $this->Api->gestion_question_cauchemar($qe);
 
         $iduser = $this->session->userdata("iduser");
 
-        $response = $this->API->traitement_response($question);
+        $response = $this->Api->traitement_response($question);
 
-        //var_dump($response);
-
-        $response_cauchemar = $this->API->traitement_response($question_cauchemar);
-
+        if($is_cauchmar == 1){
+            $response_cauchemar = "OUI";
+        } else {
+            $response_cauchemar = $this->Api->traitement_response($question_cauchemar);
+        }
         // var_dump($iduser);
+        var_dump($response_cauchemar);
+        
 
         if (strpos(strtoupper($response_cauchemar), "NON") !== false) {
 

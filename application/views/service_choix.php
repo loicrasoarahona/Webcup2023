@@ -14,7 +14,7 @@
 <!-- ========== slider Section ========== -->
 <div class="slider-about pb-section dsn-container  dsn-swiper p-relative " data-dsn-option='{"slidesPerView" : 2.3}'>
 <div class="section-title">
-        <span class="tag-heading p-10 mb-15 background-section heading-color">Faites glisser horizontalement pour choisir les options </span>
+        <span class="tag-heading p-10 mb-15 background-section heading-color" style="font-size:25px;">Faites glisser horizontalement pour choisir les options </span>
         <!-- <h2 class="heading-h2">Nous combinons recherche, <br> psychologie et numérique</h2> -->
     </div>
     <div class="swiper-container">

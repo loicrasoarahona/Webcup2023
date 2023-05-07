@@ -9,13 +9,13 @@
             <div class="col-xl-6 offset-xl-6 col-lg-7 offset-lg-5">
                 <div class="pro-text p-relative background-section box-padding z-index-1 section-margin">
                     <div class="border-section-bottom mb-50">
-                        <h2 class="heading-h2">
+                        <h1 class="heading-h1">
                             Quels sont les informations <br>cachés sur votre rêve ? 
-                        </h2>
+                        </h1>
                     </div>
                     <div class="description max-w570">  
-                        <p class="mb-10">
-                            <?php if ($response == "On vous redirige vers une site de psycothérapie à fin de vous fournir des conseils car nous avons remarqué que vous avez fait souvent de cauchemar") {
+                        <p class="mb-10" style="font-size: 20px;">
+                            <?php if ($response == "On vous redirige vers un site de psychothérapie afin de vous fournir des conseils car nous avons remarqué que vous faites souvent des cauchemars") {
                                  ?>
                                     <script>
                                         var tab =['https://www.blakepsychology.com/fr/approches/therapie-du-reve/','https://ghislain-bousseau-psy.com/les-reves-analyses-et-interpretations-en-psychotherapie/'];
@@ -30,7 +30,7 @@
                                         }
                                         lien(tab);
                                     </script>
-                                    <?php echo $response; ?> <a style="color:blueviolet;" href="" onclick="lien(tab)">voir site web</a>
+                                    <?php echo $response; ?> <a style="color:blueviolet;" href="" onclick="lien(tab)">Voir le site web</a>
                             <?php }else{
                                 echo $response;
                             }
