@@ -30,7 +30,7 @@
                         <div class="form-group">
                             <div class="entry-box">
                                 <label>Description</label>
-                                <textarea id="form_message" class="form-control" name="question" placeholder="Description précise de votre rêve ..." required="required" data-error="S'il vous plaît, laissez-nous un message."></textarea>
+                                <textarea style="height: 250px;border:1px solid grey" id="form_message" class="form-control" name="question" placeholder="Description précise de votre rêve ..." required="required" data-error="S'il vous plaît, laissez-nous un message."></textarea>
                             </div>
                             <div class="help-block with-errors"></div>
                         </div>
@@ -55,8 +55,8 @@
 <section class="next-page dsn-container background-section section-padding">
     <a href="work.html" class="effect-ajax">
         <h2 class="title">
-            <span class="letter-stroke">Digital </span> <br>
-            <span class="line-bg-left pl-80">Experiences</span>
+            <span class="letter-stroke" style="font-size: 50px;">Votre énigme , notre problème </span> <br>
+            <span class="line-bg-left pl-80" style="font-size: 45px;">Notre IA , votre solution </span>
         </h2>
     </a>
 </section>
