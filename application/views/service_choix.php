@@ -6,8 +6,8 @@
         </h1>
         <div class="mt-30 d-flex w-100 justify-content-end">
             <p class="border-left pl-20 max-w570">
-                Vous avez plusieurs choix pour nous decrire votre rêve , que vous nous le racontez directement ,
-                choissisez des questions à choix , ou bien les illustrer par des images , nous sommes là pour vous prédire votre avenir.</p>
+            Vous avez plusieurs choix pour nous decrire votre rêve , que vous nous le racontez directement ,
+                choisissez des questions à choix mutilples, ou bien les illustrer par des images , nous sommes là pour vous prédire votre avenir.</p>
         </div>
     </div>
 </header>

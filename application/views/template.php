@@ -70,250 +70,59 @@
             <nav class="accent-menu dsn-container main-navigation p-absolute  w-100  d-flex align-items-baseline ">
                 <div class="menu-cover-title">Menu</div>
                 <ul class="extend-container p-relative d-flex flex-column justify-content-center h-100">
-
-                    <li class="dsn-active dsn-drop-down">
-                        <a href="#" class="user-no-selection">
-
-                            <span class="dsn-title-menu">Demos</span>
-                            <span class="dsn-meta-menu">01</span>
+                    <li>
+                        <a href="<?php echo base_url("Sign");?>" class="user-no-selection">
+                            <span class="dsn-title-menu">Se Connnecter</span>
+                            <span class="dsn-meta-menu"></span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
-
-
-                        <ul>
-                            <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
-                                <span class="dsn-title-menu">Demos</span>
-                            </li>
-                            <li>
-                                <a href="demo.html">
-                                    <span class="dsn-title-menu">Main Demos</span>
-                                    <span class="dsn-meta-menu">01</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="demo-2.html">
-                                    <span class="dsn-title-menu">Demo 2</span>
-                                    <span class="dsn-meta-menu">02</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="demo-3.html">
-                                    <span class="dsn-title-menu">Demo 3</span>
-                                    <span class="dsn-meta-menu">03</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="personal.html">
-                                    <span class="dsn-title-menu">personal</span>
-                                    <span class="dsn-meta-menu">04</span>
-                                </a>
-                            </li>
-
-                        </ul>
                     </li>
-
-
-
-                    <li class="dsn-drop-down">
-                        <a href="#" class="user-no-selection">
-
-                            <span class="dsn-title-menu">Sliders Distortion</span>
+                    <li>
+                        <a href="<?php echo base_url("/");?>" class="user-no-selection">
+                            <span class="dsn-title-menu">Accueil</span>
                             <span class="dsn-meta-menu">02</span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
-
-
-                        <ul>
-                            <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
-                                <span class="dsn-title-menu">Sliders</span>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-horizontal.html">
-                                    <span class="dsn-title-menu">Fullscreen / Distortion / Horizontal</span>
-                                    <span class="dsn-meta-menu">01</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-horizontal-2.html">
-                                    <span class="dsn-title-menu">Half Left / Distortion / Horizontal</span>
-                                    <span class="dsn-meta-menu">02</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-horizontal-3.html">
-                                    <span class="dsn-title-menu">Half Right / Distortion / Horizontal</span>
-                                    <span class="dsn-meta-menu">03</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-vertical.html">
-                                    <span class="dsn-title-menu">Fullscreen / Distortion / vertical</span>
-                                    <span class="dsn-meta-menu">04</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-vertical-2.html">
-                                    <span class="dsn-title-menu">Half Left / Distortion / vertical</span>
-                                    <span class="dsn-meta-menu">05</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-vertical-3.html">
-                                    <span class="dsn-title-menu">Half Right / Distortion / vertical</span>
-                                    <span class="dsn-meta-menu">06</span>
-                                </a>
-                            </li>
-                        </ul>
-
                     </li>
-
                     <li class="dsn-drop-down">
                         <a href="#" class="user-no-selection">
-
-                            <span class="dsn-title-menu">Sliders parallax</span>
+                            <span class="dsn-title-menu">Onirix</span>
                             <span class="dsn-meta-menu">03</span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
-
-
                         <ul>
                             <li class="dsn-back-menu">
                                 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
-                                <span class="dsn-title-menu">Sliders</span>
+                                <span class="dsn-title-menu">Onirix</span>
                             </li>
-
-                            <li>
-                                <a href="slider.html">
-                                    <span class="dsn-title-menu">Fullscreen / parallax / horizontal</span>
+                            <li><a href="<?php echo base_url("Transcription");?>">
+                                    <span class="dsn-title-menu">Prediction par des textes</span>
                                     <span class="dsn-meta-menu">01</span>
                                 </a>
                             </li>
-
-                            <li>
-                                <a href="slider-2.html">
-                                    <span class="dsn-title-menu">Half Left / parallax / Horizontal</span>
+                            <li><a href="<?php echo base_url("Transcription/choix");?>">
+                                    <span class="dsn-title-menu">Questions à choix multiples</span>
                                     <span class="dsn-meta-menu">02</span>
                                 </a>
                             </li>
-
-                            <li>
-                                <a href="slider-3.html">
-                                    <span class="dsn-title-menu">Half Right / parallax / Horizontal</span>
+                            <li><a href="<?php echo base_url("Transcription/choix");?>">
+                                    <span class="dsn-title-menu">Illustrations par images</span>
                                     <span class="dsn-meta-menu">03</span>
                                 </a>
                             </li>
-
-                            <li>
-                                <a href="slider-vertical.html">
-                                    <span class="dsn-title-menu">Fullscreen / parallax / vertical</span>
-                                    <span class="dsn-meta-menu">04</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-vertical-2.html">
-                                    <span class="dsn-title-menu">Half Left / parallax / vertical</span>
-                                    <span class="dsn-meta-menu">05</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-vertical-3.html">
-                                    <span class="dsn-title-menu">Half Left / parallax / vertical</span>
-                                    <span class="dsn-meta-menu">06</span>
-                                </a>
-                            </li>
-
                         </ul>
-
                     </li>
-
                     <li>
-                        <a href="about.html">
-
-                            <span class="dsn-title-menu">About</span>
+                        <a href="<?php echo base_url("About");?>" class="user-no-selection">
+                            <span class="dsn-title-menu">A Propos</span>
                             <span class="dsn-meta-menu">04</span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
                     </li>
-
-                    <li class="dsn-drop-down">
-                        <a href="#" class="user-no-selection">
-
-                            <span class="dsn-title-menu">Portfolio</span>
-                            <span class="dsn-meta-menu">05</span>
-                            <span class="dsn-bg-arrow"></span>
-                        </a>
-
-
-                        <ul>
-                            <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
-                                <span class="dsn-title-menu">Portfolio</span>
-                            </li>
-
-
-
-                            <li>
-                                <a href="work.html">
-                                    <span class="dsn-title-menu">Work</span>
-                                    <span class="dsn-meta-menu">01</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="work-2.html">
-                                    <span class="dsn-title-menu">Work 3 Colum</span>
-                                    <span class="dsn-meta-menu">02</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="work-3.html">
-                                    <span class="dsn-title-menu">Work Hover</span>
-                                    <span class="dsn-meta-menu">03</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="work-4.html">
-                                    <span class="dsn-title-menu">Work 2 Colum</span>
-                                    <span class="dsn-meta-menu">04</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="work-5.html">
-                                    <span class="dsn-title-menu">Work Style 2</span>
-                                    <span class="dsn-meta-menu">05</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="stories.html">
-                                    <span class="dsn-title-menu">stories</span>
-                                    <span class="dsn-meta-menu">06</span>
-                                </a>
-                            </li>
-                        </ul>
-
-                    </li>
-
                     <li>
-                        <a href="contact.html" class="user-no-selection">
-
+                        <a href="<?php echo base_url("Contact");?>" class="user-no-selection">
                             <span class="dsn-title-menu">Contact</span>
-                            <span class="dsn-meta-menu">06</span>
+                            <span class="dsn-meta-menu">05</span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
                     </li>
@@ -322,26 +131,25 @@
                     <div class="nav__info">
                         <div class="nav-content">
                             <p class="title-line">
-                                Studio</p>
+                                Locaux</p>
                             <p>
-                                26-30 New Damietta<br>
-                                El-Mahalla El-Kubra, SK1 66LM</p>
+                            <p>88 Bis C <br> Anosizato<br> Tananarive, Madagascar</p>
                         </div>
                         <div class="nav-content">
                             <p class="title-line">
                                 Contact</p>
                             <p class="links over-hidden">
-                                <a href="#" data-hover-text="+00 (2)012 3321" class="link-hover">+00 (2)012 3321</a>
+                                <a href="#" data-hover-text="+00 (2)012 3321" class="link-hover">+261 34 56 486 25</a>
                             </p>
                             <p class="links  over-hidden">
-                                <a href="#" data-hover-text="info@dsngrid.com" class="link-hover">info@dsngrid.com</a>
+                                <a href="#" data-hover-text="Onirix-smartit@gmail.com" class="link-hover">Onirix-smartit@gmail.com</a>
                             </p>
                         </div>
                     </div>
                     <div class="nav-social nav-content">
                         <div class="nav-social-inner p-relative">
                             <p class="title-line">
-                                Follow us</p>
+                                Suivez-nous</p>
                             <ul>
                                 <li>
                                     <a href="#" target="_blank" rel="nofollow">Dribbble.
