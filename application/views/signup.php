@@ -9,7 +9,7 @@
     <meta name="keyword" content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
 
     <!--  Title -->
-    <title>Login - Orinix</title>
+    <title>Inscription - Orinix</title>
 
     <!-- Font Google -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -17,7 +17,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     </noscript>
 
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href=<?php echo site_url("assets/img/favicon.ico")?> type="image/x-icon" />
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
     <!-- custom styles (optional) -->
@@ -382,7 +382,7 @@
         <!-- ========== side box left ========== -->
         <!-- ========== Contact Form Model ========== -->
         <div class="login-btn">
-            <div class="login-btn-txt">Page de connexion</div>
+        <div class="login-btn-txt"><a href="<?php echo base_url("/");?>">Revenir vers Accueil</a> </div>
         </div>
         <div class="contact-modal background-section col-12 col-lg-9 col-xl-8 col-xxl-6">
             <div class="dsn-container contact-inner section-margin">
@@ -442,10 +442,10 @@
                                             </ul>
                                         </div>
                                     </div>
-
+                                    <span><a class="couleur" href="<?php echo site_url('/Sign') ?>">Connectez-vous</a> si vous avez déjà un compte</span>                        
                                     <div class="text-right">
                                         <div class="image-zoom w-auto d-inline-block move-circle" data-dsn="parallax">
-                                            <input type="submit" value="Se connecter" class="v-light">
+                                            <input type="submit" value="S'inscrire" class="v-light">
                                         </div>
                                     </div>
                                 </div>
@@ -626,7 +626,7 @@
 
     <!-- ========== Scroll Right Page To Top Page ========== -->
     <div class="scroll-to-top">
-        <img src="assets/img/scroll_top.svg" alt="">
+        <img src=<?php echo site_url("assets/img/scroll_top.svg")?> alt="">
         <div class="box-number v-middle">
             <span>IA</span>
         </div>

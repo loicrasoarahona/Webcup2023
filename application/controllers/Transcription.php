@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 class Transcription extends CI_Controller
 {
@@ -21,8 +21,18 @@ class Transcription extends CI_Controller
     public function choixoption()
     {
         $data['view'] = 'service_choix';
-        $this->load->view('template', $data);
+        redirect(base_url("reveController/loadOption"));
     }
-        
-}   
-?>
+
+    public function choixImages()
+    {
+        $this->load->model("Reve");
+
+        $listeChoix = $this->Reve->getChoixImage();
+
+        $data = array();
+
+        $data['listeChoix'] = $listeChoix;
+        $data['view'] = "service_images";
+    }
+}

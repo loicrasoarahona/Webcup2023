@@ -378,7 +378,7 @@
         <!-- ========== side box left ========== -->
         <!-- ========== Contact Form Model ========== -->
         <div class="login-btn">
-            <div class="login-btn-txt">Page de connexion</div>
+            <div class="login-btn-txt"><a href="<?php echo base_url("/");?>">Revenir vers Accueil</a> </div>
         </div>
         <div class="contact-modal background-section col-12 col-lg-9 col-xl-8 col-xxl-6">
             <div class="dsn-container contact-inner section-margin">
