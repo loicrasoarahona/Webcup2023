@@ -118,13 +118,6 @@
                             <span class="dsn-bg-arrow"></span>
                         </a>
                     </li>
-                    <li>
-                        <a href="<?php echo base_url("Contact");?>" class="user-no-selection">
-                            <span class="dsn-title-menu">Contact</span>
-                            <span class="dsn-meta-menu">05</span>
-                            <span class="dsn-bg-arrow"></span>
-                        </a>
-                    </li>
                 </ul>
                 <div class="container-content  p-absolute h-100 left-60 d-flex flex-column justify-content-center">
                     <div class="nav__info">
@@ -252,17 +245,14 @@
                         <div class="row">
                             <div class="col-lg-7">
                                 <div class="p-relative text">
-                                    <h2 class="title-block ">Nous sommes une organisation de recherhce <br> dans l'expertise de l'étude des rêves</h2>
+                                    <h2 class="title-block ">Nous sommes une organisation de recherche <br> dans l'expertise de l'étude des rêves</h2>
 
                                     <p class="mt-30">L'Institut International des Rêves est une organisation de recherche spécialisée dans l'étude des rêves.
                                         les chercheurs de cet institut ont développé une intelligence artificielle avancée appelée Onirix, qui est capable d'analyser et de décoder les rêves des utilisateurs pour prédire leur avenir. Cette technologie révolutionnaire permettrait de prédire des situations telles qu'une rencontre amoureuse,
                                         des problèmes avec des collègues de travail,ou même des difficultés scolaires.
                                     </p>
 
-                                    <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod
-                                        tempor
-                                        incididunt ut labore et dolore magna ut enim ad minim veniam nostrud
-                                        exercitation ullamco</p>
+                                    <p class="mt-10"></p>
 
                                     <ul class="mt-30 lest-icon">
                                         <li>Spécialisé dans l'étude des rêves</li>
@@ -301,14 +291,14 @@
                                     <div class="box-infos pl-30">
                                         <div class="info d-flex flex-column align-items-end mt-30">
                                             <h4 class="sm-title-block mb-10">Onirix</h4>
-                                            <h5 class="font-caps body-color">IA de l'orinisme</h5>
+                                            <h5 class="font-caps body-color">IA de l'onirisme</h5>
                                         </div>
                                         <div class="mt-30 ">
                                             <div class="box-skills-inner d-grid-no-space d-grid grid-md-2 grid-row-gap-30">
                                                 <div class="skills-item">
                                                     <h4 class="font-caps mb-10">Précision</h4>
                                                     <div class="bar">
-                                                        <span class="fill box-shadow" data-width="96%">
+                                                        <span class="fill box-shadow" data-width="90%">
                                                             <span class="number">0%</span>
                                                         </span>
                                                     </div>
@@ -444,7 +434,7 @@
                                         <ul class="p-relative mt-20">
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                Vision différentes par images
+                                                Décrivez vos rêves en images
                                             </li>
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
@@ -462,7 +452,7 @@
                     </section>
                     <section class="our-work dsn-container dsn-filter p-relative section-margin" data-dsn-title="My Work">
                         <div class="section-title">
-                            <span class="tag-heading p-10 mb-15 background-section heading-color">Portfolio</span>
+                            <span class="tag-heading p-10 mb-15 background-section heading-color"></span>
                             <h2 class="heading-h2">Equipe</h2>
                         </div>
                         <div class="projects-list gallery work-gallery dsn-swiper" data-dsn-option='{"slidesPerView":3,"spaceBetween":30}'>
@@ -480,7 +470,7 @@
                                                         RASOARAHONA <br> Loic
                                                     </h4>
                                                     <div class="metas">
-                                                        <span>FrontEnd Developper</span>
+                                                        <span>FrontEnd Developer</span>
                                                         <span>FullStack Developer</span>
                                                     </div>
 
@@ -501,11 +491,11 @@
                                                         RAMAROSON <br> Sandy Princia
                                                     </h4>
                                                     <div class="metas">
-                                                        <span>Backend-Developper</span>
+                                                        <span>Backend-Developer</span>
                                                         <span>FullStack Developer</span>
                                                     </div>
 
-                                                    <div class="view-project">FrontEnd Developper</div>
+                                                    <div class="view-project">FrontEnd Developer</div>
                                                 </div>
                                             </a>
                                         </div>
@@ -522,10 +512,10 @@
                                                         RANDRIAMAHALEO <br> Mendrika
                                                     </h4>
                                                     <div class="metas">
-                                                        <span>Backend-Developper</span>
+                                                        <span>Backend-Developer</span>
                                                     </div>
 
-                                                    <div class="view-project">FullStack Developper</div>
+                                                    <div class="view-project">FullStack Developer</div>
                                                 </div>
                                             </a>
                                         </div>
@@ -546,7 +536,7 @@
                                                         <span>UX/UI Designer</span>
                                                     </div>
 
-                                                    <div class="view-project">Front-Developper</div>
+                                                    <div class="view-project">Front-Developer</div>
                                                 </div>
                                             </a>
                                         </div>

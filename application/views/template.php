@@ -119,13 +119,7 @@
                             <span class="dsn-bg-arrow"></span>
                         </a>
                     </li>
-                    <li>
-                        <a href="<?php echo base_url("Contact"); ?>" class="user-no-selection">
-                            <span class="dsn-title-menu">Contact</span>
-                            <span class="dsn-meta-menu">05</span>
-                            <span class="dsn-bg-arrow"></span>
-                        </a>
-                    </li>
+
                 </ul>
                 <div class="container-content  p-absolute h-100 left-60 d-flex flex-column justify-content-center">
                     <div class="nav__info">
