@@ -69,248 +69,59 @@
             <nav class="accent-menu dsn-container main-navigation p-absolute  w-100  d-flex align-items-baseline ">
                 <div class="menu-cover-title">Menu</div>
                 <ul class="extend-container p-relative d-flex flex-column justify-content-center h-100">
-
-                    <li class="dsn-active dsn-drop-down">
-                        <a href="#" class="user-no-selection">
-
-                            <span class="dsn-title-menu">Demos</span>
-                            <span class="dsn-meta-menu">01</span>
+                    <li>
+                        <a href="<?php echo base_url("Sign");?>" class="user-no-selection">
+                            <span class="dsn-title-menu">Se Connnecter</span>
+                            <span class="dsn-meta-menu"></span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
-                        <ul>
-                            <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
-                                <span class="dsn-title-menu">Demos</span>
-                            </li>
-                            <li>
-                                <a href="demo.html">
-                                    <span class="dsn-title-menu">Main Demos</span>
-                                    <span class="dsn-meta-menu">01</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="demo-2.html">
-                                    <span class="dsn-title-menu">Demo 2</span>
-                                    <span class="dsn-meta-menu">02</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="demo-3.html">
-                                    <span class="dsn-title-menu">Demo 3</span>
-                                    <span class="dsn-meta-menu">03</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="personal.html">
-                                    <span class="dsn-title-menu">personal</span>
-                                    <span class="dsn-meta-menu">04</span>
-                                </a>
-                            </li>
-
-                        </ul>
                     </li>
-
-
-
-                    <li class="dsn-drop-down">
-                        <a href="#" class="user-no-selection">
-
-                            <span class="dsn-title-menu">Sliders Distortion</span>
+                    <li>
+                        <a href="<?php echo base_url("/");?>" class="user-no-selection">
+                            <span class="dsn-title-menu">Accueil</span>
                             <span class="dsn-meta-menu">02</span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
-
-
-                        <ul>
-                            <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
-                                <span class="dsn-title-menu">Sliders</span>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-horizontal.html">
-                                    <span class="dsn-title-menu">Fullscreen / Distortion / Horizontal</span>
-                                    <span class="dsn-meta-menu">01</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-horizontal-2.html">
-                                    <span class="dsn-title-menu">Half Left / Distortion / Horizontal</span>
-                                    <span class="dsn-meta-menu">02</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-horizontal-3.html">
-                                    <span class="dsn-title-menu">Half Right / Distortion / Horizontal</span>
-                                    <span class="dsn-meta-menu">03</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-vertical.html">
-                                    <span class="dsn-title-menu">Fullscreen / Distortion / vertical</span>
-                                    <span class="dsn-meta-menu">04</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-vertical-2.html">
-                                    <span class="dsn-title-menu">Half Left / Distortion / vertical</span>
-                                    <span class="dsn-meta-menu">05</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-webgel-vertical-3.html">
-                                    <span class="dsn-title-menu">Half Right / Distortion / vertical</span>
-                                    <span class="dsn-meta-menu">06</span>
-                                </a>
-                            </li>
-                        </ul>
-
                     </li>
-
                     <li class="dsn-drop-down">
                         <a href="#" class="user-no-selection">
-
-                            <span class="dsn-title-menu">Sliders parallax</span>
+                            <span class="dsn-title-menu">Orinix</span>
                             <span class="dsn-meta-menu">03</span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
-
-
                         <ul>
                             <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
-                                <span class="dsn-title-menu">Sliders</span>
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
+                                <span class="dsn-title-menu">Orinix</span>
                             </li>
-
-                            <li>
-                                <a href="slider.html">
-                                    <span class="dsn-title-menu">Fullscreen / parallax / horizontal</span>
+                            <li><a href="<?php echo base_url("Transcription");?>">
+                                    <span class="dsn-title-menu">Prediction par des textes</span>
                                     <span class="dsn-meta-menu">01</span>
                                 </a>
                             </li>
-
-                            <li>
-                                <a href="slider-2.html">
-                                    <span class="dsn-title-menu">Half Left / parallax / Horizontal</span>
+                            <li><a href="<?php echo base_url("Transcription/choix");?>">
+                                    <span class="dsn-title-menu">Questions à choix multiples</span>
                                     <span class="dsn-meta-menu">02</span>
                                 </a>
                             </li>
-
-                            <li>
-                                <a href="slider-3.html">
-                                    <span class="dsn-title-menu">Half Right / parallax / Horizontal</span>
+                            <li><a href="<?php echo base_url("Transcription/choix");?>">
+                                    <span class="dsn-title-menu">Illustrations par images</span>
                                     <span class="dsn-meta-menu">03</span>
                                 </a>
                             </li>
-
-                            <li>
-                                <a href="slider-vertical.html">
-                                    <span class="dsn-title-menu">Fullscreen / parallax / vertical</span>
-                                    <span class="dsn-meta-menu">04</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-vertical-2.html">
-                                    <span class="dsn-title-menu">Half Left / parallax / vertical</span>
-                                    <span class="dsn-meta-menu">05</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="slider-vertical-3.html">
-                                    <span class="dsn-title-menu">Half Left / parallax / vertical</span>
-                                    <span class="dsn-meta-menu">06</span>
-                                </a>
-                            </li>
-
                         </ul>
-
                     </li>
-
                     <li>
-                        <a href="about.html">
-
-                            <span class="dsn-title-menu">About</span>
+                        <a href="<?php echo base_url("About");?>" class="user-no-selection">
+                            <span class="dsn-title-menu">A Propos</span>
                             <span class="dsn-meta-menu">04</span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
                     </li>
-
-                    <li class="dsn-drop-down">
-                        <a href="#" class="user-no-selection">
-
-                            <span class="dsn-title-menu">Portfolio</span>
-                            <span class="dsn-meta-menu">05</span>
-                            <span class="dsn-bg-arrow"></span>
-                        </a>
-
-
-                        <ul>
-                            <li class="dsn-back-menu">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/left-chevron.svg" alt="">
-                                <span class="dsn-title-menu">Portfolio</span>
-                            </li>
-
-
-
-                            <li>
-                                <a href="work.html">
-                                    <span class="dsn-title-menu">Work</span>
-                                    <span class="dsn-meta-menu">01</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="work-2.html">
-                                    <span class="dsn-title-menu">Work 3 Colum</span>
-                                    <span class="dsn-meta-menu">02</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="work-3.html">
-                                    <span class="dsn-title-menu">Work Hover</span>
-                                    <span class="dsn-meta-menu">03</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="work-4.html">
-                                    <span class="dsn-title-menu">Work 2 Colum</span>
-                                    <span class="dsn-meta-menu">04</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="work-5.html">
-                                    <span class="dsn-title-menu">Work Style 2</span>
-                                    <span class="dsn-meta-menu">05</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="stories.html">
-                                    <span class="dsn-title-menu">stories</span>
-                                    <span class="dsn-meta-menu">06</span>
-                                </a>
-                            </li>
-                        </ul>
-
-                    </li>
-
                     <li>
-                        <a href="contact.html" class="user-no-selection">
-
+                        <a href="<?php echo base_url("Contact");?>" class="user-no-selection">
                             <span class="dsn-title-menu">Contact</span>
-                            <span class="dsn-meta-menu">06</span>
+                            <span class="dsn-meta-menu">05</span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
                     </li>
@@ -422,7 +233,7 @@
                                     </span>
                                 </h3>
                             </div>
-                            <a href="<?php echo base_url("Transcription/choix");?>" class="link-custom v-light-head background-main image-zoom move-circle" data-dsn="parallax">
+                            <a href="<?php echo base_url("Transcription/choix"); ?>" class="link-custom v-light-head background-main image-zoom move-circle" data-dsn="parallax">
                                 Tester
                             </a>
                         </div>
@@ -445,8 +256,8 @@
                                     <h2 class="title-block ">Nous sommes une organisation de recherhce <br> dans l'expertise de l'étude des rêves</h2>
 
                                     <p class="mt-30">L'Institut International des Rêves est une organisation de recherche spécialisée dans l'étude des rêves.
-                                    les chercheurs de cet institut ont développé une intelligence artificielle avancée appelée Orinix, qui est capable d'analyser et de décoder les rêves des utilisateurs pour prédire leur avenir. Cette technologie révolutionnaire permettrait de prédire des situations telles qu'une rencontre amoureuse,
-                                     des problèmes avec des collègues de travail,ou même des difficultés scolaires.
+                                        les chercheurs de cet institut ont développé une intelligence artificielle avancée appelée Orinix, qui est capable d'analyser et de décoder les rêves des utilisateurs pour prédire leur avenir. Cette technologie révolutionnaire permettrait de prédire des situations telles qu'une rencontre amoureuse,
+                                        des problèmes avec des collègues de travail,ou même des difficultés scolaires.
                                     </p>
 
                                     <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod
@@ -543,21 +354,21 @@
                                     <div class="section-title">
                                         <span class="tag-heading p-10 mb-15 background-main heading-color">A Propos
                                             de Orinix</span>
-                                        <h2 class="title-block">Avec Orinix ,  <br> les rêves deviendront-ils la clé de notre destinée ? 
+                                        <h2 class="title-block">Avec Orinix , <br> les rêves deviendront-ils la clé de notre destinée ?
                                         </h2>
                                     </div>
 
                                     <h4 class="sm-title-block mb-20">Une intelligence articielle révolutionnaire</h4>
 
-                                    <p class="mb-10">Orinix est une intelligence artificielle avancée développée par les chercheurs de l'Institut International des Rêves. Elle utilise une technologie de pointe 
+                                    <p class="mb-10">Orinix est une intelligence artificielle avancée développée par les chercheurs de l'Institut International des Rêves. Elle utilise une technologie de pointe
                                         pour analyser et décoder les rêves des utilisateurs et leur donner des indications sur leur avenir.</p>
 
                                     <p>En analysant les images, les symboles et les thèmes récurrents présents dans les rêves,
-                                         Orinix peut prédire des situations futures telles qu'une rencontre amoureuse ou des difficultés scolaires.
-                                          Elle peut également détecter des signaux plus graves tels que des maladies potentielles ou des problèmes
-                                           avec des collègues de travail. La technologie Orinix est considérée comme révolutionnaire
-                                            dans le domaine de l'analyse des rêves et est une avancée majeure pour aider les gens à mieux
-                                             comprendre leur vie future.</p>
+                                        Orinix peut prédire des situations futures telles qu'une rencontre amoureuse ou des difficultés scolaires.
+                                        Elle peut également détecter des signaux plus graves tels que des maladies potentielles ou des problèmes
+                                        avec des collègues de travail. La technologie Orinix est considérée comme révolutionnaire
+                                        dans le domaine de l'analyse des rêves et est une avancée majeure pour aider les gens à mieux
+                                        comprendre leur vie future.</p>
 
                                     <a href="#" class="link-custom v-light background-main image-zoom move-circle mt-30" data-dsn="parallax">En savoir plus</a>
                                 </div>
@@ -574,7 +385,7 @@
                             <div class="service-item my-service border">
                                 <div class="service-item-inner style-box">
                                     <div class="icon">
-                                    <img src="assets/img/services/mobile.svg" alt="">
+                                        <img src="assets/img/services/mobile.svg" alt="">
                                     </div>
                                     <div class="content-box">
                                         <h4 class="title-block pr-10 border-section-bottom mt-20">
@@ -600,7 +411,7 @@
                             <div class="service-item my-service border">
                                 <div class="service-item-inner style-box">
                                     <div class="icon">
-                                    <img src="assets/img/services/development.svg" alt="">
+                                        <img src="assets/img/services/development.svg" alt="">
                                     </div>
                                     <div class="content-box">
                                         <h4 class="title-block pr-10 border-section-bottom mt-20">
@@ -626,15 +437,15 @@
                             <div class="service-item my-service border">
                                 <div class="service-item-inner style-box">
                                     <div class="icon">
-                                    <img src="assets/img/services/creative.svg" alt="">
+                                        <img src="assets/img/services/creative.svg" alt="">
                                     </div>
                                     <div class="content-box">
                                         <h4 class="title-block pr-10 border-section-bottom mt-20">
-                                        Questionnaire visuel</h4>
+                                            Questionnaire visuel</h4>
                                         <ul class="p-relative mt-20">
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                Vision différentes par images 
+                                                Vision différentes par images
                                             </li>
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
@@ -777,7 +588,7 @@
                         <span class="tag-heading background-main heading-color p-10">LET’S TALK</span>
                         <h2 class="title max-w570">
                             <span class="letter-stroke">ALLONS </span>
-                            <br> CONNAITRE VOTRE FUTUR 
+                            <br> CONNAITRE VOTRE FUTUR
                         </h2>
                         <a href="#" class="link-custom p-relative mt-30 v-light">
                             Prédire mon avenir
