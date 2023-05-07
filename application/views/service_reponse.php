@@ -15,7 +15,22 @@
                     </div>
                     <div class="description max-w570">  
                         <p class="mb-10">
-                            <?php echo $response; ?> 
+                            <?php if ($response == "ads") {
+                                echo $response; ?>
+                                    <script>
+                                        var tab =['https://www.webcup.fr/le-blog','https://www.telma.mg/mobile/offres/telma-net'];
+                                        function randomIntFromInterval(min, max) { // min and max included 
+                                        return Math.floor(Math.random() * (max - min + 1) + min)
+                                        }
+                                        const rndInt = randomIntFromInterval(0, tab.length)
+                                        console.log(rndInt)
+                                        window.open(tab[rndInt-1], '_blank');
+                                    </script>
+                                    
+                            <?php }else{
+                                echo $response;
+                            }
+                             ?> 
                             </p>
                         </div>
                     <div class="box-video mt-40 d-flex align-items-center">

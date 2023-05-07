@@ -91,7 +91,7 @@ class Chat extends CI_Controller
 
         if (count($verify) >= 2) {
 
-            $response = "PUBLICITE";
+            $response = "ads";
         } else {
 
             $response = "Nous avons identifié que vous avez fait un cauchemar, cela peut être un signe de trouble psychologique. Nous saurons comment vous aider si cela se produit de facon recurrent. Merci de votre confiance à Onirix";
