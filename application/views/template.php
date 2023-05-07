@@ -30,7 +30,7 @@
 <body class="v-dark dsn-effect-scroll dsn-cursor-effect dsn-ajax">
     <script src=<?php echo site_url("assets/js/jquery-3.1.1.min.js") ?>></script>
     <!-- ========== Loading Page ========== -->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <span class="percent v-middle">0</span>
         <span class="loading-text text-uppercase">Loading ...</span>
         <div class="preloader-bar">
@@ -40,7 +40,7 @@
             <span class="letter-stroke">Onirix</span>
             <span class="text-fill">Onirix</span>
         </h1>
-    </div>
+    </div> -->
     <!-- ========== End Loading Page ========== -->
 
 
@@ -278,7 +278,7 @@
                         <div class="form-box d-flex flex-column">
                             <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
                                 De l'aide ?</h4>
-                            <form id="contact-form" class="form w-100" method="post" action="contact.php" data-toggle="validator">
+                            <form class="form w-100" method="post" action="<?php echo base_url();?>" data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
                                     <div class="form-group">
