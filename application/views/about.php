@@ -7,7 +7,7 @@
         <div class="mt-30 d-flex w-100 justify-content-end">
             <p class="border-left pl-20 max-w570">
                 Vous avez plusieurs choix pour nous decrire votre rêve , que vous nous le racontez directement ,
-                choissisez des questions à choix , ou bien les illustrer par des images , nous sommes là pour vous prédire votre avenir.</p>
+                choisissez des questions à choix mutilples, ou bien les illustrer par des images , nous sommes là pour vous prédire votre avenir.</p>
         </div>
     </div>
 </header>
@@ -206,35 +206,65 @@
         </h2>
     </div>
 
-    <div class="wrapper-client d-grid grid-lg-3 grid-sm-2">
+    <div class="wrapper-client d-grid grid-lg-4 grid-sm-2">
         <div class="logo-box border">
             <div class="logo-box-inner style-box">
-                <img src=<?php echo site_url("assets/img/logo/1.png") ?> alt="">
+                <img src=<?php echo site_url("assets/img/partenaires/bocasay.jpg") ?> alt="">
             </div>
         </div>
         <div class="logo-box border">
             <div class="logo-box-inner style-box">
-                <img src=<?php echo site_url("assets/img/logo/2.png") ?> alt="">
+                <img src=<?php echo site_url("assets/img/partenaires/hairun.png") ?> alt="">
             </div>
         </div>
         <div class="logo-box border">
             <div class="logo-box-inner style-box">
-                <img src=<?php echo site_url("assets/img/logo/3.png") ?> alt="">
+                <img src=<?php echo site_url("assets/img/partenaires/ibonia.png") ?> alt="">
             </div>
         </div>
         <div class="logo-box border">
             <div class="logo-box-inner style-box">
-                <img src=<?php echo site_url("assets/img/logo/4.png") ?> alt="">
+                <img src=<?php echo site_url("assets/img/partenaires/inclusiv.png") ?> alt="">
             </div>
         </div>
         <div class="logo-box border">
             <div class="logo-box-inner style-box">
-                <img src=<?php echo site_url("assets/img/logo/5.png") ?> alt="">
+                <img src=<?php echo site_url("assets/img/partenaires/ingenosya.png") ?> alt="">
             </div>
         </div>
         <div class="logo-box border">
             <div class="logo-box-inner style-box">
-                <img src=<?php echo site_url("assets/img/logo/6.png") ?> alt="">
+                <img src=<?php echo site_url("assets/img/partenaires/kalanoor.png") ?> alt="">
+            </div>
+        </div>
+        <div class="logo-box border">
+            <div class="logo-box-inner style-box">
+                <img src=<?php echo site_url("assets/img/partenaires/p4h.png") ?> alt="">
+            </div>
+        </div>
+        <div class="logo-box border">
+            <div class="logo-box-inner style-box">
+                <img src=<?php echo site_url("assets/img/partenaires/novity.jpg") ?> alt="">
+            </div>
+        </div>
+        <div class="logo-box border">
+            <div class="logo-box-inner style-box">
+                <img src=<?php echo site_url("assets/img/partenaires/nexources.png") ?> alt="">
+            </div>
+        </div>
+        <div class="logo-box border">
+            <div class="logo-box-inner style-box">
+                <img src=<?php echo site_url("assets/img/partenaires/nexta.png") ?> alt="">
+            </div>
+        </div>
+        <div class="logo-box border">
+            <div class="logo-box-inner style-box">
+                <img src=<?php echo site_url("assets/img/partenaires/pulse.png") ?> alt="">
+            </div>
+        </div>
+        <div class="logo-box border">
+            <div class="logo-box-inner style-box">
+                <img src=<?php echo site_url("assets/img/partenaires/telma.jpg") ?> alt="">
             </div>
         </div>
 
@@ -246,7 +276,7 @@
 <!-- ========== End next-page ========== -->
 <div class="next-project h-v-100 section-top p-relative v-dark v-dark-head">
     <div class="p-absolute w-100 h-100 bg-container over-hidden before-z-index" data-overlay="5">
-        <img class="cover-bg-img" alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project2/1.jpg">
+        <img class="cover-bg-img" alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/ia-illustration-2.jpg") ?>>
     </div>
     <div class="w-100 pt-30 d-flex justify-content-between dsn-container">
         

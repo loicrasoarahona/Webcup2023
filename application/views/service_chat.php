@@ -1,7 +1,7 @@
 <header class="header-pages dsn-container mb-section header-padding-top background-main">
     <div class="box-title ">
         <h1 class="title">
-            <span class="letter-stroke">prêt</span> <br>
+            <span class="letter-stroke">PRÊT</span> <br>
             <span class="line-bg-left pl-80">à nous raconter?</span>
         </h1>
         <div class="mt-30 d-flex w-100 justify-content-end">

@@ -12,8 +12,16 @@ class Chat extends CI_Controller
 
         $this->load->model('Historique');
     }
+
+    public function checkSession()
+    {
+        if (!$this->session->has_userdata('iduser')) {
+            redirect(site_url("Sign/"));
+        }
+    }
     public function index()
     {
+        $this->checkSession();
         $isnot_option = $this->input->post('isquestion');
         $qe = null;
         if ($isnot_option != 0) {
@@ -21,25 +29,12 @@ class Chat extends CI_Controller
             $qe = $this->input->post('question');
         } else {
 
-            // $personne=$this->input->post('personne');
-
-            // $activite=$this->input->post('activite');
-
-            // $endroit=$this->input->post('endroit');
-
-            // $temps=$this->input->post('temps');
-
-            // $emotion=$this->input->post('emotion');
-
-            // $reve=$this->input->post('reve');
-
-            // $q_option = $this->Reve->getFullSentence("voisin", "se balader","sur un bateau", "pas précis", "le soir", "peur");
-
-            // $qe = $q_option;
-            var_dump($this->input->post('reponses'));
+            $rep = json_decode($this->input->post('reponses'));
+            // var_dump($rep);
+            $qe = $this->Reve->getFullSentence($rep[0]->nom, $rep[1]->nom, $rep[2]->nom, $rep[3]->nom, $rep[4]->nom, $rep[5]->nom);
         }
         //creation question que ça soit simple, soit question cauchemar
-        var_dump($qe);
+        // var_dump($qe);
 
         $question = $this->API->gestion_question($qe);
 
@@ -59,6 +54,7 @@ class Chat extends CI_Controller
 
             $this->save_history($iduser, $response, $question, 0, $isnot_option);
         } else {
+
             $this->save_history($iduser, $response, $question, 1, $isnot_option);
             $response = $this->generate_response_specifique($iduser);
         }
@@ -76,6 +72,7 @@ class Chat extends CI_Controller
 
     function save_history($iduser, $response, $question, $is_specifique, $isnot_option)
     {
+
 
         if ($isnot_option != 0) {
 

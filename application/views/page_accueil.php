@@ -17,8 +17,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     </noscript>
 
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href=<?php echo site_url("assets/img/onirix-blanc.png") ?> type="image/x-icon" />
+    <link rel="icon" href=<?php echo site_url("assets/img/onirix-blanc.png") ?> type="image/x-icon" />
 
     <!-- custom styles (optional) -->
     <link href=<?php echo site_url("assets/css/plugins.css") ?> rel="stylesheet" />
@@ -48,9 +48,9 @@
         <div class="extend-container d-flex w-100 align-items-baseline justify-content-between align-items-end">
             <div class="inner-header p-relative">
                 <div class="main-logo">
-                    <a href="index.html" data-dsn="parallax">
-                        <img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/logo.png" alt="" />
-                        <img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/logo-dark.png" alt="" />
+                    <a href="<?php echo base_url("/");?>" data-dsn="parallax">
+                        <img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" />
+                        <img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" />
                     </a>
                 </div>
             </div>
@@ -85,21 +85,21 @@
                     </li>
                     <li class="dsn-drop-down">
                         <a href="#" class="user-no-selection">
-                            <span class="dsn-title-menu">Orinix</span>
+                            <span class="dsn-title-menu">Onirix</span>
                             <span class="dsn-meta-menu">03</span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
                         <ul>
                             <li class="dsn-back-menu">
                                 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
-                                <span class="dsn-title-menu">Orinix</span>
+                                <span class="dsn-title-menu">Onirix</span>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription");?>">
+                            <li><a href="<?php echo base_url("Transcription/question");?>">
                                     <span class="dsn-title-menu">Prediction par des textes</span>
                                     <span class="dsn-meta-menu">01</span>
                                 </a>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription/choix");?>">
+                            <li><a href="<?php echo base_url("Transcription/choixoption");?>">
                                     <span class="dsn-title-menu">Questions à choix multiples</span>
                                     <span class="dsn-meta-menu">02</span>
                                 </a>
@@ -130,26 +130,25 @@
                     <div class="nav__info">
                         <div class="nav-content">
                             <p class="title-line">
-                                Studio</p>
+                                Locaux</p>
                             <p>
-                                26-30 New Damietta<br>
-                                El-Mahalla El-Kubra, SK1 66LM</p>
+                            <p>88 Bis C <br> Anosizato<br> Tananarive, Madagascar</p>
                         </div>
                         <div class="nav-content">
                             <p class="title-line">
                                 Contact</p>
                             <p class="links over-hidden">
-                                <a href="#" data-hover-text="+00 (2)012 3321" class="link-hover">+00 (2)012 3321</a>
+                                <a href="#" data-hover-text="+00 (2)012 3321" class="link-hover">+261 34 56 486 25</a>
                             </p>
                             <p class="links  over-hidden">
-                                <a href="#" data-hover-text="info@dsngrid.com" class="link-hover">info@dsngrid.com</a>
+                                <a href="#" data-hover-text="Onirix-smartit@gmail.com" class="link-hover">Onirix-smartit@gmail.com</a>
                             </p>
                         </div>
                     </div>
                     <div class="nav-social nav-content">
                         <div class="nav-social-inner p-relative">
                             <p class="title-line">
-                                Follow us</p>
+                                Suivez-nous</p>
                             <ul>
                                 <li>
                                     <a href="#" target="_blank" rel="nofollow">Dribbble.
@@ -191,7 +190,7 @@
             <div class="side-box-left z-index-1">
                 <div class="side-menu border-left border-right p-relative h-100 d-flex justify-content-center">
                     <div class="page-active">
-                        <h2 class="text-uppercase">Home</h2>
+                        <h2 class="text-uppercase">Accueil</h2>
                     </div>
                 </div>
             </div>
@@ -207,7 +206,7 @@
 
         <div class="p-fixed has-parallax-header has-parallax-header v-dark-head background-main">
             <div class="p-absolute z-index-0 before-z-index h-100 w-100 " data-overlay="3" data-dsn-ajax="img">
-                <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/ia-predict.jpeg" alt="" data-dsn-position="50% 32%">
+                <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/ia-background-3.jpeg") ?> alt="" data-dsn-position="50% 32%">
             </div>
         </div>
 
@@ -219,7 +218,7 @@
                     <div class="box-content dsn-container align-items-center ">
                         <div class="hero-content dsn-hero-parallax-title">
                             <h1 class="title has-box-mod">
-                                IA <br> Onirix
+                                Onirix <br> IA qui va révolutioner les rêves
                                 <span class="p-absolute w-100 h-70 bottom-0 bg-mod-exclusion left-0 " data-dsn="parallax"></span>
                             </h1>
                             <div class="description border-before mt-30 mb-30">
@@ -234,7 +233,7 @@
                                 </h3>
                             </div>
                             <a href="<?php echo base_url("Transcription/choix"); ?>" class="link-custom v-light-head background-main image-zoom move-circle" data-dsn="parallax">
-                                Tester
+                                JE VEUX ESSAYER
                             </a>
                         </div>
 
@@ -256,7 +255,7 @@
                                     <h2 class="title-block ">Nous sommes une organisation de recherhce <br> dans l'expertise de l'étude des rêves</h2>
 
                                     <p class="mt-30">L'Institut International des Rêves est une organisation de recherche spécialisée dans l'étude des rêves.
-                                        les chercheurs de cet institut ont développé une intelligence artificielle avancée appelée Orinix, qui est capable d'analyser et de décoder les rêves des utilisateurs pour prédire leur avenir. Cette technologie révolutionnaire permettrait de prédire des situations telles qu'une rencontre amoureuse,
+                                        les chercheurs de cet institut ont développé une intelligence artificielle avancée appelée Onirix, qui est capable d'analyser et de décoder les rêves des utilisateurs pour prédire leur avenir. Cette technologie révolutionnaire permettrait de prédire des situations telles qu'une rencontre amoureuse,
                                         des problèmes avec des collègues de travail,ou même des difficultés scolaires.
                                     </p>
 
@@ -298,10 +297,10 @@
                         <div class="dsn-container ">
                             <div class="d-grid grid-lg-2 background-section padding-block">
                                 <div class="box-img">
-                                    <img height="200px !important" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/orinix-2.jpeg" alt="">
+                                    <img height="200px !important" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/Onirix-2.jpeg") ?> alt="">
                                     <div class="box-infos pl-30">
                                         <div class="info d-flex flex-column align-items-end mt-30">
-                                            <h4 class="sm-title-block mb-10">Orinix</h4>
+                                            <h4 class="sm-title-block mb-10">Onirix</h4>
                                             <h5 class="font-caps body-color">IA de l'orinisme</h5>
                                         </div>
                                         <div class="mt-30 ">
@@ -353,24 +352,24 @@
                                 <div class="box-info pl-30 pr-30">
                                     <div class="section-title">
                                         <span class="tag-heading p-10 mb-15 background-main heading-color">A Propos
-                                            de Orinix</span>
-                                        <h2 class="title-block">Avec Orinix , <br> les rêves deviendront-ils la clé de notre destinée ?
+                                            de Onirix</span>
+                                        <h2 class="title-block">Avec Onirix , <br> les rêves deviendront-ils la clé de notre destinée ?
                                         </h2>
                                     </div>
 
                                     <h4 class="sm-title-block mb-20">Une intelligence articielle révolutionnaire</h4>
 
-                                    <p class="mb-10">Orinix est une intelligence artificielle avancée développée par les chercheurs de l'Institut International des Rêves. Elle utilise une technologie de pointe
+                                    <p class="mb-10">Onirix est une intelligence artificielle avancée développée par les chercheurs de l'Institut International des Rêves. Elle utilise une technologie de pointe
                                         pour analyser et décoder les rêves des utilisateurs et leur donner des indications sur leur avenir.</p>
 
                                     <p>En analysant les images, les symboles et les thèmes récurrents présents dans les rêves,
-                                        Orinix peut prédire des situations futures telles qu'une rencontre amoureuse ou des difficultés scolaires.
+                                        Onirix peut prédire des situations futures telles qu'une rencontre amoureuse ou des difficultés scolaires.
                                         Elle peut également détecter des signaux plus graves tels que des maladies potentielles ou des problèmes
-                                        avec des collègues de travail. La technologie Orinix est considérée comme révolutionnaire
+                                        avec des collègues de travail. La technologie Onirix est considérée comme révolutionnaire
                                         dans le domaine de l'analyse des rêves et est une avancée majeure pour aider les gens à mieux
                                         comprendre leur vie future.</p>
 
-                                    <a href="#" class="link-custom v-light background-main image-zoom move-circle mt-30" data-dsn="parallax">En savoir plus</a>
+                                    <a href="<?php echo base_url("About"); ?>" class="link-custom v-light background-main image-zoom move-circle mt-30" data-dsn="parallax">En savoir plus</a>
                                 </div>
                             </div>
                         </div>
@@ -385,7 +384,7 @@
                             <div class="service-item my-service border">
                                 <div class="service-item-inner style-box">
                                     <div class="icon">
-                                        <img src="assets/img/services/mobile.svg" alt="">
+                                        <img src=<?php echo site_url("assets/img/services/mobile.svg") ?> alt="">
                                     </div>
                                     <div class="content-box">
                                         <h4 class="title-block pr-10 border-section-bottom mt-20">
@@ -411,7 +410,7 @@
                             <div class="service-item my-service border">
                                 <div class="service-item-inner style-box">
                                     <div class="icon">
-                                        <img src="assets/img/services/development.svg" alt="">
+                                        <img src=<?php echo site_url("assets/img/services/development.svg") ?> alt="">
                                     </div>
                                     <div class="content-box">
                                         <h4 class="title-block pr-10 border-section-bottom mt-20">
@@ -437,7 +436,7 @@
                             <div class="service-item my-service border">
                                 <div class="service-item-inner style-box">
                                     <div class="icon">
-                                        <img src="assets/img/services/creative.svg" alt="">
+                                        <img src=<?php echo site_url("assets/img/services/creative.svg") ?> alt="">
                                     </div>
                                     <div class="content-box">
                                         <h4 class="title-block pr-10 border-section-bottom mt-20">
@@ -473,7 +472,7 @@
                                         <div class="work-item p-relative overflow-hidden">
                                             <a class="w-100 p-relative effect-ajax" href="#" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img " data-dsn-position="10% 10%" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/person/Loic.jpg" alt="">
+                                                    <img class="cover-bg-img " data-dsn-position="10% 10%" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/project/person/Loic.jpg") ?> alt="">
                                                 </div>
 
                                                 <div class="box-content w-100 mt-20">
@@ -494,7 +493,7 @@
                                         <div class="work-item p-relative overflow-hidden">
                                             <a class="w-100 p-relative effect-ajax" href="#" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/person/Princia.jpg" alt="">
+                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/project/person/Princia.jpg") ?> alt="">
                                                 </div>
 
                                                 <div class="box-content w-100  mt-20">
@@ -515,7 +514,7 @@
                                         <div class="work-item p-relative overflow-hidden">
                                             <a class="w-100 p-relative effect-ajax" href="#" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/person/Mendrika.jpg" alt="">
+                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/project/person/Mendrika.jpg") ?> alt="">
                                                 </div>
 
                                                 <div class="box-content w-100 mt-20">
@@ -535,7 +534,7 @@
                                         <div class="work-item p-relative overflow-hidden ">
                                             <a class="w-100 p-relative effect-ajax" href="#" data-dsn-ajax="work">
                                                 <div class="img-next-box p-relative before-z-index" data-overlay="5">
-                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/person/Sitraka.jpg" alt="">
+                                                    <img class="cover-bg-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/project/person/Sitraka.jpg") ?> alt="">
                                                 </div>
 
                                                 <div class="box-content w-100  mt-20">
@@ -590,7 +589,7 @@
                             <span class="letter-stroke">ALLONS </span>
                             <br> CONNAITRE VOTRE FUTUR
                         </h2>
-                        <a href="#" class="link-custom p-relative mt-30 v-light">
+                        <a href="<?php echo base_url("Transcription/choix"); ?>"  class="link-custom p-relative mt-30 v-light">
                             Prédire mon avenir
                         </a>
                     </div>
@@ -598,9 +597,9 @@
                         <div class="dsn-container">
                             <div class="d-grid grid-sm-2">
                                 <div class="footer-item">
-                                    <a href="" class="logo-footer m-auto">
-                                        <img src="assets/img/logo.png" alt="" class="logo-dark cover-bg-img">
-                                        <img src="assets/img/logo-dark.png" alt="" class="logo-light cover-bg-img">
+                                    <a href="<?php echo base_url("/");?>" class="logo-footer m-auto">
+                                        <img src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" class="logo-dark cover-bg-img">
+                                        <img src=<?php echo site_url("assets/img/onirix-noir.png") ?> alt="" class="logo-light cover-bg-img">
                                     </a>
                                 </div>
                                 <div class="footer-item text-right">
@@ -705,7 +704,7 @@
 
                                 <div class="item">
                                     <h5 class="sm-title-block mb-15">Email</h5>
-                                    <a href="mailto:info@dsngrid.com">orinix-smartit@gmail.com</a>
+                                    <a href="mailto:Onirix-smartit@gmail.com">Onirix-smartit@gmail.com</a>
                                 </div>
 
                                 <div class="item">
@@ -797,7 +796,7 @@
                     Free <br> Style
                 </h4>
             </div>
-        </div>
+        </div>  
         <!-- ========== End Contact Stories ========== -->
 
     </main>
@@ -878,7 +877,7 @@
 
     <!-- ========== Scroll Right Page To Top Page ========== -->
     <div class="scroll-to-top">
-        <img src="assets/img/scroll_top.svg" alt="">
+        <img src=<?php echo site_url("assets/img/scroll_top.svg") ?> alt="">
         <div class="box-number v-middle">
             <span>0%</span>
         </div>
