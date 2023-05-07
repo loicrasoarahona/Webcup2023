@@ -28,7 +28,7 @@
 <!--classic-menu-->
 
 <body class="v-dark dsn-effect-scroll dsn-cursor-effect dsn-ajax">
-
+    <script src=<?php echo site_url("assets/js/jquery-3.1.1.min.js") ?>></script>
     <!-- ========== Loading Page ========== -->
     <div class="preloader">
         <span class="percent v-middle">0</span>
@@ -441,14 +441,14 @@
 
                                 <div class="footer-item">
                                     <div class="copyright">
-                                        <div class="copright-text over-hidden">© 2023 WebCup by  <a class="link-hover" data-hover-text="Smart IT" href="#" target="_blank">Smart IT</a>
+                                        <div class="copright-text over-hidden">© 2023 WebCup by <a class="link-hover" data-hover-text="Smart IT" href="#" target="_blank">Smart IT</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </footer>
-                    
+
                 </div>
             </div>
 
@@ -624,10 +624,11 @@
     <div class="dsn-paginate-right-page"></div>
 
     <!-- Optional JavaScript -->
-    <script src=<?php echo site_url("assets/js/jquery-3.1.1.min.js") ?>></script>
+
     <script src=<?php echo site_url("assets/js/plugins.min.js") ?>></script>
     <script src=<?php echo site_url("assets/js/dsn-grid.min.js") ?>></script>
     <script src=<?php echo site_url("assets/js/custom.js") ?>></script>
+    <script src="<?php echo site_url("/assets/js/questionOptions.js") ?>"></script>
 
 </body>
 

@@ -10,10 +10,12 @@ class Sign extends CI_Controller
     }
 
     public function in(){
+        
         $mail = $this->input->post('email');
         $mdp = $this->input->post('mdp');
         $this->load->model('User');
         $val = $this->User->verify_login($mail, $mdp);
+        $this->session->unset_userdata('iduser');
         if ($val == null) {
             $data['message'] = 'email et/ou mot de pass incorrect(s)';
             $this->load->view('login', $data);
