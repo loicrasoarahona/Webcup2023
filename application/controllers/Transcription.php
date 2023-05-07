@@ -40,6 +40,8 @@ class Transcription extends CI_Controller
 
     public function validationReponseImage()
     {
+        $this->load->model('Historique');
+
         $reponses = json_decode($this->input->post('reponses'));
 
         $string = "";
@@ -75,14 +77,11 @@ class Transcription extends CI_Controller
             }
         }
 
-        var_dump($maxOccurrences);
-        var_dump($mostFrequentElement);
 
-        $data = array(
-            "mostFrequentElement" => $mostFrequentElement,
-            "reponses" => "$reponses",
-            "view" => "service_response_images"
-        );
+        $data = array();
+        $data["mostFrequentElement"] = $mostFrequentElement;
+        $data["responses"] = $reponses;
+        $data["view"] = "service_reponse_image";
 
         $this->load->view('template', $data);
     }

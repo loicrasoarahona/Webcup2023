@@ -3,54 +3,30 @@
         <h3 class="title-block border-before">Prédiction par Image</h3>
 
     </div>
-    <div class="gallery-portfolio section-margin dsn-stories v-dark-head" data-dsn-rowheight="300" data-dsn-margins="15">
+    <div class="gallery-portfolio section-margin dsn-stories v-dark-head d-flex" data-dsn-rowheight="300" data-dsn-margins="15">
 
-        <div class="dsn-stories-gallery">
-            <a href=<?php echo site_url("assets/img/stories/storie-4-1.jpg") ?>></a>
-            <h4 class="sm-title-block has-box-mod move-circle" data-dsn="parallax">
-                Beyond <br> Nature
-            </h4>
-        </div>
-
-        <div class="dsn-stories-gallery">
-            <a href=<?php echo site_url("assets/img/stories/storie-4-1.jpg") ?>></a>
-            <h4 class="sm-title-block has-box-mod move-circle" data-dsn="parallax">
-                A modern<br> home
-            </h4>
-        </div>
-
-        <div class="dsn-stories-gallery">
-            <a href=<?php echo site_url("assets/img/stories/storie-4-1.jpg") ?>></a>
-            <h4 class="sm-title-block has-box-mod move-circle" data-dsn="parallax">
-                Fashion day <br> and elegance
-            </h4>
-        </div>
-
-        <div class="dsn-stories-gallery">
-            <a href=<?php echo site_url("assets/img/stories/storie-4-1.jpg") ?>></a>
-
-            <h4 class="sm-title-block has-box-mod move-circle" data-dsn="parallax">
-                Health <br> and nutrition
-            </h4>
-        </div>
+        <?php foreach ($responses as $choix) { ?>
+            <div class="dsn-stories-gallery col-6 ">
+                <img style="width: 10rem; height: 10rem" src=<?php echo site_url("assets/img/data_images/" . $choix->photo) ?> />
+                <h4 class="sm-title-block has-box-mod move-circle" data-dsn="parallax">
+                    <?php $choix->categorie; ?>
+                </h4>
+            </div>
+        <?php } ?>
+    </div>
     </div>
 </section>
 <section class="about p-relative dsn-container section-margin" data-dsn-title="About Us">
     <div class="row">
         <div class="col-lg-12">
             <div class="p-relative text">
-                <h2 class="title-block ">We’re a creative agency <br> with an expertise in make
-                    custom websites.</h2>
+                <h2 class="title-block ">L'analyse de vos choix nous a permis de ceci : <br> <?php $histoire = $this->Historique->get_historiqueimage_bycle($mostFrequentElement);
+                                                                                                echo $histoire['reponse']; ?></h2>
                 <ul class="mt-30 lest-icon">
-                    <li>Wretium in metus dolor vehicula</li>
-                    <li>Faucibus arcu erat a phasellus</li>
-                    <li>Mauris fringilla lectus est mattis ac elit.</li>
-                    <li>Wretium in metus dolor vehicula</li>
+                    <?php foreach ($responses as $choix) { ?>
+                        <li><?php echo explode('|', $choix->description)[1] ?></li>
+                    <?php } ?>
                 </ul>
-
-                <a href="#" class="link-custom v-light image-zoom mt-30" data-dsn="parallax">
-                    About Us
-                </a>
             </div>
         </div>
     </div>
