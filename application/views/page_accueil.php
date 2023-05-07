@@ -48,7 +48,7 @@
         <div class="extend-container d-flex w-100 align-items-baseline justify-content-between align-items-end">
             <div class="inner-header p-relative">
                 <div class="main-logo">
-                    <a href="<?php echo base_url("/");?>" data-dsn="parallax">
+                    <a href="<?php echo base_url("/"); ?>" data-dsn="parallax">
                         <img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" />
                         <img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" />
                     </a>
@@ -70,14 +70,14 @@
                 <div class="menu-cover-title">Menu</div>
                 <ul class="extend-container p-relative d-flex flex-column justify-content-center h-100">
                     <li>
-                        <a href="<?php echo base_url("Sign");?>" class="user-no-selection">
+                        <a href="<?php echo base_url("Sign"); ?>" class="user-no-selection">
                             <span class="dsn-title-menu">Se Connnecter</span>
                             <span class="dsn-meta-menu"></span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url("/");?>" class="user-no-selection">
+                        <a href="<?php echo base_url("/"); ?>" class="user-no-selection">
                             <span class="dsn-title-menu">Accueil</span>
                             <span class="dsn-meta-menu">02</span>
                             <span class="dsn-bg-arrow"></span>
@@ -94,17 +94,17 @@
                                 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
                                 <span class="dsn-title-menu">Onirix</span>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription/question");?>">
+                            <li><a href="<?php echo base_url("Transcription/question"); ?>">
                                     <span class="dsn-title-menu">Prediction par des textes</span>
                                     <span class="dsn-meta-menu">01</span>
                                 </a>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription/choixoption");?>">
+                            <li><a href="<?php echo base_url("Transcription/choixoption"); ?>">
                                     <span class="dsn-title-menu">Questions à choix multiples</span>
                                     <span class="dsn-meta-menu">02</span>
                                 </a>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription/choix");?>">
+                            <li><a href="<?php echo base_url("Transcription/choix"); ?>">
                                     <span class="dsn-title-menu">Illustrations par images</span>
                                     <span class="dsn-meta-menu">03</span>
                                 </a>
@@ -112,7 +112,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="<?php echo base_url("About");?>" class="user-no-selection">
+                        <a href="<?php echo base_url("About"); ?>" class="user-no-selection">
                             <span class="dsn-title-menu">A Propos</span>
                             <span class="dsn-meta-menu">04</span>
                             <span class="dsn-bg-arrow"></span>
@@ -579,7 +579,7 @@
                             <span class="letter-stroke">ALLONS </span>
                             <br> CONNAITRE VOTRE FUTUR
                         </h2>
-                        <a href="<?php echo base_url("Transcription/choix"); ?>"  class="link-custom p-relative mt-30 v-light">
+                        <a href="<?php echo base_url("Transcription/choix"); ?>" class="link-custom p-relative mt-30 v-light">
                             Prédire mon avenir
                         </a>
                     </div>
@@ -587,7 +587,7 @@
                         <div class="dsn-container">
                             <div class="d-grid grid-sm-2">
                                 <div class="footer-item">
-                                    <a href="<?php echo base_url("/");?>" class="logo-footer m-auto">
+                                    <a href="<?php echo base_url("/"); ?>" class="logo-footer m-auto">
                                         <img src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" class="logo-dark cover-bg-img">
                                         <img src=<?php echo site_url("assets/img/onirix-noir.png") ?> alt="" class="logo-light cover-bg-img">
                                     </a>
@@ -606,10 +606,9 @@
                                 <div class="footer-item order-md-2">
                                     <div class="nav-footer text-right">
                                         <ul>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Accueil</a></li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Services</a></li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">A Propos</a></li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Contact</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="<?php echo base_url("/"); ?>">Accueil</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="<?php echo base_url("Transcription/choix"); ?>">Services</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="<?php echo base_url("About"); ?>">A Propos</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -644,7 +643,7 @@
                         <div class="form-box d-flex flex-column">
                             <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
                                 De l'aide ?</h4>
-                                <form class="form w-100" method="post" action="<?php echo base_url();?>" data-toggle="validator">
+                            <form class="form w-100" method="post" action="<?php echo base_url(); ?>" data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
                                     <div class="form-group">
@@ -722,12 +721,12 @@
                 </div>
 
                 <h4 class="title-block">
-                    Illustration  <br> Intelligence artificelle et Rêves
+                    Illustration <br> Intelligence artificelle et Rêves
                 </h4>
             </div>
             <div class="dsn-stories-gallery">
                 <div class="p-relative h-100">
-                <a href=<?php echo site_url("assets/img/ia-background.png") ?>></a>   
+                    <a href=<?php echo site_url("assets/img/ia-background.png") ?>></a>
                 </div>
                 <h4 class="title-block">
                     Simulation analyse IA des rêves
@@ -746,7 +745,7 @@
             </div>
             <div class="dsn-stories-gallery">
                 <div class="p-relative h-100">
-                    <a href=<?php echo site_url("assets/img/ia-predict.jpeg") ?>></a>   
+                    <a href=<?php echo site_url("assets/img/ia-predict.jpeg") ?>></a>
                     <a href=<?php echo site_url("assets/img/orinix.jpeg") ?>></a>
                 </div>
 
@@ -755,7 +754,7 @@
                 </h4>
             </div>
 
-        </div>  
+        </div>
         <!-- ========== End Contact Stories ========== -->
 
     </main>
