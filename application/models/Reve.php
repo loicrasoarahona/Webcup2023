@@ -4,7 +4,7 @@ class Reve extends CI_Model
 {
     public function getAllCategorie()
     {
-        $sql = "SELECT * FROM categorie";
+        $sql = "SELECT * FROM categorie where type='text'";
         $sql = $this->db->query($sql);
         return $sql -> result_array();
     }

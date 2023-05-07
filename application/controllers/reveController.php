@@ -19,7 +19,6 @@ class reveController extends CI_Controller {
             "Où étiez-vous ?",
             "A quel moment de la journée ?",
             "Quelles étaient vos emotions lors du rêve ?",
-            "Quelles étaient vos emotions lors du rêve ?",
             "D'après vous quel était le type du rêve?"
         ];
 		
