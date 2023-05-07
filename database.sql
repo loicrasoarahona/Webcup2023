@@ -125,6 +125,9 @@ ALTER TABLE historique MODIFY COLUMN `options` TEXT CHARACTER SET utf8mb4 COLLAT
 
 ALTER TABLE historique ADD is_specifique INT NULL;
 
+
+ALTER TABLE souscategorie ADD photo varchar(50) NULL;
+
 --pour les images
 
 --couleur
@@ -158,40 +161,33 @@ insert into souscategorie values (null,'eglise','10','chanceux|l\'eglise représ
 
 --answer
 insert into historiqueImage values (null,'desespoir','Dans votre prochaine situation amoureuse, vous pourriez vous sentir emprisonné dans une relation toxique, sans pouvoir trouver une issue positive');
-insert into historiqueImage values (null,'desespoir','');
-insert into historiqueImage values (null,'desespoir','');
-insert into historiqueImage values (null,'desespoir','');
-insert into historiqueImage values (null,'desespoir','');
+insert into historiqueImage values (null,'desespoir','Vous plongez dans une désespoir et vous êtes pessimiste, cela peut avoir un impact sur votre travail et vous avez une possibilité de démissioner');
+insert into historiqueImage values (null,'desespoir','Vous et votre famille seriez confrontés à de graves problèmes ou épreuves qui semblent insurmontables');
+insert into historiqueImage values (null,'desespoir','Il est possible que vous auriez une maladie dans le futur');
+insert into historiqueImage values (null,'desespoir','Dans l\'avenir, le voyage dont vous avez tant rêvé ne se réalisera pas');
 
 insert into historiqueImage values (null,'confusion','Malgré vos efforts pour trouver l\'amour et la connexion, vous vous retrouvez sans réponse claire, ni oui ni non, vous etes confus.');
-insert into historiqueImage values (null,'confusion','');
-insert into historiqueImage values (null,'confusion','');
-insert into historiqueImage values (null,'confusion','');
-insert into historiqueImage values (null,'confusion','');
+insert into historiqueImage values (null,'confusion','Vous êtes un peu perdu dans votre travail et vous ne savez pas si vous aimez vraiment ce que vous faîtes ou pas');
+insert into historiqueImage values (null,'confusion','Une situation de confusion dans votre famille pourrait se produire, il y aura un manque de communication claire et ouverte entre vous. Les malentendus se multiplieront, les intentions seront interprétées de manière erronée et les émotions sont exacerbées');
+insert into historiqueImage values (null,'confusion','Vous rencontrerez des symptômes ou des problèmes de santé inexpliqués ou contradictoires dans l\'avenir');
+insert into historiqueImage values (null,'confusion','Vous êtes confronté à un certain nombre de facteurs contradictoires ou inattendus qui rendent la planification et l\'exécution de votre voyage compliquées');
 
 insert into historiqueImage values (null,'en paix','Dans votre prochaine situation amoureuse, vous trouverez une harmonie profonde dans vos relations, vous auriez ainsi une situation stable');
-insert into historiqueImage values (null,'en paix','');
-insert into historiqueImage values (null,'en paix','');
-insert into historiqueImage values (null,'en paix','');
-insert into historiqueImage values (null,'en paix','');
+insert into historiqueImage values (null,'en paix','Vous êtes stable dans votre travail');
+insert into historiqueImage values (null,'en paix','Vous allez vous réunir avec votre famille dans un environnement harmonieux et respectueux');
+insert into historiqueImage values (null,'en paix','Vous n\'aurez aucune maladie dans les mois suivants');
+insert into historiqueImage values (null,'en paix','Vous allez voyager paisiblement avec votre famille bientôt');
 
 insert into historiqueImage values (null,'confiance','Vous serez entouré d\'un partenaire aimant et attentionné, avec qui vous partagerez une connexion sincère et profonde');
-insert into historiqueImage values (null,'confiance','');
-insert into historiqueImage values (null,'confiance','');
-insert into historiqueImage values (null,'confiance','');
-insert into historiqueImage values (null,'confiance','');
+insert into historiqueImage values (null,'confiance','Vous avez une totale confiance en vous et vous êtes serein dans votre travail');
+insert into historiqueImage values (null,'confiance','Même si vous passez pas beaucoup de temps ensemble, vous vous aimiez toujours et vous avez chacun confiance en vous');
+insert into historiqueImage values (null,'confiance','Dans les trois mois suivants, vous seriez toujours en bonne santé');
+insert into historiqueImage values (null,'confiance','Plus rien ne peut vous empêcher le voyage que vous avez planifié depuis');
 
 insert into historiqueImage values (null,'chanceux','Dans votre prochaine situation amoureuse, vous n\'aurez pas à chercher l\'amour mais cela viendra automatiquement');
-insert into historiqueImage values (null,'chanceux','');
-insert into historiqueImage values (null,'chanceux','');
-insert into historiqueImage values (null,'chanceux','');
-insert into historiqueImage values (null,'chanceux','');
-
-
-situation amoureuse
-travail
-famille
-sante
-voyage
+insert into historiqueImage values (null,'chanceux','Même si vous êtes confronté à des difficultés, vous saurez toujours les surmonter');
+insert into historiqueImage values (null,'chanceux','Vous et votre famille serez bientot réuni tous ensemble car ca faisait longtemps que vous ne l\'étiez pas');
+insert into historiqueImage values (null,'chanceux','Dans les prochains mois, vous auriez peut-être une maladie mais dans tous les cas vous allez guérir car vous êtes chanceux');
+insert into historiqueImage values (null,'chanceux','Vous réaliserez votre voyage de rêve biêntot');
 
 
