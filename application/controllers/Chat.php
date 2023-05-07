@@ -91,7 +91,7 @@ class Chat extends CI_Controller
 
         if (count($verify) >= 2) {
 
-            $response = "On vous redirige vers une site de psycothérapie à fin de vous fournir des conseils car nous avons remarqué que vous avez fait souvent de cauchemar";
+            $response = "Vous avez été redirigé vers un site de psychothérapie afin de vous fournir des conseils car nous avons remarqué que vous faites souvent des cauchemars";
         } else {
 
             $response = "Nous avons identifié que vous avez fait un cauchemar, cela peut être un signe de trouble psychologique. Nous saurons comment vous aider si cela se produit de facon recurrent. Merci de votre confiance à Onirix";
