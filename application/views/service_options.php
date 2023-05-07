@@ -135,7 +135,7 @@
 
         setTimeout(() => {
             $(this).fadeToggle(600, () => {
-                if (indice < questionnaires.length - 1)
+                if (indice < questionnaires.length)
                     $(questionnaires[indice++]).fadeToggle();
                 else
                     redirectWithPost("<?php echo site_url('Chat/') ?>", {
