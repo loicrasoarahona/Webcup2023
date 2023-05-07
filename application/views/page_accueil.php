@@ -48,7 +48,7 @@
         <div class="extend-container d-flex w-100 align-items-baseline justify-content-between align-items-end">
             <div class="inner-header p-relative">
                 <div class="main-logo">
-                    <a href="<?php echo base_url("/");?>" data-dsn="parallax">
+                    <a href="<?php echo base_url("/"); ?>" data-dsn="parallax">
                         <img class="light-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" />
                         <img class="dark-logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" />
                     </a>
@@ -70,14 +70,14 @@
                 <div class="menu-cover-title">Menu</div>
                 <ul class="extend-container p-relative d-flex flex-column justify-content-center h-100">
                     <li>
-                        <a href="<?php echo base_url("Sign");?>" class="user-no-selection">
+                        <a href="<?php echo base_url("Sign"); ?>" class="user-no-selection">
                             <span class="dsn-title-menu">Se Connnecter</span>
                             <span class="dsn-meta-menu"></span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url("/");?>" class="user-no-selection">
+                        <a href="<?php echo base_url("/"); ?>" class="user-no-selection">
                             <span class="dsn-title-menu">Accueil</span>
                             <span class="dsn-meta-menu">02</span>
                             <span class="dsn-bg-arrow"></span>
@@ -94,17 +94,17 @@
                                 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src=<?php echo site_url("assets/img/left-chevron.svg") ?> alt="">
                                 <span class="dsn-title-menu">Onirix</span>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription/question");?>">
+                            <li><a href="<?php echo base_url("Transcription/question"); ?>">
                                     <span class="dsn-title-menu">Prediction par des textes</span>
                                     <span class="dsn-meta-menu">01</span>
                                 </a>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription/choixoption");?>">
+                            <li><a href="<?php echo base_url("Transcription/choixoption"); ?>">
                                     <span class="dsn-title-menu">Questions à choix multiples</span>
                                     <span class="dsn-meta-menu">02</span>
                                 </a>
                             </li>
-                            <li><a href="<?php echo base_url("Transcription/choix");?>">
+                            <li><a href="<?php echo base_url("Transcription/choix"); ?>">
                                     <span class="dsn-title-menu">Illustrations par images</span>
                                     <span class="dsn-meta-menu">03</span>
                                 </a>
@@ -112,16 +112,9 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="<?php echo base_url("About");?>" class="user-no-selection">
+                        <a href="<?php echo base_url("About"); ?>" class="user-no-selection">
                             <span class="dsn-title-menu">A Propos</span>
                             <span class="dsn-meta-menu">04</span>
-                            <span class="dsn-bg-arrow"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?php echo base_url("Contact");?>" class="user-no-selection">
-                            <span class="dsn-title-menu">Contact</span>
-                            <span class="dsn-meta-menu">05</span>
                             <span class="dsn-bg-arrow"></span>
                         </a>
                     </li>
@@ -218,7 +211,7 @@
                     <div class="box-content dsn-container align-items-center ">
                         <div class="hero-content dsn-hero-parallax-title">
                             <h1 class="title has-box-mod">
-                                Onirix <br> IA qui va révolutioner les rêves
+                                Onirix <br>L'IA qui va révolutioner les rêves
                                 <span class="p-absolute w-100 h-70 bottom-0 bg-mod-exclusion left-0 " data-dsn="parallax"></span>
                             </h1>
                             <div class="description border-before mt-30 mb-30">
@@ -252,17 +245,14 @@
                         <div class="row">
                             <div class="col-lg-7">
                                 <div class="p-relative text">
-                                    <h2 class="title-block ">Nous sommes une organisation de recherhce <br> dans l'expertise de l'étude des rêves</h2>
+                                    <h2 class="title-block ">Nous sommes une organisation de recherche <br> dans l'expertise de l'étude des rêves</h2>
 
                                     <p class="mt-30">L'Institut International des Rêves est une organisation de recherche spécialisée dans l'étude des rêves.
                                         les chercheurs de cet institut ont développé une intelligence artificielle avancée appelée Onirix, qui est capable d'analyser et de décoder les rêves des utilisateurs pour prédire leur avenir. Cette technologie révolutionnaire permettrait de prédire des situations telles qu'une rencontre amoureuse,
                                         des problèmes avec des collègues de travail,ou même des difficultés scolaires.
                                     </p>
 
-                                    <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod
-                                        tempor
-                                        incididunt ut labore et dolore magna ut enim ad minim veniam nostrud
-                                        exercitation ullamco</p>
+                                    <p class="mt-10"></p>
 
                                     <ul class="mt-30 lest-icon">
                                         <li>Spécialisé dans l'étude des rêves</li>
@@ -301,14 +291,14 @@
                                     <div class="box-infos pl-30">
                                         <div class="info d-flex flex-column align-items-end mt-30">
                                             <h4 class="sm-title-block mb-10">Onirix</h4>
-                                            <h5 class="font-caps body-color">IA de l'orinisme</h5>
+                                            <h5 class="font-caps body-color">IA de l'onirisme</h5>
                                         </div>
                                         <div class="mt-30 ">
                                             <div class="box-skills-inner d-grid-no-space d-grid grid-md-2 grid-row-gap-30">
                                                 <div class="skills-item">
                                                     <h4 class="font-caps mb-10">Précision</h4>
                                                     <div class="bar">
-                                                        <span class="fill box-shadow" data-width="96%">
+                                                        <span class="fill box-shadow" data-width="90%">
                                                             <span class="number">0%</span>
                                                         </span>
                                                     </div>
@@ -444,7 +434,7 @@
                                         <ul class="p-relative mt-20">
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
-                                                Vision différentes par images
+                                                Décrivez vos rêves en images
                                             </li>
                                             <li class="d-flex align-items-center">
                                                 <i class="fas fa-long-arrow-alt-right"></i>
@@ -462,7 +452,7 @@
                     </section>
                     <section class="our-work dsn-container dsn-filter p-relative section-margin" data-dsn-title="My Work">
                         <div class="section-title">
-                            <span class="tag-heading p-10 mb-15 background-section heading-color">Portfolio</span>
+                            <span class="tag-heading p-10 mb-15 background-section heading-color"></span>
                             <h2 class="heading-h2">Equipe</h2>
                         </div>
                         <div class="projects-list gallery work-gallery dsn-swiper" data-dsn-option='{"slidesPerView":3,"spaceBetween":30}'>
@@ -480,7 +470,7 @@
                                                         RASOARAHONA <br> Loic
                                                     </h4>
                                                     <div class="metas">
-                                                        <span>FrontEnd Developper</span>
+                                                        <span>FrontEnd Developer</span>
                                                         <span>FullStack Developer</span>
                                                     </div>
 
@@ -501,11 +491,11 @@
                                                         RAMAROSON <br> Sandy Princia
                                                     </h4>
                                                     <div class="metas">
-                                                        <span>Backend-Developper</span>
+                                                        <span>Backend-Developer</span>
                                                         <span>FullStack Developer</span>
                                                     </div>
 
-                                                    <div class="view-project">FrontEnd Developper</div>
+                                                    <div class="view-project">FrontEnd Developer</div>
                                                 </div>
                                             </a>
                                         </div>
@@ -522,10 +512,10 @@
                                                         RANDRIAMAHALEO <br> Mendrika
                                                     </h4>
                                                     <div class="metas">
-                                                        <span>Backend-Developper</span>
+                                                        <span>Backend-Developer</span>
                                                     </div>
 
-                                                    <div class="view-project">FullStack Developper</div>
+                                                    <div class="view-project">FullStack Developer</div>
                                                 </div>
                                             </a>
                                         </div>
@@ -546,7 +536,7 @@
                                                         <span>UX/UI Designer</span>
                                                     </div>
 
-                                                    <div class="view-project">Front-Developper</div>
+                                                    <div class="view-project">Front-Developer</div>
                                                 </div>
                                             </a>
                                         </div>
@@ -589,7 +579,7 @@
                             <span class="letter-stroke">ALLONS </span>
                             <br> CONNAITRE VOTRE FUTUR
                         </h2>
-                        <a href="<?php echo base_url("Transcription/choix"); ?>"  class="link-custom p-relative mt-30 v-light">
+                        <a href="<?php echo base_url("Transcription/choix"); ?>" class="link-custom p-relative mt-30 v-light">
                             Prédire mon avenir
                         </a>
                     </div>
@@ -597,7 +587,7 @@
                         <div class="dsn-container">
                             <div class="d-grid grid-sm-2">
                                 <div class="footer-item">
-                                    <a href="<?php echo base_url("/");?>" class="logo-footer m-auto">
+                                    <a href="<?php echo base_url("/"); ?>" class="logo-footer m-auto">
                                         <img src=<?php echo site_url("assets/img/onirix-blanc.png") ?> alt="" class="logo-dark cover-bg-img">
                                         <img src=<?php echo site_url("assets/img/onirix-noir.png") ?> alt="" class="logo-light cover-bg-img">
                                     </a>
@@ -616,10 +606,9 @@
                                 <div class="footer-item order-md-2">
                                     <div class="nav-footer text-right">
                                         <ul>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Accueil</a></li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Services</a></li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">A Propos</a></li>
-                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="#">Contact</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="<?php echo base_url("/"); ?>">Accueil</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="<?php echo base_url("Transcription/choix"); ?>">Services</a></li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover" data-dsn="parallax" href="<?php echo base_url("About"); ?>">A Propos</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -654,7 +643,7 @@
                         <div class="form-box d-flex flex-column">
                             <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
                                 De l'aide ?</h4>
-                                <form class="form w-100" method="post" action="<?php echo base_url();?>" data-toggle="validator">
+                            <form class="form w-100" method="post" action="<?php echo base_url(); ?>" data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
                                     <div class="form-group">
@@ -732,12 +721,12 @@
                 </div>
 
                 <h4 class="title-block">
-                    Illustration  <br> Intelligence artificelle et Rêves
+                    Illustration <br> Intelligence artificelle et Rêves
                 </h4>
             </div>
             <div class="dsn-stories-gallery">
                 <div class="p-relative h-100">
-                <a href=<?php echo site_url("assets/img/ia-background.png") ?>></a>   
+                    <a href=<?php echo site_url("assets/img/ia-background.png") ?>></a>
                 </div>
                 <h4 class="title-block">
                     Simulation analyse IA des rêves
@@ -756,7 +745,7 @@
             </div>
             <div class="dsn-stories-gallery">
                 <div class="p-relative h-100">
-                    <a href=<?php echo site_url("assets/img/ia-predict.jpeg") ?>></a>   
+                    <a href=<?php echo site_url("assets/img/ia-predict.jpeg") ?>></a>
                     <a href=<?php echo site_url("assets/img/orinix.jpeg") ?>></a>
                 </div>
 
@@ -765,7 +754,7 @@
                 </h4>
             </div>
 
-        </div>  
+        </div>
         <!-- ========== End Contact Stories ========== -->
 
     </main>

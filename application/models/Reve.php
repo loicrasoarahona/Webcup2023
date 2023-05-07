@@ -11,7 +11,7 @@ class Reve extends CI_Model
 
     public function getChoixImage()
     {
-        $sql = "select idcategorie from souscategorie where description is not null";
+        $sql = "select idcategorie from souscategorie where description is not null group by idcategorie";
         $req = $this->db->query($sql);
 
         $retour = array();

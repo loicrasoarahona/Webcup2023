@@ -70,7 +70,7 @@
                 </div>
                 <div class="content-box">
                     <h4 class="title-block mt-20">Transcription de vos rêves</a></h4>
-                    <p class="description mt-20">Racontez nous vos rêves les plus en détails possible afin que nous puissions mieux les comprendre
+                    <p class="description mt-20">Racontez nous vos rêves le plus détaillé possible afin que nous puissions mieux les comprendre
                         pour pouvoir prédire votre avenir
                     </p>
                 </div>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="content-box">
                     <h4 class="title-block mt-20">Questions à choix multiples  </h4>
-                    <p class="description mt-20">Un large choix de questions pour vous pour que nous puissions en savoir plus sur vot
+                    <p class="description mt-20">Nous vous fournissons un large choix de questions pour mieux comprendre vos rêves
                     </p>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                 </div>
                 <div class="content-box">
                     <h4 class="title-block mt-20">Illustration par images</h4>
-                    <p class="description mt-20">Une Interpretation différentes pour illuster le fonds de vos rêves .
+                    <p class="description mt-20">Une interpretation différente pour illuster le fond de vos rêves et déterminer votre avenir.
                     </p>
                 </div>
             </div>
@@ -107,7 +107,7 @@
     <a href="#" class="effect-ajax">
         <h2 class="title">
             <span class="letter-stroke">Vous rêvez ,  </span> <br>
-            <span class="line-bg-left pl-80">Nous présidons</span>
+            <span class="line-bg-left pl-80">Nous prédisons</span>
         </h2>
     </a>
 </section>
