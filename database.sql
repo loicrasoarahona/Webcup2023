@@ -131,32 +131,32 @@ ALTER TABLE souscategorie ADD photo varchar(50) NULL;
 --pour les images
 
 --couleur
-insert into souscategorie values (null,'noir','7','desespoir|le noir symbolise le mystère, l\'inconscient, la mort, la peur, l\'obscurité,l\'anxiété');
-insert into souscategorie values (null,'rouge','7','confusion|le rouge symbolise l\'amour, la passion, l\'énergie positive ou négative, l\'amour, la colère, l\'excitation ou encore le danger');
-insert into souscategorie values (null,'bleu','7','en paix|le bleu symbolise la tranquillité, la sérénité, la paix, la confiance, l\'harmonie ou la spiritualité');
-insert into souscategorie values (null,'blanc','7','confiance|le blanc symbolise la pureté, l\'innocence, la paix, la clarté, la spiritualité et la lumière.');
-insert into souscategorie values (null,'vert','7','chanceux|le vert représente la santé et guérison, une lueur d\'espoir mais surtout la chance');
+insert into souscategorie values (null,'noir','7','desespoir|le noir symbolise le mystère, l\'inconscient, la mort, la peur, l\'obscurité,l\'anxiété','noir.png');
+insert into souscategorie values (null,'rouge','7','confusion|le rouge symbolise l\'amour, la passion, l\'énergie positive ou négative, l\'amour, la colère, l\'excitation ou encore le danger','rouge.jpg');
+insert into souscategorie values (null,'bleu','7','en paix|le bleu symbolise la tranquillité, la sérénité, la paix, la confiance, l\'harmonie ou la spiritualité','bleu.png');
+insert into souscategorie values (null,'blanc','7','confiance|le blanc symbolise la pureté, l\'innocence, la paix, la clarté, la spiritualité et la lumière','blanc.jpg');
+insert into souscategorie values (null,'vert','7','chanceux|le vert représente la santé et guérison, une lueur d\'espoir mais surtout la chance','vert.jpg');
 
 --forme
-insert into souscategorie values (null,'rond','8','desespoir|le cercle représente la sensation d\'être pris au piège, de tourner en rond sans espoir de trouver une solution ou un soulagement. Il symbolise une impasse, une stagnation et une absence de perspectives positives');
-insert into souscategorie values (null,'carré','8','confiance|le carré représenter la stabilité, l\'ordre, la structure et la rigueur. Il peut également évoquer des concepts tels que la logique, la rationalité et l\'organisation');
-insert into souscategorie values (null,'triangle','8','confusion|le triangle symbolise le changement, la progression et la croissance. Mais cela peut être positif ou négatif, une progression ou une régression');
-insert into souscategorie values (null,'coeur','8','en paix|le coeur est souvent associée aux émotions, à l\'amour, à la passion et aux relations affectives. Il peut représenter des sentiments de désir ou d\'affection envers quelqu\'un ou quelque chose.');
-insert into souscategorie values (null,'etoile','8','chanceux| L\'étoile est souvent associée à la lumière, à la clarté et à la guidance. Elle représente une source d\'orientation, de vérité et d\'inspiration dans l\'obscurité.');
+insert into souscategorie values (null,'rond','8','desespoir|le cercle représente la sensation d\'être pris au piège, de tourner en rond sans espoir de trouver une solution ou un soulagement. Il symbolise une impasse, une stagnation et une absence de perspectives positives','rond.jpg');
+insert into souscategorie values (null,'carré','8','confiance|le carré représenter la stabilité, l\'ordre, la structure et la rigueur. Il peut également évoquer des concepts tels que la logique, la rationalité et l\'organisation','carre.png');
+insert into souscategorie values (null,'triangle','8','confusion|le triangle symbolise le changement, la progression et la croissance. Mais cela peut être positif ou négatif, une progression ou une régression','triangle.png');
+insert into souscategorie values (null,'coeur','8','en paix|le coeur est souvent associée aux émotions, à l\'amour, à la passion et aux relations affectives. Il peut représenter des sentiments de désir ou d\'affection envers quelqu\'un ou quelque chose','coeur.png');
+insert into souscategorie values (null,'etoile','8','chanceux| L\'étoile est souvent associée à la lumière, à la clarté et à la guidance. Elle représente une source d\'orientation, de vérité et d\'inspiration dans l\'obscurité.','etoile.png');
 
 --animal
-insert into souscategorie values (null,'chat','9','chanceux|le chat est associé à l\'indépendance, la souplesse, la curiosité et la perception. Il peut aussi être associé à des idées de ruse, de manipulation ou de secrets');
-insert into souscategorie values (null,'requin','9','confusion|le requin est associé à des idées de peur, de danger, de force et de prédateur. Il peut également représenter l\'agilité');
-insert into souscategorie values (null,'lion','9','confiance|le lion est souvent associé à des qualités de force, de courage, de leadership et de fierté. Il symbolise également la force intérieure et confiance en soi');
-insert into souscategorie values (null,'loup','9','desespoir|le loup est souvent associé à la peur et à la solitude. Il peut représenter des instincts primitifs, des peurs internes et une méfiance envers les autres.');
-insert into souscategorie values (null,'colombe','9','en paix|la colombe est associée à des messages de tranquillité, de réconciliation et de cessation des hostilités');
+insert into souscategorie values (null,'chat','9','chanceux|le chat est associé à l\'indépendance, la souplesse, la curiosité et la perception. Il peut aussi être associé à des idées de ruse, de manipulation ou de secrets','chat.jpg');
+insert into souscategorie values (null,'requin','9','confusion|le requin est associé à des idées de peur, de danger, de force et de prédateur. Il peut également représenter l\'agilité','requin.jpeg');
+insert into souscategorie values (null,'lion','9','confiance|le lion est souvent associé à des qualités de force, de courage, de leadership et de fierté. Il symbolise également la force intérieure et confiance en soi','lion.jpg');
+insert into souscategorie values (null,'loup','9','desespoir|le loup est souvent associé à la peur et à la solitude. Il peut représenter des instincts primitifs, des peurs internes et une méfiance envers les autres.','loup.jpg');
+insert into souscategorie values (null,'colombe','9','en paix|la colombe est associée à des messages de tranquillité, de réconciliation et de cessation des hostilités','colombe.jpeg');
 
 --endroit
-insert into souscategorie values (null,'foret','10','desespoir|la forêt représente les parties cachées de l\'esprit et les aspects profonds de soi-même. Elle représente également le mystère et l\'inconnu, représente aussi le danger');
-insert into souscategorie values (null,'plage','10','confiance|la plage représente la liberté et l\'ouverture, un équilibre émotionnel ainsi que la détente et la tranquillité');
-insert into souscategorie values (null,'ville','10','confusion|la ville est associée à l\'interaction sociale et vie sociale, mais aussi l\'anxiété et le désordre');
-insert into souscategorie values (null,'campagne','10','en paix|la campagne représente le calme, la simplicité et l\'authenticité');
-insert into souscategorie values (null,'eglise','10','chanceux|l\'eglise représente le spirituel et le calme ou tu peux avoir de nouvelle chance selon ta foi');
+insert into souscategorie values (null,'foret','10','desespoir|la forêt représente les parties cachées de l\'esprit et les aspects profonds de soi-même. Elle représente également le mystère et l\'inconnu, représente aussi le danger','foret.jpg');
+insert into souscategorie values (null,'plage','10','confiance|la plage représente la liberté et l\'ouverture, un équilibre émotionnel ainsi que la détente et la tranquillité','plage.jpg');
+insert into souscategorie values (null,'ville','10','confusion|la ville est associée à l\'interaction sociale et vie sociale, mais aussi l\'anxiété et le désordre','ville.jpg');
+insert into souscategorie values (null,'campagne','10','en paix|la campagne représente le calme, la simplicité et l\'authenticité','campagne.png');
+insert into souscategorie values (null,'eglise','10','chanceux|l\'eglise représente le spirituel et le calme ou tu peux avoir de nouvelle chance selon ta foi','eglise.jpg');
 
 
 --answer
