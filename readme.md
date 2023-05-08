@@ -1,4 +1,4 @@
-#Projet Onirix - 24h BY WEBCUP2023
+# Projet Onirix - 24h BY WEBCUP2023
 Ce projet a été développé par l'équipe SmartIT composée de :
 - Ranaivosaona Sitraka
 - Rasoarahona Loïc
@@ -6,6 +6,6 @@ Ce projet a été développé par l'équipe SmartIT composée de :
 - Randriamahaleo Mendrika
 
 
-##Technologies utilisés
+## Technologies utilisés
 - PHP principalement, avec Framework CodeIgniter
 - HTML/CSS/Javascript
