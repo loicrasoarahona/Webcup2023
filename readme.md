@@ -6,6 +6,6 @@ Ce projet a été développé par l'équipe SmartIT composée de :
 - Randriamahaleo Mendrika
 
 
-## Technologies utilisés
+## Technologies utilisées
 - PHP principalement, avec Framework CodeIgniter
 - HTML/CSS/Javascript
